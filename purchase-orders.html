@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purchase Orders – RemBase Handbook</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📦</text></svg>">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="index.html"><span class="dot"></span>RemBase Handbook</a>
+    <a class="toc-link" href="index.html#chapters">All chapters</a>
+  </div>
+</header>
+<div class="banner"><div class="wrap">Until December 1: real work in <b>Fishbowl</b>. RemBase is for practice with <b>TEST</b> items.</div></div>
+<main class="wrap">
+  <h1>Purchase Orders</h1>
+  <p class="lede">Make and track orders to vendors</p>
+  
+  <article>
+<h2 id="what-this-page-is-for">What this page is for</h2>
+<p>A <strong>purchase order (PO)</strong> is an order we send to a vendor. Each PO has <strong>lines</strong>. One line = one part and how many we ordered.</p>
+<p><strong>Who uses it:</strong> Becca makes and sends POs. Everyone can look.</p>
+<div class="warn">
+<p>Before December 1, make real POs in <strong>Fishbowl</strong>. In RemBase, practice only on <strong>TEST-HB-1</strong>.</p>
+</div>
+<h2 id="sub-pages">Sub-pages</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>Sub-page</th>
+<th>What it is for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Purchase Orders</strong></td>
+<td>All POs. Open one to see its lines.</td>
+</tr>
+<tr class="even">
+<td><strong>PO Planning</strong></td>
+<td>What we should order next.</td>
+</tr>
+<tr class="odd">
+<td><strong>PO Planning – Commit</strong></td>
+<td>Turns the planning ticks into POs. Becca only.</td>
+</tr>
+<tr class="even">
+<td><strong>PO Variance Report</strong></td>
+<td>PO lines that came in short, over or damaged.</td>
+</tr>
+<tr class="odd">
+<td><strong>Excluded from planning</strong></td>
+<td>Parts that planning ignores, like TEST parts.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="task-find-and-open-a-po">Task: find and open a PO</h2>
+<ol type="1">
+<li><p>Click <strong>Purchase Orders</strong> in the menu.</p></li>
+<li><p>Find the PO in the list. For practice, use <strong>TEST-HB-1</strong>.</p></li>
+<li><p>Click the PO number.</p>
+<figure>
+<a class="zoom" href="img/po-01-list.png"><img src="img/po-01-list.png" loading="lazy" alt="Purchase order list with the practice PO at the top" /></a><figcaption aria-hidden="true">Purchase order list with the practice PO at the top</figcaption>
+</figure></li>
+</ol>
+<p>The PO opens on the right. You see its status, vendor, dates, notes and lines.</p>
+<p><strong>PO status:</strong></p>
+<ul>
+<li><strong>Issued</strong> – the PO is placed. Nothing has arrived yet.</li>
+<li><strong>Partial</strong> – some of it has arrived.</li>
+<li><strong>Fulfilled</strong> – everything has arrived.</li>
+<li><strong>Closed Short</strong> – closed before everything arrived.</li>
+</ul>
+<h2 id="task-add-a-line-to-a-po-practice">Task: add a line to a PO (practice)</h2>
+<ol type="1">
+<li><p>Open <strong>TEST-HB-1</strong>.</p></li>
+<li><p>In <strong>PO Lines</strong>, click the <strong>+</strong> under the last line.</p>
+<figure>
+<a class="zoom" href="img/po-02-add-line.png"><img src="img/po-02-add-line.png" loading="lazy" alt="Practice PO page with the add-line plus sign" /></a><figcaption aria-hidden="true">Practice PO page with the add-line plus sign</figcaption>
+</figure></li>
+<li><p>A new line appears. Click the <strong>+</strong> in its <strong>Part</strong> cell.</p>
+<figure>
+<a class="zoom" href="img/po-03-part-plus.png"><img src="img/po-03-part-plus.png" loading="lazy" alt="Plus button inside the Part cell of a new line" /></a><figcaption aria-hidden="true">Plus button inside the Part cell of a new line</figcaption>
+</figure></li>
+<li><p>Type the part number. Click the right part in the list.</p>
+<figure>
+<a class="zoom" href="img/po-04-pick-part.png"><img src="img/po-04-pick-part.png" loading="lazy" alt="Part picker showing the practice parts" /></a><figcaption aria-hidden="true">Part picker showing the practice parts</figcaption>
+</figure>
+<div class="warn">
+<p>Never click <strong>Create “…”</strong> at the bottom of this list. It makes a new part.</p>
+</div></li>
+<li><p>Point at the new line. Click the <strong>expand</strong> button (two small arrows).</p>
+<figure>
+<a class="zoom" href="img/po-05-expand-line.png"><img src="img/po-05-expand-line.png" loading="lazy" alt="Expand button to open a PO line" /></a><figcaption aria-hidden="true">Expand button to open a PO line</figcaption>
+</figure></li>
+<li><p>Type the <strong>Qty Ordered</strong>.</p></li>
+<li><p>Type the <strong>Unit Cost</strong> (the price for one unit).</p>
+<figure>
+<a class="zoom" href="img/po-06-qty-cost.png"><img src="img/po-06-qty-cost.png" loading="lazy" alt="Quantity and cost boxes on a PO line" /></a><figcaption aria-hidden="true">Quantity and cost boxes on a PO line</figcaption>
+</figure></li>
+<li><p>Press <strong>Tab</strong>. RemBase saves by itself.</p></li>
+</ol>
+<h2 id="task-set-the-po-status">Task: set the PO status</h2>
+<ol type="1">
+<li><p>Open the PO.</p></li>
+<li><p>Click the <strong>Status</strong> box.</p></li>
+<li><p>Click <strong>Issued</strong>.</p>
+<figure>
+<a class="zoom" href="img/po-07-status.png"><img src="img/po-07-status.png" loading="lazy" alt="Status list with Issued" /></a><figcaption aria-hidden="true">Status list with Issued</figcaption>
+</figure></li>
+</ol>
+<h2 id="what-you-should-see">What you should see</h2>
+<figure>
+<a class="zoom" href="img/po-08-issued.png"><img src="img/po-08-issued.png" loading="lazy" alt="Finished practice PO with two lines" /></a><figcaption aria-hidden="true">Finished practice PO with two lines</figcaption>
+</figure>
+<ul>
+<li>Status <strong>Issued</strong>.</li>
+<li>The lines are listed under <strong>PO Lines</strong>.</li>
+<li><strong>Total Outstanding Qty</strong> = what has not arrived yet.</li>
+<li><strong>Issued Warning:</strong> if a PO was already sent to the vendor, a change here does <strong>not</strong> reach the vendor. Tell the vendor yourself.</li>
+</ul>
+<h2 id="to-print-a-po">To print a PO</h2>
+<ol type="1">
+<li>Open the PO.</li>
+<li>Click the file under <strong>PO PDF</strong>.</li>
+<li>Print it from your browser.</li>
+</ol>
+<p>Do not upload or change the PDF by hand. If there is no file under <strong>PO PDF</strong>, ask Becca.</p>
+<h2 id="po-planning-look-only">PO Planning (look only)</h2>
+<p>PO Planning shows what we should order.</p>
+<figure>
+<a class="zoom" href="img/pop-01-list.png"><img src="img/pop-01-list.png" loading="lazy" alt="PO Planning list" /></a><figcaption aria-hidden="true">PO Planning list</figcaption>
+</figure>
+<ul>
+<li><strong>1 – Recommended Order Qty:</strong> how many the system suggests we order.</li>
+</ul>
+<figure>
+<a class="zoom" href="img/pop-02-columns.png"><img src="img/pop-02-columns.png" loading="lazy" alt="PO Planning columns and the Commit button" /></a><figcaption aria-hidden="true">PO Planning columns and the Commit button</figcaption>
+</figure>
+<ul>
+<li><strong>2 – Planning Override Qty:</strong> Becca types her own number here.</li>
+<li><strong>3 – Start New PO:</strong> tick to start a new PO for this part.</li>
+<li><strong>4 – Planning Add To PO:</strong> tick to add this part to a PO.</li>
+<li><strong>5 – Commit / Clear:</strong> goes to the Commit page. <strong>Becca only.</strong></li>
+</ul>
+<h2 id="po-planning-commit-becca-only">PO Planning – Commit (Becca only)</h2>
+<figure>
+<a class="zoom" href="img/pop-03-commit.png"><img src="img/pop-03-commit.png" loading="lazy" alt="Commit page with its two buttons marked do not press" /></a><figcaption aria-hidden="true">Commit page with its two buttons marked do not press</figcaption>
+</figure>
+<ul>
+<li><strong>Commit PO Planning</strong> makes the POs from the ticked rows.</li>
+<li><strong>Clear PO Planning Selections</strong> removes all the ticks.</li>
+</ul>
+<p>Do not press these unless you are Becca.</p>
+<h2 id="excluded-from-planning">Excluded from planning</h2>
+<figure>
+<a class="zoom" href="img/pop-04-excluded.png"><img src="img/pop-04-excluded.png" loading="lazy" alt="Parts excluded from planning" /></a><figcaption aria-hidden="true">Parts excluded from planning</figcaption>
+</figure>
+<p>These parts are left out of planning. To bring a part back, Becca unticks <strong>Exclude from planning</strong>.</p>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Pressing Email PO.</strong> It emails the vendor. See <a href="do-not-press.html">Do not press</a>.</li>
+<li><strong>Clicking Create “…” in the part list.</strong> It makes a new part.</li>
+<li><strong>Changing an Issued PO and not telling the vendor.</strong> RemBase does not tell them.</li>
+<li><strong>Ticking boxes in PO Planning to “try it”.</strong> The ticks are shared with Becca’s real planning.</li>
+</ul>
+
+  </article>
+  
+  <nav class="pager"><a class="prev" href="inventory.html">← Inventory</a><a class="next" href="receiving.html">Receiving →</a></nav>
+</main>
+<footer class="wrap foot">RemBase Handbook · Remington Supply · updated October 15, 2026 · Private data in pictures is blacked out.</footer>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+</body>
+</html>

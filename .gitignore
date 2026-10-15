@@ -1,0 +1,8 @@
+# Raw screenshots and the capture manifest stay OUTSIDE this repo (../raw, ../capture).
+# Belt and braces in case one is copied here by mistake:
+raw/
+capture/
+*.raw.png
+*.json.private
+.DS_Store
+review.html

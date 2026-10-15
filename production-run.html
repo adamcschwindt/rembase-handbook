@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Production Run – RemBase Handbook</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📦</text></svg>">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="index.html"><span class="dot"></span>RemBase Handbook</a>
+    <a class="toc-link" href="index.html#chapters">All chapters</a>
+  </div>
+</header>
+<div class="banner"><div class="wrap">Until December 1: real work in <b>Fishbowl</b>. RemBase is for practice with <b>TEST</b> items.</div></div>
+<main class="wrap">
+  <h1>Production Run</h1>
+  <p class="lede">Build kits and packs, and enter what you built</p>
+  
+  <article>
+<h2 id="what-this-page-is-for">What this page is for</h2>
+<p>A <strong>production run</strong> is one job where we build a product from its parts. Example: a 2-pack is built from two single items.</p>
+<p><strong>Who uses it:</strong> Chad and Sabith on the floor. Becca plans the runs.</p>
+<div class="warn">
+<p>Before December 1, enter real runs in <strong>Fishbowl</strong>. In RemBase, practice only on <strong>TEST-HB-RUN-1</strong>.</p>
+<p><strong>Never press Finish Run before December 1</strong>, not even on the TEST run. It moves stock and adds the units to the next Amazon shipment.</p>
+</div>
+<h2 id="sub-pages">Sub-pages</h2>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sub-page</th>
+<th>What it is for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Production Run</strong></td>
+<td>The office view: plan, components and lots.</td>
+</tr>
+<tr class="even">
+<td><strong>Production Run – Floor</strong></td>
+<td>The floor view: what you built, cartons and pallet.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="task-find-a-run-and-check-its-parts">Task: find a run and check its parts</h2>
+<ol type="1">
+<li><p>Click <strong>Production Run</strong> in the menu.</p></li>
+<li><p>Click the run in the list (1). The list is sorted by due date.</p>
+<figure>
+<a class="zoom" href="img/pr-01-office.png"><img src="img/pr-01-office.png" loading="lazy" alt="Production run page for the practice run" /></a><figcaption aria-hidden="true">Production run page for the practice run</figcaption>
+</figure></li>
+<li><p>Check <strong>Qty Planned</strong> (2). This is how many to build.</p></li>
+<li><p>Check <strong>Output Part</strong>. This is the product you build.</p></li>
+<li><p><strong>Run Cartons</strong> (3) will show the boxes after you enter them on the Floor page.</p></li>
+<li><p>Scroll down to <strong>Run Components</strong> (4).</p>
+<figure>
+<a class="zoom" href="img/pr-02-components.png"><img src="img/pr-02-components.png" loading="lazy" alt="Components the run will use, with lots" /></a><figcaption aria-hidden="true">Components the run will use, with lots</figcaption>
+</figure>
+<ul>
+<li><strong>Component Part SKU:</strong> each part you need.</li>
+<li><strong>Qty To Consume:</strong> how many of that part.</li>
+<li><strong>Chosen Lot</strong> (5): which lot to take. RemBase picks the lot that expires first.</li>
+</ul></li>
+</ol>
+<div class="warn">
+<p>If <strong>Run Components</strong> is empty, RemBase has no recipe for this product. Do not build. Tell Becca.</p>
+</div>
+<h2 id="task-enter-what-you-built-floor-page">Task: enter what you built (Floor page)</h2>
+<ol type="1">
+<li><p>Click <strong>Production Run – Floor</strong> in the menu.</p></li>
+<li><p>Click your run in the list.</p>
+<figure>
+<a class="zoom" href="img/pr-03-floor.png"><img src="img/pr-03-floor.png" loading="lazy" alt="Floor page with Qty Built and cartons" /></a><figcaption aria-hidden="true">Floor page with Qty Built and cartons</figcaption>
+</figure></li>
+<li><p>Type the number you built in <strong>Qty Built</strong> (6).</p></li>
+<li><p>In <strong>Run Cartons</strong>, click the <strong>+</strong> (7) to add a carton row.</p></li>
+<li><p>Fill in the row. Press <strong>Tab</strong> to go to the next box:</p>
+<ul>
+<li><strong>Boxes:</strong> how many boxes of this size.</li>
+<li><strong>Units Per Box:</strong> how many units in each box.</li>
+<li><strong>Length</strong>, <strong>Width</strong>, <strong>Height:</strong> box size in inches.</li>
+<li><strong>Weight Per Box (lb):</strong> weight of one full box in pounds.</li>
+</ul></li>
+<li><p>If you have boxes of different sizes, add one row per size.</p></li>
+<li><p>If you built fewer than planned, choose a <strong>Short-Close Reason</strong> and write a <strong>Short-Close Note</strong>.</p></li>
+</ol>
+<h2 id="what-you-should-see">What you should see</h2>
+<figure>
+<a class="zoom" href="img/pr-04-filled.png"><img src="img/pr-04-filled.png" loading="lazy" alt="Floor page after typing the built quantity and cartons" /></a><figcaption aria-hidden="true">Floor page after typing the built quantity and cartons</figcaption>
+</figure>
+<ul>
+<li><strong>Qty Built</strong> shows your number.</li>
+<li><strong>Run Stage</strong> changes to <strong>In Progress</strong>.</li>
+<li><strong>Units</strong> in Run Cartons = Boxes × Units Per Box. It should match Qty Built.</li>
+<li><strong>Missing</strong> is empty when the carton row is complete.</li>
+</ul>
+<h2 id="finish-run-after-december-1-only">Finish Run (after December 1 only)</h2>
+<p>When the run is done and checked, <strong>Finish Run</strong> takes the parts out of stock, adds the finished product, and adds the units to the next Amazon shipment.</p>
+<ul>
+<li>Before December 1: <strong>never press it</strong>.</li>
+<li>After December 1: Becca will tell you who presses it.</li>
+<li><strong>Reverse Run</strong> undoes a finished run. Only Becca or Adam may use it.</li>
+</ul>
+<h2 id="common-mistakes">Common mistakes</h2>
+<ul>
+<li><strong>Pressing Finish Run to “see what happens”.</strong> It moves real stock.</li>
+<li><strong>Units do not match Qty Built.</strong> Check Boxes × Units Per Box.</li>
+<li><strong>Weight of the whole stack instead of one box.</strong> Type the weight of one box.</li>
+<li><strong>Taking a different lot than Chosen Lot.</strong> Use the lot RemBase picked, or tell Becca.</li>
+</ul>
+
+  </article>
+  
+  <nav class="pager"><a class="prev" href="run-planning.html">← Run Planning</a><a class="next" href="fba-shipment.html">FBA Shipment →</a></nav>
+</main>
+<footer class="wrap foot">RemBase Handbook · Remington Supply · updated October 15, 2026 · Private data in pictures is blacked out.</footer>
+<script src="assets/search-index.js"></script>
+<script src="assets/search.js"></script>
+</body>
+</html>
