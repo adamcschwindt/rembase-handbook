@@ -9,13 +9,14 @@ order: 8
 
 **FBA** means Amazon stores and ships our products. We send boxes to Amazon warehouses. This page plans those shipments, gets the labels and tracks what Amazon received.
 
-**Who uses it:**
-
-- **Adam or Becca** press the buttons. Some buttons cost money.
-- **Chad** prints the labels and packs the boxes.
+**Who uses it:** anyone on the team. Chad usually prints the labels and packs the boxes.
 
 ::: warn
-**Only Adam or Becca press buttons on this page.** Everyone else: look, print labels, and ask.
+**The buttons on this page are REAL, not practice.** They talk to Amazon for a real shipment.
+
+- **Confirm placement** and **Confirm freight** cost money. Check the price first.
+- Press a button **once**. Then wait until **Inbound Pending** is empty again.
+- Not sure? Ask Becca before you press.
 :::
 
 ## Sub-pages
@@ -67,13 +68,18 @@ While a plan is in progress you also see:
 
 1. Open **FBA Shipment → Next shipment**.
 2. Read **Inbound Result**. It says when the labels are ready.
-3. Under **Label Files**, click the file you need:
+3. Under **Label Files**, click the file you need. The files come in two steps:
+   - After **Confirm placement**: the two **box label** files.
+   - After **Confirm freight** (truck / LTL shipments only): the **pallet labels** and the **bill of lading**.
+
+   The files:
    - **box labels letter 6-up** – six labels on one letter page.
    - **box labels 4x6 thermal** – for the label printer.
-   - **pallet labels** – one for each pallet.
+   - **pallet labels** – Amazon gives **four labels for each pallet**, one for each side.
    - **bill of lading** – the paper for the truck driver.
 4. The file opens. Print it.
 5. Put one box label on every box. Do not cover other labels.
+6. Put the four pallet labels on the four sides of each pallet.
 
 ## Sent from this plan
 
@@ -81,7 +87,9 @@ While a plan is in progress you also see:
 
 ![Lines sent from the last plan, ids hidden](img/fba-04-sent-from-plan.png)
 
-## The buttons, in order (Adam or Becca only)
+## The buttons, in order (real buttons: be careful)
+
+Anyone on the team may press these for a real shipment. Read what each one does first.
 
 | Button | What it does |
 |---|---|
@@ -96,15 +104,19 @@ While a plan is in progress you also see:
 
 Some buttons are inside the **…** menu at the top of the page.
 
+![The shipment buttons in the … menu](img/fba-05-menu.png)
+
 ## What you should see
 
 - After a button press, **Inbound Pending** shows a message, then clears.
 - **Inbound Result** then says what happened and what to do next.
-- When the labels are ready, four files appear under **Label Files**.
+- After **Confirm placement**, the two box label files appear under **Label Files**.
+- After **Confirm freight** (truck shipments), the pallet labels and the bill of lading appear too.
 
 ## Common mistakes
 
 - **Pressing a button twice because nothing seems to happen.** Wait for **Inbound Pending** to clear.
 - **Using old labels.** Always print from the shipment you are packing.
 - **Wrong label size.** Use 4x6 for the thermal printer and 6-up for normal paper.
-- **Pressing any button when you are not Adam or Becca.** See [Do not press](do-not-press.html).
+- **Confirming without checking the price.** Confirm placement and Confirm freight cost money.
+- **Practicing on this page.** These buttons are real. There is no TEST shipment.

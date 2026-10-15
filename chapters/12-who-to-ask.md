@@ -11,7 +11,7 @@ order: 12
 | Purchase orders, planning, flags | **Becca** |
 | Warehouse work, bins, counting, building | **Chad** |
 | Any button on the [Do not press](do-not-press.html) list | **Adam** or **Becca**, before you press |
-| Money, Amazon shipments | **Adam** or **Becca** |
+| Amazon shipments | Anyone may press the shipment buttons. Not sure? Ask **Becca** first. |
 
 ## When you ask, send
 

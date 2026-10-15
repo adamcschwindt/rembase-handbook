@@ -64,7 +64,7 @@ This page is read-only. Click a line to see its PO.
 
 ## CC Orders
 
-**What it is for:** orders from the Clear Conscience customer that we pack and ship.
+**What it is for:** orders that Clear Conscience sends us for **their** customers. We pack and ship them.
 
 **Who uses it:** Sabith and Becca.
 

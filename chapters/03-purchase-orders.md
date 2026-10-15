@@ -72,19 +72,22 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
 
 8. Press **Tab**. RemBase saves by itself.
 
-## Task: set the PO status
+## PO status and Order Date
 
-1. Open the PO.
-2. Click the **Status** box.
-3. Click **Issued**.
+RemBase fills these in by itself:
 
-   ![Status list with Issued](img/po-07-status.png)
+- A new PO gets **Status = Issued** and today's **Order Date**.
+- When stock is received, the status changes to **Partial** or **Fulfilled** by itself.
+
+You only change the status by hand if Becca asks you to. Click the **Status** box and choose the status.
+
+![Status list with Issued](img/po-07-status.png)
 
 ## What you should see
 
 ![Finished practice PO with two lines](img/po-08-issued.png)
 
-- Status **Issued**.
+- Status **Issued**. When the stock arrives, it changes to **Partial** or **Fulfilled** by itself. (TEST-HB-1 is now **Fulfilled**, because both lines were received.)
 - The lines are listed under **PO Lines**.
 - **Total Outstanding Qty** = what has not arrived yet.
 - **Issued Warning:** if a PO was already sent to the vendor, a change here does **not** reach the vendor. Tell the vendor yourself.
@@ -95,7 +98,7 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
 2. Click the file under **PO PDF**.
 3. Print it from your browser.
 
-Do not upload or change the PDF by hand. If there is no file under **PO PDF**, ask Becca.
+RemBase makes the PDF by itself and makes it again after every change. Do not upload or change it by hand. If the file is missing after a few minutes, ask Becca.
 
 ## PO Planning (look only)
 

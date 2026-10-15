@@ -19,8 +19,9 @@ RemBase has pages for stock, purchase orders, receiving, counting, production ru
 Use RemBase only to practice.
 :::
 
-- RemBase is copied from Fishbowl on a schedule.
-- That copy can undo anything you practiced in RemBase. This is normal.
+- RemBase is copied from Fishbowl every night.
+- The nightly copy does **not** touch TEST items, so your TEST practice stays.
+- Practice on a real part is reset by the nightly copy. That is one more reason to practice only on TEST items.
 - If you are not sure where to do something, do it in Fishbowl and ask Becca.
 
 ## Practice only with TEST items
@@ -75,4 +76,6 @@ Never practice on a real part, a real PO or a real shipment.
 - A **red box** shows what to click or type.
 - A **red number** is the step number.
 - A **red ✕** means **do not press**.
+- An **orange box** means a **real button**: you may press it, but be careful.
+- An **orange $** means the button **costs money**.
 - **Black boxes** hide private data such as prices, vendors, customers and Amazon numbers. You see the real data in RemBase.

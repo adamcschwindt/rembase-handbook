@@ -25,9 +25,7 @@
 <p>A <strong>cycle count</strong> means you count what is really in one bin and compare it with RemBase.</p>
 <p><strong>Who uses it:</strong> Chad and Sabith.</p>
 <div class="warn">
-<p><strong>Counting is turned off until December 1.</strong></p>
-<p>When you press <strong>Start Count Session</strong> now, RemBase makes an empty session with no lines. This is on purpose. Before December 1, do real counts in <strong>Fishbowl</strong>.</p>
-<p>You can still open the pages and read this chapter, so you are ready.</p>
+<p>Before December 1, do real counts in <strong>Fishbowl</strong>. In RemBase, practice only on <strong>TEST-BIN</strong>.</p>
 </div>
 <h2 id="sub-pages">Sub-pages</h2>
 <div class="table-wrap"><table>
@@ -63,30 +61,43 @@
 </figure></li>
 <li><p>The new session appears under <strong>Count Sessions</strong>. Click it.</p></li>
 </ol>
+<h2 id="task-enter-your-count">Task: enter your count</h2>
+<p>RemBase makes one <strong>count line</strong> (4) for each part and lot in the bin. <strong>Expected</strong> is what RemBase thinks is there.</p>
 <figure>
-<a class="zoom" href="img/cc-03-session.png"><img src="img/cc-03-session.png" loading="lazy" alt="Count session with no lines yet" /></a><figcaption aria-hidden="true">Count session with no lines yet</figcaption>
+<a class="zoom" href="img/cc-03-session.png"><img src="img/cc-03-session.png" loading="lazy" alt="Count session with its count lines" /></a><figcaption aria-hidden="true">Count session with its count lines</figcaption>
 </figure>
-<h2 id="task-enter-your-count-after-december-1">Task: enter your count (after December 1)</h2>
-<p>From December 1, RemBase makes one <strong>count line</strong> (4) for each part and lot in the bin.</p>
 <ol type="1">
-<li>Open the session.</li>
-<li>Click each line under <strong>Count Lines</strong>.</li>
-<li>Count that part in the bin.</li>
-<li>Type the number you counted in <strong>Actual Qty</strong>.</li>
-<li>Do this for <strong>every</strong> line.</li>
-<li>When every line has a number, set the session <strong>Status</strong> to <strong>Completed</strong>.</li>
+<li><p>Open the session.</p></li>
+<li><p>Click each line under <strong>Count Lines</strong>.</p></li>
+<li><p>Count that part in the bin.</p></li>
+<li><p>Type the number you counted in <strong>Actual Qty</strong> (6). <strong>Expected Qty</strong> (A) shows what RemBase thinks is there.</p>
+<figure>
+<a class="zoom" href="img/cc-05-actual.png"><img src="img/cc-05-actual.png" loading="lazy" alt="A count line with Expected Qty and Actual Qty" /></a><figcaption aria-hidden="true">A count line with Expected Qty and Actual Qty</figcaption>
+</figure></li>
+<li><p>Close the line (✕ at the top right). Do the same for <strong>every</strong> line.</p></li>
+<li><p>When every line has a number, click <strong>Status</strong> and choose <strong>Completed</strong> (7).</p>
+<figure>
+<a class="zoom" href="img/cc-06-complete.png"><img src="img/cc-06-complete.png" loading="lazy" alt="Status list with Completed" /></a><figcaption aria-hidden="true">Status list with Completed</figcaption>
+</figure></li>
 </ol>
 <div class="warn">
-<p><strong>Never leave a line empty.</strong> An empty line counts as zero, and RemBase removes that stock.</p>
+<p><strong>Count every line.</strong> If you leave a line empty, RemBase skips it and changes nothing, so that part is not counted at all.</p>
 </div>
 <ul>
 <li>If you find a part that has no line, do not use <strong>Add found item</strong>. Write it down and tell Becca.</li>
 </ul>
 <h2 id="what-you-should-see">What you should see</h2>
+<figure>
+<a class="zoom" href="img/cc-07-done.png"><img src="img/cc-07-done.png" loading="lazy" alt="Finished count session" /></a><figcaption aria-hidden="true">Finished count session</figcaption>
+</figure>
 <ul>
-<li>The session status is <strong>Completed</strong>.</li>
+<li>The session status is <strong>Completed</strong>, with the time it was completed.</li>
 <li>The bin shows a new <strong>Last Counted Date</strong>.</li>
-<li>If your count was different, RemBase fixes the stock and makes a <strong>Flag</strong> for Becca.</li>
+<li>If your count was different, RemBase makes a <strong>Flag</strong> for Becca and changes the stock:
+<ul>
+<li>a small difference (under the approval limit) changes the stock right away;</li>
+<li>a big difference waits in <strong><a href="other-pages.html">Approvals</a></strong> until Becca or Adam says yes.</li>
+</ul></li>
 </ul>
 <h2 id="count-by-part">Count by Part</h2>
 <figure>
@@ -96,7 +107,7 @@
 <h2 id="common-mistakes">Common mistakes</h2>
 <ul>
 <li><strong>Counting the wrong bin.</strong> Check the bin name at the top before you count.</li>
-<li><strong>Leaving a line empty.</strong> Empty = zero.</li>
+<li><strong>Leaving a line empty.</strong> RemBase skips it, so that part is not counted.</li>
 <li><strong>Counting cases instead of units.</strong> Count single units.</li>
 <li><strong>Starting two sessions for one bin.</strong> Look at <strong>Count Sessions</strong> first.</li>
 </ul>

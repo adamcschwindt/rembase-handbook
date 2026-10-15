@@ -8,23 +8,8 @@ order: 10
 ::: warn
 **Do not press any button on this page.**
 
-These buttons spend money, email vendors, talk to Amazon, move real stock or delete records. If you think one is needed, **ask Adam or Becca first**.
+These buttons email vendors, move real stock or delete records. If you think one is needed, **ask Adam or Becca first**.
 :::
-
-## Amazon buttons (FBA Shipment → Next shipment)
-
-![Amazon buttons in the shipment menu, all marked do not press](img/dnp-fba-menu.png)
-
-- **Create plan**
-- **Refresh options**
-- **Re-check**
-- **Get prices again**
-- **Cancel plan**
-- **Confirm freight** – costs money
-- **Confirm placement** – costs money
-- **Mark as sent**
-
-Only Adam or Becca press these.
 
 ## Email PO
 
@@ -70,3 +55,15 @@ See [Production Run](production-run.html).
 - **Add found item** in a count.
 
 When in doubt: **stop and ask**.
+
+## Real buttons: be careful (Amazon shipments)
+
+The Amazon buttons on **FBA Shipment → Next shipment** are **not** on the do-not-press list. Anyone on the team may press them for a **real** shipment. They are real, not practice:
+
+![The shipment buttons in the … menu](img/fba-05-menu.png)
+
+- **Create plan**, **Refresh options**, **Re-check**, **Get prices again**, **Cancel plan**, **Mark as sent**
+- **Confirm placement** and **Confirm freight** cost money. Check the price first.
+- Press **once**, then wait until **Inbound Pending** is empty.
+
+See [FBA Shipment](fba-shipment.html) for what each button does.

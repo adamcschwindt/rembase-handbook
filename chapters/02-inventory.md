@@ -58,7 +58,7 @@ For TEST-COMP-A after the practice receipt:
 
 ## Words on this page
 
-- **Max Available to Build** is **not** stock. It is how many we could build from the parts we have. See [Run Planning](run-planning.html).
+- **Max Available to Build** is **not** stock. For a pack, it is how many packs the parts can make. For a single part that goes into packs, it is what is left after the packs take their share. See [Run Planning](run-planning.html).
 - **Open PO Qty** is how many are ordered but not received yet.
 - **FBA Inbound Qty** is how many are on the way to Amazon.
 

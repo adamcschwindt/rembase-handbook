@@ -104,21 +104,22 @@
 </figure></li>
 <li><p>Press <strong>Tab</strong>. RemBase saves by itself.</p></li>
 </ol>
-<h2 id="task-set-the-po-status">Task: set the PO status</h2>
-<ol type="1">
-<li><p>Open the PO.</p></li>
-<li><p>Click the <strong>Status</strong> box.</p></li>
-<li><p>Click <strong>Issued</strong>.</p>
+<h2 id="po-status-and-order-date">PO status and Order Date</h2>
+<p>RemBase fills these in by itself:</p>
+<ul>
+<li>A new PO gets <strong>Status = Issued</strong> and today’s <strong>Order Date</strong>.</li>
+<li>When stock is received, the status changes to <strong>Partial</strong> or <strong>Fulfilled</strong> by itself.</li>
+</ul>
+<p>You only change the status by hand if Becca asks you to. Click the <strong>Status</strong> box and choose the status.</p>
 <figure>
 <a class="zoom" href="img/po-07-status.png"><img src="img/po-07-status.png" loading="lazy" alt="Status list with Issued" /></a><figcaption aria-hidden="true">Status list with Issued</figcaption>
-</figure></li>
-</ol>
+</figure>
 <h2 id="what-you-should-see">What you should see</h2>
 <figure>
 <a class="zoom" href="img/po-08-issued.png"><img src="img/po-08-issued.png" loading="lazy" alt="Finished practice PO with two lines" /></a><figcaption aria-hidden="true">Finished practice PO with two lines</figcaption>
 </figure>
 <ul>
-<li>Status <strong>Issued</strong>.</li>
+<li>Status <strong>Issued</strong>. When the stock arrives, it changes to <strong>Partial</strong> or <strong>Fulfilled</strong> by itself. (TEST-HB-1 is now <strong>Fulfilled</strong>, because both lines were received.)</li>
 <li>The lines are listed under <strong>PO Lines</strong>.</li>
 <li><strong>Total Outstanding Qty</strong> = what has not arrived yet.</li>
 <li><strong>Issued Warning:</strong> if a PO was already sent to the vendor, a change here does <strong>not</strong> reach the vendor. Tell the vendor yourself.</li>
@@ -129,7 +130,7 @@
 <li>Click the file under <strong>PO PDF</strong>.</li>
 <li>Print it from your browser.</li>
 </ol>
-<p>Do not upload or change the PDF by hand. If there is no file under <strong>PO PDF</strong>, ask Becca.</p>
+<p>RemBase makes the PDF by itself and makes it again after every change. Do not upload or change it by hand. If the file is missing after a few minutes, ask Becca.</p>
 <h2 id="po-planning-look-only">PO Planning (look only)</h2>
 <p>PO Planning shows what we should order.</p>
 <figure>

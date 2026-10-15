@@ -12,11 +12,7 @@ A **cycle count** means you count what is really in one bin and compare it with 
 **Who uses it:** Chad and Sabith.
 
 ::: warn
-**Counting is turned off until December 1.**
-
-When you press **Start Count Session** now, RemBase makes an empty session with no lines. This is on purpose. Before December 1, do real counts in **Fishbowl**.
-
-You can still open the pages and read this chapter, so you are ready.
+Before December 1, do real counts in **Fishbowl**. In RemBase, practice only on **TEST-BIN**.
 :::
 
 ## Sub-pages
@@ -41,30 +37,39 @@ You can still open the pages and read this chapter, so you are ready.
 
 6. The new session appears under **Count Sessions**. Click it.
 
-![Count session with no lines yet](img/cc-03-session.png)
+## Task: enter your count
 
-## Task: enter your count (after December 1)
+RemBase makes one **count line** (4) for each part and lot in the bin. **Expected** is what RemBase thinks is there.
 
-From December 1, RemBase makes one **count line** (4) for each part and lot in the bin.
+![Count session with its count lines](img/cc-03-session.png)
 
 1. Open the session.
 2. Click each line under **Count Lines**.
 3. Count that part in the bin.
-4. Type the number you counted in **Actual Qty**.
-5. Do this for **every** line.
-6. When every line has a number, set the session **Status** to **Completed**.
+4. Type the number you counted in **Actual Qty** (6). **Expected Qty** (A) shows what RemBase thinks is there.
+
+   ![A count line with Expected Qty and Actual Qty](img/cc-05-actual.png)
+
+5. Close the line (✕ at the top right). Do the same for **every** line.
+6. When every line has a number, click **Status** and choose **Completed** (7).
+
+   ![Status list with Completed](img/cc-06-complete.png)
 
 ::: warn
-**Never leave a line empty.** An empty line counts as zero, and RemBase removes that stock.
+**Count every line.** If you leave a line empty, RemBase skips it and changes nothing, so that part is not counted at all.
 :::
 
 - If you find a part that has no line, do not use **Add found item**. Write it down and tell Becca.
 
 ## What you should see
 
-- The session status is **Completed**.
+![Finished count session](img/cc-07-done.png)
+
+- The session status is **Completed**, with the time it was completed.
 - The bin shows a new **Last Counted Date**.
-- If your count was different, RemBase fixes the stock and makes a **Flag** for Becca.
+- If your count was different, RemBase makes a **Flag** for Becca and changes the stock:
+  - a small difference (under the approval limit) changes the stock right away;
+  - a big difference waits in **[Approvals](other-pages.html)** until Becca or Adam says yes.
 
 ## Count by Part
 
@@ -75,6 +80,6 @@ This list shows each part and its warehouse stock. Use it to check a number. It 
 ## Common mistakes
 
 - **Counting the wrong bin.** Check the bin name at the top before you count.
-- **Leaving a line empty.** Empty = zero.
+- **Leaving a line empty.** RemBase skips it, so that part is not counted.
 - **Counting cases instead of units.** Count single units.
 - **Starting two sessions for one bin.** Look at **Count Sessions** first.
