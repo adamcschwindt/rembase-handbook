@@ -26,15 +26,27 @@ Use RemBase only to practice.
 
 ## Practice only with TEST items
 
-Use only these items when you practice:
+Each person has their own practice PO and practice run:
+
+| Person | Receive this PO | Build this run | Count this bin |
+|---|---|---|---|
+| **Becca** | TEST-PRACTICE-BECCA | TEST-PRACTICE-RUN-BECCA | TEST-BIN |
+| **Chad** | TEST-PRACTICE-CHAD | TEST-PRACTICE-RUN-CHAD | TEST-BIN |
+| **Sabith** | TEST-PRACTICE-SABITH | TEST-PRACTICE-RUN-SABITH | TEST-BIN |
+
+Practice in this order: **1.** receive your PO, **2.** count TEST-BIN, **3.** build your run.
+
+Other TEST items:
 
 | Type | Name |
 |---|---|
-| Parts | TEST-COMP-A, TEST-COMP-B, TEST-KIT-2PK |
-| Bin | TEST-BIN |
-| Purchase order | TEST-HB-1 |
-| Production run | TEST-HB-RUN-1 |
+| Parts | TEST-COMP-A, TEST-COMP-B, TEST-KIT-2PK (a 2-pack made from A and B) |
 | Vendor | TEST Vendor (practice) |
+| Used in the pictures | PO TEST-HB-1, run TEST-HB-RUN-1 |
+
+::: note
+**Practice making a PO by adding a line to your own practice PO.** Do not make a brand-new PO in RemBase before December 1. A new PO takes the next real PO number.
+:::
 
 Never practice on a real part, a real PO or a real shipment.
 

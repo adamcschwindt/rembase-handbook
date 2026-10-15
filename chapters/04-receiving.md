@@ -12,7 +12,7 @@ When boxes arrive from a vendor, you **receive** them. Receiving puts the stock 
 **Who uses it:** Chad and Sabith.
 
 ::: warn
-Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice only on **TEST-HB-1**.
+Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA, -CHAD or -SABITH). The pictures use TEST-HB-1.
 :::
 
 ## The Receiving page
@@ -31,7 +31,7 @@ During practice this list shows only TEST lines. Real parts are hidden on purpos
 Today the **Receive** button is on the PO line page in **Purchase Orders**.
 
 1. Click **Purchase Orders** in the menu.
-2. Click the PO number (for practice: **TEST-HB-1**).
+2. Click the PO number (for practice: **your own practice PO**). Receive into **TEST-BIN**.
 3. In **PO Lines**, point at the line. Click the **expand** button (two small arrows).
 4. At the top, next to **Receipt Lines**, click **Receive**.
 

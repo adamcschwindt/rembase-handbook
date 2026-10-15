@@ -37,7 +37,7 @@ It undoes a receipt. If a receipt is wrong, ask Becca.
 
 ## Production buttons
 
-- **Finish Run** – moves stock and adds units to the next Amazon shipment.
+- **Finish Run on a real run** – moves stock and adds units to the next Amazon shipment. (On your own practice run it is OK.)
 - **Reverse Run** – undoes a finished run.
 
 See [Production Run](production-run.html).

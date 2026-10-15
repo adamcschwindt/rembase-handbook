@@ -12,7 +12,7 @@ A **purchase order (PO)** is an order we send to a vendor. Each PO has **lines**
 **Who uses it:** Becca makes and sends POs. Everyone can look.
 
 ::: warn
-Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on **TEST-HB-1**.
+Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA, -CHAD or -SABITH). Do not make a brand-new PO: it would take the next real PO number. The pictures use TEST-HB-1.
 :::
 
 ## Sub-pages
@@ -28,7 +28,7 @@ Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on *
 ## Task: find and open a PO
 
 1. Click **Purchase Orders** in the menu.
-2. Find the PO in the list. For practice, use **TEST-HB-1**.
+2. Find the PO in the list. For practice, use **your own practice PO**.
 3. Click the PO number.
 
    ![Purchase order list with the practice PO at the top](img/po-01-list.png)
@@ -44,7 +44,7 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
 
 ## Task: add a line to a PO (practice)
 
-1. Open **TEST-HB-1**.
+1. Open **your own practice PO**. Add a line for **TEST-COMP-A** or **TEST-COMP-B**.
 2. In **PO Lines**, click the **+** under the last line.
 
    ![Practice PO page with the add-line plus sign](img/po-02-add-line.png)

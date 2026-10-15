@@ -12,9 +12,9 @@ A **production run** is one job where we build a product from its parts. Example
 **Who uses it:** Chad and Sabith on the floor. Becca plans the runs.
 
 ::: warn
-Before December 1, enter real runs in **Fishbowl**. In RemBase, practice only on **TEST-HB-RUN-1**.
+Before December 1, enter real runs in **Fishbowl**. In RemBase, practice only on **your own practice run** (TEST-PRACTICE-RUN-BECCA, -CHAD or -SABITH).
 
-**Never press Finish Run before December 1**, not even on the TEST run. It moves stock and adds the units to the next Amazon shipment.
+**Never press Finish Run on a real run before December 1.** You **may** press it on your own practice run.
 :::
 
 ## Sub-pages
@@ -72,17 +72,25 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 - **Units** in Run Cartons = Boxes × Units Per Box. It should match Qty Built.
 - **Missing** is empty when the carton row is complete.
 
-## Finish Run (after December 1 only)
+## Task: finish the run
 
-When the run is done and checked, **Finish Run** takes the parts out of stock, adds the finished product, and adds the units to the next Amazon shipment.
+When the run is built and the cartons are entered, **Finish Run** takes the parts out of stock and adds the finished product. On a real run it also adds the units to the next Amazon shipment.
 
-- Before December 1: **never press it**.
-- After December 1: Becca will tell you who presses it.
+**Practice:** you may press Finish Run on **your own practice run**. Your practice run is not linked to any Amazon shipment, and its **Staging Pallet** is **TEST-BIN**, so the finished TEST kits go to TEST-BIN. Do not change the Staging Pallet.
+
+1. Check **Qty Built** and the **Run Cartons** again.
+2. Click **Finish Run** at the top right. Press it **once**.
+3. Read **Finish Result**:
+   - **DONE …** – the run is finished.
+   - **NOT DONE: …** – nothing was changed. The message says what to fix, for example "add the cartons" or "the cartons hold 4 units but Qty built is 2". Fix it and press Finish Run again.
+
+- **Real runs:** never before December 1. After December 1, Becca will tell you who presses it.
 - **Reverse Run** undoes a finished run. Only Becca or Adam may use it.
 
 ## Common mistakes
 
-- **Pressing Finish Run to "see what happens".** It moves real stock.
+- **Pressing Finish Run on a real run.** Before December 1, only on your own practice run.
+- **Pressing Finish Run twice.** Press once and read **Finish Result**.
 - **Units do not match Qty Built.** Check Boxes × Units Per Box.
 - **Weight of the whole stack instead of one box.** Type the weight of one box.
 - **Taking a different lot than Chosen Lot.** Use the lot RemBase picked, or tell Becca.
