@@ -101,4 +101,5 @@ The stock is now on the part page in [Inventory](inventory.html).
 - **No expiration date.** Without a date the system cannot use the oldest stock first.
 - **Wrong bin.** Choose the bin where the stock really is.
 - **Receiving twice.** Look at **Received so far** before you receive.
+- **Saving a receipt with no quantity.** RemBase raises a flag. Enter the receipt again with the right quantity.
 - **A wrong receipt.** Do not try to fix it yourself. Ask Becca. (**Reverse this receipt** is on the [Do not press](do-not-press.html) list.)
