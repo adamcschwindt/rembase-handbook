@@ -50,8 +50,8 @@ See [Production Run](production-run.html).
 ## Anything else
 
 - **Delete** on any record.
-- **Create "…"** in a part list. It makes a new part.
-- **New Part**.
+- **Create "…"** in a part list. It makes a new part that planning leaves out. Ask Becca to add the part.
+- **New Part** – Becca or Adam only. See [Inventory](inventory.html).
 - **Add found item** in a count.
 
 When in doubt: **stop and ask**.

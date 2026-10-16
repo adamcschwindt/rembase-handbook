@@ -58,7 +58,7 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
    ![Part picker showing the practice parts](img/po-04-pick-part.png)
 
    ::: warn
-   Never click **Create "…"** at the bottom of this list. It makes a new part.
+   Never click **Create "…"** at the bottom of this list. It makes a new part that is left out of planning, and Becca gets a flag. If the part is missing, ask Becca to add it.
    :::
 
 5. Point at the new line. Click the **expand** button (two small arrows).
@@ -107,6 +107,10 @@ PO Planning shows what we should order.
 ![PO Planning list](img/pop-01-list.png)
 
 - **1 – Recommended Order Qty:** how many the system suggests we order.
+  - It covers the next **90 days** of sales.
+  - It uses the last **30 days'** sales rate.
+  - It is adjusted for the season (more before the holidays).
+- **Clear Conscience** lens and liquid show **0**. Consigned stock that we can buy any time covers them.
 
 ![PO Planning columns and the Commit button](img/pop-02-columns.png)
 
@@ -133,6 +137,6 @@ These parts are left out of planning. To bring a part back, Becca unticks **Excl
 ## Common mistakes
 
 - **Pressing Email PO.** It emails the vendor. See [Do not press](do-not-press.html).
-- **Clicking Create "…" in the part list.** It makes a new part.
+- **Clicking Create "…" in the part list.** It makes a new part that planning leaves out. Ask Becca to add the part.
 - **Changing an Issued PO and not telling the vendor.** RemBase does not tell them.
 - **Ticking boxes in PO Planning to "try it".** The ticks are shared with Becca's real planning.
