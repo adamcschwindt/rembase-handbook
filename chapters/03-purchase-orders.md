@@ -41,6 +41,7 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
 - **Partial** – some of it has arrived.
 - **Fulfilled** – everything has arrived.
 - **Closed Short** – closed before everything arrived.
+- **Cancelled** – the PO was made by mistake or is not needed. Set **Cancelled**. Never delete a PO.
 
 ## Task: add a line to a PO (practice)
 
