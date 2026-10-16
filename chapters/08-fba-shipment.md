@@ -52,7 +52,7 @@ order: 8
 Read it from top to bottom:
 
 - **1 – Inbound Pending:** a button was pressed and RemBase is working on it. Wait.
-- **2 – Inbound Result:** the last message from RemBase. It tells you the next step.
+- **2 – Inbound Result:** the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example "Getting carrier quotes from Amazon. This takes a few minutes." Wait until it changes.
 - **3 – Label Files:** the box labels, pallet labels and Bill of Lading (BOL).
 - **Ship Date**, **Freight Class:** shipping details.
 - **Approved Placement Price**, **Approved Carrier Total:** what Amazon and the carrier charge (hidden on this site).
@@ -89,7 +89,7 @@ While a plan is in progress you also see:
 
 ## The buttons, in order (real buttons: be careful)
 
-Anyone on the team may press these for a real shipment. Read what each one does first.
+Anyone on the team may press these for a real shipment. They work on any **open** shipment that is **not** a TEST shipment. Read what each one does first.
 
 | Button | What it does |
 |---|---|

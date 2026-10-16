@@ -15,7 +15,7 @@ Run Planning shows which products we should build and send to Amazon next.
 
 ![Run Planning list and its main columns](img/rp-01-list.png)
 
-- **1 – Recommended Send Qty:** how many the system suggests we build and send. The list is sorted by this number.
+- **1 – Recommended Send Qty:** how many the system suggests we build and send. It plans enough stock at Amazon for **45 days**, plus the days Amazon needs to receive a shipment (about **12 days** now; RemBase updates this every day). The list is sorted by this number.
 - **2 – Run Planning Override Qty:** Becca types her own number here to replace the suggestion.
 - **3 – Run Planning Add To Run:** tick to put this product in the next runs.
 - **4 – Max Available to Build:** how many we **could** build with the parts we have now.
