@@ -136,6 +136,20 @@ def main():
     if missing:
         raise SystemExit(1)
 
+    # this repo is public: no system ids (base/table/field/record/page) may appear in any text file
+    id_rx = re.compile(r'\b(?:app|tbl|fld|rec|viw|wfl|wfd|pag)[A-Za-z0-9]{14}\b')
+    leaks = []
+    for root, _, files in os.walk(HERE):
+        if '.git' in root:
+            continue
+        for fn in files:
+            if fn.endswith(('.html', '.md', '.js', '.css', '.py', '.json', '.txt')) and fn != 'review.html':
+                with open(os.path.join(root, fn), encoding='utf-8', errors='ignore') as fh:
+                    leaks += [f'{fn}: {m}' for m in id_rx.findall(fh.read())]
+    if leaks:
+        print('ID LEAK in public files:', leaks[:5])
+        raise SystemExit(1)
+
 
 if __name__ == '__main__':
     main()
