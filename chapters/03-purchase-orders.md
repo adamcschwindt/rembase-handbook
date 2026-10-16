@@ -12,7 +12,7 @@ A **purchase order (PO)** is an order we send to a vendor. Each PO has **lines**
 **Who uses it:** Becca makes and sends POs. Everyone can look.
 
 ::: warn
-Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA, -CHAD or -SABITH). Do not make a brand-new PO: it would take the next real PO number. The pictures use TEST-HB-1.
+Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA, -CHAD or -SABITH). A brand-new PO you make before December 1 gets a **PRACTICE-** number, not a real PO number. Use the TEST Vendor and TEST parts on it. The pictures use TEST-HB-1.
 :::
 
 ## Sub-pages

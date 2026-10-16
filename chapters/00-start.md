@@ -45,7 +45,7 @@ Other TEST items:
 | Used in the pictures | PO TEST-HB-1, run TEST-HB-RUN-1 |
 
 ::: note
-**Practice making a PO by adding a line to your own practice PO.** Do not make a brand-new PO in RemBase before December 1. A new PO takes the next real PO number.
+**Practice making a PO** by adding a line to your own practice PO. If you make a brand-new PO before December 1, RemBase gives it a **PRACTICE-** number (for example PRACTICE-003), not a real PO number. Use the TEST Vendor and TEST parts on it.
 :::
 
 Never practice on a real part, a real PO or a real shipment.
