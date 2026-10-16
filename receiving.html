@@ -32,23 +32,42 @@
 <a class="zoom" href="img/rcv-01-list.png"><img src="img/rcv-01-list.png" loading="lazy" alt="Receiving list with the practice lines" /></a><figcaption aria-hidden="true">Receiving list with the practice lines</figcaption>
 </figure>
 <ol type="1">
-<li>Click <strong>Receiving</strong> in the menu.</li>
-<li>Use <strong>Search</strong> to find a PO number or a part.</li>
+<li>Click <strong>Receiving</strong> in the menu (1).</li>
+<li>Use <strong>Search</strong> (2) to find a PO number or a part.</li>
 </ol>
-<p>Each row is one PO line. Click a row to see what was ordered and what has arrived.</p>
+<p>Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list.</p>
 <p>During practice this list shows only TEST lines. Real parts are hidden on purpose.</p>
 <p>Until December 1, a receipt on a <strong>real</strong> part is blocked: the receipt line says <strong>Blocked – not posted</strong>, nothing is added to stock, and a Flag goes to Becca. Practice only on TEST POs.</p>
 <h2 id="task-receive-a-po-line">Task: receive a PO line</h2>
-<p>Today the <strong>Receive</strong> button is on the PO line page in <strong>Purchase Orders</strong>.</p>
+<p>There are three ways to open the <strong>Receive</strong> form. All three open the same form. Way 1 is the easiest.</p>
+<p><strong>Way 1 – from the Receiving page</strong></p>
 <ol type="1">
-<li><p>Click <strong>Purchase Orders</strong> in the menu.</p></li>
-<li><p>Click the PO number (for practice: <strong>your own practice PO</strong>). Receive into <strong>TEST-BIN</strong>.</p></li>
-<li><p>In <strong>PO Lines</strong>, point at the line. Click the <strong>expand</strong> button (two small arrows).</p></li>
-<li><p>At the top, next to <strong>Receipt Lines</strong>, click <strong>Receive</strong>.</p>
+<li><p>Click <strong>Receiving</strong> in the menu. Click your line (for practice: <strong>your own practice PO</strong>).</p></li>
+<li><p>Scroll down to <strong>Received so far</strong>. Click <strong>Receive</strong> (3).</p>
 <figure>
-<a class="zoom" href="img/rcv-02-receive-button.png"><img src="img/rcv-02-receive-button.png" loading="lazy" alt="Receive button on a PO line" /></a><figcaption aria-hidden="true">Receive button on a PO line</figcaption>
+<a class="zoom" href="img/rcv-02-receive-button.png"><img src="img/rcv-02-receive-button.png" loading="lazy" alt="Receive button on the Receiving page" /></a><figcaption aria-hidden="true">Receive button on the Receiving page</figcaption>
 </figure></li>
-<li><p>The <strong>Receive Shipment</strong> form opens. Fill it in:</p>
+</ol>
+<p><strong>Way 2 – from Purchase Orders</strong></p>
+<ol type="1">
+<li><p>Click <strong>Purchase Orders</strong> in the menu. Click the PO number.</p></li>
+<li><p>In <strong>PO Lines</strong>, point at the line. Click the small <strong>expand icon (⤢)</strong> at the left of the row. A plain click on the row only selects a box, it does not open the line.</p>
+<figure>
+<a class="zoom" href="img/rcv-08-expand.png"><img src="img/rcv-08-expand.png" loading="lazy" alt="The expand icon at the left of a PO line" /></a><figcaption aria-hidden="true">The expand icon at the left of a PO line</figcaption>
+</figure></li>
+<li><p>Next to <strong>Receipt Lines</strong>, click <strong>Receive</strong> (3).</p>
+<figure>
+<a class="zoom" href="img/rcv-07-po-receive.png"><img src="img/rcv-07-po-receive.png" loading="lazy" alt="Receive button on a PO line" /></a><figcaption aria-hidden="true">Receive button on a PO line</figcaption>
+</figure></li>
+</ol>
+<p><strong>Way 3 – from Open POs</strong></p>
+<ol type="1">
+<li>Click <strong>Receiving → Open POs</strong>. Click the PO.</li>
+<li>Then do Way 2, step 2 and step 3: point at the line, click <strong>⤢</strong>, then click <strong>Receive</strong>.</li>
+</ol>
+<p><strong>Then fill in the Receive Shipment form</strong></p>
+<ol type="1">
+<li><p>Fill in the boxes:</p>
 <figure>
 <a class="zoom" href="img/rcv-03-form.png"><img src="img/rcv-03-form.png" loading="lazy" alt="Filled Receive Shipment form" /></a><figcaption aria-hidden="true">Filled Receive Shipment form</figcaption>
 </figure>
@@ -59,7 +78,7 @@
 <li><strong>6 – Expiration Date:</strong> the date on the box. Always fill it in if the box has a date.</li>
 <li><strong>Quantity Damaged:</strong> how many are broken. Leave it empty if none.</li>
 <li><strong>Discrepancy Notes:</strong> write what is wrong, if anything.</li>
-<li><strong>7 – Bin (Actual):</strong> the bin where you put the stock. It is required.</li>
+<li><strong>7 – Bin (Actual):</strong> the bin where you put the stock. It is required. For practice: <strong>TEST-BIN</strong>.</li>
 </ul></li>
 <li><p>To choose the bin, click <strong>+ Add record</strong>, type the bin name, and click the bin.</p>
 <figure>
@@ -69,7 +88,7 @@
 <li><p>Click <strong>Post Receipt</strong> (8).</p></li>
 </ol>
 <h2 id="what-you-should-see">What you should see</h2>
-<p>The receipt appears under <strong>Receipt Lines</strong>. On the Receiving page, the line shows:</p>
+<p>The receipt appears under <strong>Received so far</strong> (and under <strong>Receipt Lines</strong> on the PO line):</p>
 <figure>
 <a class="zoom" href="img/rcv-05-done.png"><img src="img/rcv-05-done.png" loading="lazy" alt="Quantities and the receipt list after receiving" /></a><figcaption aria-hidden="true">Quantities and the receipt list after receiving</figcaption>
 </figure>
@@ -77,11 +96,11 @@
 <li><strong>Qty Received</strong> goes up.</li>
 <li><strong>Outstanding Qty</strong> goes down.</li>
 <li><strong>Derived Status</strong> says <strong>Partial</strong> or <strong>Fulfilled</strong>.</li>
-<li><strong>Received so far</strong> lists each receipt with the bin and the expiration date.</li>
+<li><strong>Received so far</strong> lists each receipt with the bin, the expiration date, who received it, and <strong>Received At</strong>: the date and time in Eastern time.</li>
 </ul>
 <p>The stock is now on the part page in <a href="inventory.html">Inventory</a>.</p>
 <h2 id="open-pos">Open POs</h2>
-<p><strong>Receiving → Open POs</strong> lists POs that are not finished. It shows how much is still outstanding. It is read-only.</p>
+<p><strong>Receiving → Open POs</strong> lists POs that are not finished, with how much is still outstanding. Click a PO to open it, then receive a line as in Way 2.</p>
 <figure>
 <a class="zoom" href="img/rcv-06-open-pos.png"><img src="img/rcv-06-open-pos.png" loading="lazy" alt="Open POs list" /></a><figcaption aria-hidden="true">Open POs list</figcaption>
 </figure>
