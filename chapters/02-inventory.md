@@ -18,7 +18,7 @@ Inventory shows every part. You can see how many we have in the warehouse and at
 ![Inventory list with stock columns](img/inv-01-list.png)
 
 - **A – Warehouse On Hand Qty:** how many are in our warehouse.
-- **B – FBA On Hand Qty:** how many are at Amazon.
+- **B – FBA On Hand Qty:** how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.
 - A dash (–) means no number yet.
 
 ## Task: find a part and see its stock

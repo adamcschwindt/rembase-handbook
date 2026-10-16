@@ -110,6 +110,7 @@ PO Planning shows what we should order.
   - It covers the next **90 days** of sales.
   - It uses the last **30 days'** sales rate.
   - It is adjusted for the season (more before the holidays).
+  - Stock moving between Amazon warehouses counts as stock at Amazon.
 - **Clear Conscience** lens and liquid show **0**. Consigned stock that we can buy any time covers them.
 
 ![PO Planning columns and the Commit button](img/pop-02-columns.png)
