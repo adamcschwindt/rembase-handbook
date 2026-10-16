@@ -83,6 +83,12 @@ You only change the status by hand if Becca asks you to. Click the **Status** bo
 
 ![Status list with Issued](img/po-07-status.png)
 
+## PO numbers
+
+- A PO number starts with the year. Each new year starts again at 001.
+- Before December 1, every new PO gets a **PRACTICE-** number. This is true for a PO you make on the Purchase Orders page and for a PO that PO Planning makes.
+- Before December 1, PO Planning does not add lines to a real PO.
+
 ## What you should see
 
 ![Finished practice PO with two lines](img/po-08-issued.png)
@@ -126,6 +132,8 @@ PO Planning shows what we should order.
 
 - **Commit PO Planning** makes the POs from the ticked rows.
 - **Clear PO Planning Selections** removes all the ticks.
+
+Before December 1, Commit only makes **PRACTICE-** POs. It does not add lines to a real PO.
 
 Do not press these unless you are Becca.
 
