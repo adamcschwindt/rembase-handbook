@@ -84,7 +84,7 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
    - **DONE …** – the run is finished.
    - **NOT DONE: …** – nothing was changed. The message says what to fix, for example "add the cartons" or "the cartons hold 4 units but Qty built is 2". Fix it and press Finish Run again.
 
-- **Real runs:** never before December 1. After December 1, Becca will tell you who presses it.
+- **Real runs:** never before December 1. RemBase also refuses Finish Run on a run with a real part until December 1: Finish Result says **NOT DONE** and nothing moves. After December 1, Becca will tell you who presses it.
 - **Reverse Run** undoes a finished run. Only Becca or Adam may use it.
 
 ## Common mistakes

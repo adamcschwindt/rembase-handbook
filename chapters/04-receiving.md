@@ -26,6 +26,8 @@ Each row is one PO line. Click a row to see what was ordered and what has arrive
 
 During practice this list shows only TEST lines. Real parts are hidden on purpose.
 
+Until December 1, a receipt on a **real** part is blocked: the receipt line says **Blocked – not posted**, nothing is added to stock, and a Flag goes to Becca. Practice only on TEST POs.
+
 ## Task: receive a PO line
 
 Today the **Receive** button is on the PO line page in **Purchase Orders**.
