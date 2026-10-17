@@ -2,7 +2,7 @@
 title: Other pages
 subtitle: Approvals, Flags, Returns Grading, Backorders, CC Orders
 slug: other-pages
-order: 9
+order: 10
 ---
 
 ## Approvals

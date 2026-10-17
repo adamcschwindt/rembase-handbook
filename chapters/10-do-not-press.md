@@ -2,7 +2,7 @@
 title: Do not press
 subtitle: Buttons that send money, emails, orders or delete data
 slug: do-not-press
-order: 10
+order: 11
 ---
 
 ::: warn
