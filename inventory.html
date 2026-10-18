@@ -31,7 +31,12 @@
 </figure>
 <ul>
 <li><strong>A – Warehouse On Hand Qty:</strong> how many are in our warehouse.</li>
-<li><strong>B – FBA On Hand Qty:</strong> how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.</li>
+<li><strong>B – FBA On Hand Qty:</strong> how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.
+<ul>
+<li>Some parts have more than one Amazon SKU, for example a “-stickered” SKU and the original. RemBase adds them up. Each Amazon label (FNSKU) is counted once. <strong>FBA Inbound Qty</strong> is added up the same way.</li>
+<li>Every night RemBase checks Amazon’s report. If a part is missing from <strong>two</strong> daily reports in a row, RemBase sets <strong>FBA On Hand Qty</strong> and <strong>FBA Inbound Qty</strong> to 0 and leaves <strong>Days Of Cover FBA</strong> blank.</li>
+<li>If a night’s report looks wrong (for example, too many parts are missing), RemBase sets nothing to 0. It makes a flag: <strong>FBA mirror: Parts not zeroed (guard)</strong>. The flag says what to do. Only Adam can reset it.</li>
+</ul></li>
 <li>A dash (–) means no number yet.</li>
 </ul>
 <h2 id="task-find-a-part-and-see-its-stock">Task: find a part and see its stock</h2>
@@ -110,7 +115,7 @@
   
   <nav class="pager"><a class="prev" href="basics.html">← Basics</a><a class="next" href="purchase-orders.html">Purchase Orders →</a></nav>
 </main>
-<footer class="wrap foot">RemBase Handbook · Remington Supply · updated October 17, 2026 · Private data in pictures is blacked out.</footer>
+<footer class="wrap foot">RemBase Handbook · Remington Supply · updated October 18, 2026 · Private data in pictures is blacked out.</footer>
 <script src="assets/search-index.js"></script>
 <script src="assets/search.js"></script>
 </body>

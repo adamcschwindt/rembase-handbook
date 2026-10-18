@@ -19,7 +19,7 @@ Run Planning shows which products we should build and send to Amazon next.
 - **2 – Run Planning Override Qty:** Becca types her own number here to replace the suggestion.
 - **3 – Run Planning Add To Run:** tick to put this product in the next runs.
 - **4 – Max Available to Build:** how many we **could** build with the parts we have now.
-- **Days Of Cover FBA:** how many days the stock at Amazon will last.
+- **Days Of Cover FBA:** how many days the stock at Amazon will last. Blank, with 0 at Amazon, means the part is no longer in Amazon's report. See [Inventory](inventory.html).
 - **Warehouse On Hand Qty:** how many finished units are in our warehouse.
 
 ::: note

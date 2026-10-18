@@ -19,6 +19,9 @@ Inventory shows every part. You can see how many we have in the warehouse and at
 
 - **A – Warehouse On Hand Qty:** how many are in our warehouse.
 - **B – FBA On Hand Qty:** how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.
+  - Some parts have more than one Amazon SKU, for example a "-stickered" SKU and the original. RemBase adds them up. Each Amazon label (FNSKU) is counted once. **FBA Inbound Qty** is added up the same way.
+  - Every night RemBase checks Amazon's report. If a part is missing from **two** daily reports in a row, RemBase sets **FBA On Hand Qty** and **FBA Inbound Qty** to 0 and leaves **Days Of Cover FBA** blank.
+  - If a night's report looks wrong (for example, too many parts are missing), RemBase sets nothing to 0. It makes a flag: **FBA mirror: Parts not zeroed (guard)**. The flag says what to do. Only Adam can reset it.
 - A dash (–) means no number yet.
 
 ## Task: find a part and see its stock
