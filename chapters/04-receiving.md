@@ -22,7 +22,7 @@ Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice
 1. Click **Receiving** in the menu (1).
 2. Use **Search** (2) to find a PO number or a part.
 
-Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list.
+Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list. Each row also shows the product's scan keys (the codes you can scan).
 
 During practice this list shows only TEST lines. Real parts are hidden on purpose.
 
@@ -59,7 +59,7 @@ There are three ways to open the **Receive** form. All three open the same form.
 
 1. Fill in the boxes:
 
-   ![Filled Receive Shipment form](img/rcv-03-form.png)
+   ![Receive Shipment form with Bin Scan and Bin (Actual) marked](img/rcv-03-form.png)
 
    - **4 – Received By:** choose your name.
    - **5 – Quantity Received (Units):** how many single units arrived. Use this for most receipts.
@@ -67,9 +67,11 @@ There are three ways to open the **Receive** form. All three open the same form.
    - **6 – Expiration Date:** the date on the box. Always fill it in if the box has a date.
    - **Quantity Damaged:** how many are broken. Leave it empty if none.
    - **Discrepancy Notes:** write what is wrong, if anything.
-   - **7 – Bin (Actual):** the bin where you put the stock. It is required. For practice: **TEST-BIN**.
+   - **7 – Bin Scan** or **Bin (Actual):** the bin where you put the stock. You must fill in one of them. For practice: **TEST-BIN**.
+     - **Bin Scan:** scan the bin label into this box.
+     - **Bin (Actual):** or choose the bin from the list.
 
-2. To choose the bin, click **+ Add record**, type the bin name, and click the bin.
+2. To choose the bin from the list, click **+ Add record** under **Bin (Actual)**, type the bin name, and click the bin.
 
    ![Bin picker with the practice bin](img/rcv-04-bin.png)
 
@@ -100,6 +102,7 @@ The stock is now on the part page in [Inventory](inventory.html).
 - **Typing cases in the Units box.** Units = single items. Cases = full cases.
 - **No expiration date.** Without a date the system cannot use the oldest stock first.
 - **Wrong bin.** Choose the bin where the stock really is.
+- **No bin, or a bin scan that does not match one bin.** The receipt is **not** posted, and a flag is made. Fix the bin. Then it posts once.
 - **Receiving twice.** Look at **Received so far** before you receive.
 - **Saving a receipt with no quantity.** RemBase raises a flag. Enter the receipt again with the right quantity.
 - **A wrong receipt.** Do not try to fix it yourself. Ask Becca. (**Reverse this receipt** is on the [Do not press](do-not-press.html) list.)

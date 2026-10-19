@@ -13,7 +13,11 @@ A **cycle count** means you count what is really in one bin and compare it with 
 
 ::: warn
 Before December 1, do real counts in **Fishbowl**. In RemBase, practice only on **TEST-BIN**.
+
+If you complete a count session on a **real** bin before December 1, RemBase changes **no** stock. It makes one flag ("Practice count…").
 :::
+
+In the **Cycle Count** list, each bin shows its scan code and what is in it. You can also scan a bin with **RemBase Scan**. See [Basics](basics.html#how-to-scan).
 
 ## Sub-pages
 

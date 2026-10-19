@@ -48,6 +48,34 @@ Most pages show a list. The buttons at the top right help you find things.
 - **Grey text** or text with no box is read-only. The system fills it in.
 - RemBase saves what you type by itself. There is no Save button. Click outside the box or press **Tab** when you finish.
 
+## How to scan
+
+**RemBase Scan** is a page for your phone. It shows what RemBase knows about an item or a bin. Ask Adam for the **RemBase Scan** bookmark. You sign in with your work Google account.
+
+1. Open the **RemBase Scan** bookmark.
+2. Scan a code in one of three ways:
+   - Pull the trigger on the Bluetooth scanner. You do not need to tap anything first.
+   - Tap the box and type the code.
+   - Tap **Scan with camera**.
+3. Read the result:
+   - **An item** shows its bins and how many are in each, its lots and expiration dates, and its open POs. A date in **red** expires in less than 90 days.
+   - **A bin** shows what is in it.
+4. Use the buttons:
+   - **Open in Inventory** opens the part in RemBase.
+   - **Receive: PO …** opens that PO line, so you can receive it.
+   - **Count in** a bin, or **Count this bin**, opens a count of that bin.
+
+::: warn
+Until December 1, **Count this bin** on the phone is a **practice** count. Nothing is saved. Real counts stay in Fishbowl.
+:::
+
+**Practice count on the phone:**
+
+1. Tap **Count this bin**.
+2. Scan each item. Each scan adds 1.
+3. If a line is right, tap **Matches**. To type a number, tap the line.
+4. Tap **Finish**. You see the differences. Nothing is saved.
+
 ## Common mistakes
 
 - **Typing in the wrong record.** Check the title at the top before you type.

@@ -35,7 +35,7 @@
 <li>Click <strong>Receiving</strong> in the menu (1).</li>
 <li>Use <strong>Search</strong> (2) to find a PO number or a part.</li>
 </ol>
-<p>Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list.</p>
+<p>Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list. Each row also shows the product’s scan keys (the codes you can scan).</p>
 <p>During practice this list shows only TEST lines. Real parts are hidden on purpose.</p>
 <p>Until December 1, a receipt on a <strong>real</strong> part is blocked: the receipt line says <strong>Blocked – not posted</strong>, nothing is added to stock, and a Flag goes to Becca. Practice only on TEST POs.</p>
 <h2 id="task-receive-a-po-line">Task: receive a PO line</h2>
@@ -69,7 +69,7 @@
 <ol type="1">
 <li><p>Fill in the boxes:</p>
 <figure>
-<a class="zoom" href="img/rcv-03-form.png"><img src="img/rcv-03-form.png" loading="lazy" alt="Filled Receive Shipment form" /></a><figcaption aria-hidden="true">Filled Receive Shipment form</figcaption>
+<a class="zoom" href="img/rcv-03-form.png"><img src="img/rcv-03-form.png" loading="lazy" alt="Receive Shipment form with Bin Scan and Bin (Actual) marked" /></a><figcaption aria-hidden="true">Receive Shipment form with Bin Scan and Bin (Actual) marked</figcaption>
 </figure>
 <ul>
 <li><strong>4 – Received By:</strong> choose your name.</li>
@@ -78,9 +78,13 @@
 <li><strong>6 – Expiration Date:</strong> the date on the box. Always fill it in if the box has a date.</li>
 <li><strong>Quantity Damaged:</strong> how many are broken. Leave it empty if none.</li>
 <li><strong>Discrepancy Notes:</strong> write what is wrong, if anything.</li>
-<li><strong>7 – Bin (Actual):</strong> the bin where you put the stock. It is required. For practice: <strong>TEST-BIN</strong>.</li>
+<li><strong>7 – Bin Scan</strong> or <strong>Bin (Actual):</strong> the bin where you put the stock. You must fill in one of them. For practice: <strong>TEST-BIN</strong>.
+<ul>
+<li><strong>Bin Scan:</strong> scan the bin label into this box.</li>
+<li><strong>Bin (Actual):</strong> or choose the bin from the list.</li>
 </ul></li>
-<li><p>To choose the bin, click <strong>+ Add record</strong>, type the bin name, and click the bin.</p>
+</ul></li>
+<li><p>To choose the bin from the list, click <strong>+ Add record</strong> under <strong>Bin (Actual)</strong>, type the bin name, and click the bin.</p>
 <figure>
 <a class="zoom" href="img/rcv-04-bin.png"><img src="img/rcv-04-bin.png" loading="lazy" alt="Bin picker with the practice bin" /></a><figcaption aria-hidden="true">Bin picker with the practice bin</figcaption>
 </figure></li>
@@ -109,6 +113,7 @@
 <li><strong>Typing cases in the Units box.</strong> Units = single items. Cases = full cases.</li>
 <li><strong>No expiration date.</strong> Without a date the system cannot use the oldest stock first.</li>
 <li><strong>Wrong bin.</strong> Choose the bin where the stock really is.</li>
+<li><strong>No bin, or a bin scan that does not match one bin.</strong> The receipt is <strong>not</strong> posted, and a flag is made. Fix the bin. Then it posts once.</li>
 <li><strong>Receiving twice.</strong> Look at <strong>Received so far</strong> before you receive.</li>
 <li><strong>Saving a receipt with no quantity.</strong> RemBase raises a flag. Enter the receipt again with the right quantity.</li>
 <li><strong>A wrong receipt.</strong> Do not try to fix it yourself. Ask Becca. (<strong>Reverse this receipt</strong> is on the <a href="do-not-press.html">Do not press</a> list.)</li>

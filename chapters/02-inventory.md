@@ -84,6 +84,8 @@ Only **Becca** and **Adam** add new parts. Everyone else: ask Becca to add the p
 
 ## Words on this page
 
+- **Where (bins)** shows the bins that hold this part.
+- **Scan Keys** are the codes you can scan to find this part (for example the UPC and the Amazon label).
 - **Max Available to Build** is **not** stock. For a pack, it is how many packs the parts can make. For a single part that goes into packs, it is what is left after the packs take their share. See [Run Planning](run-planning.html).
 - **Open PO Qty** is how many are ordered but not received yet.
 - **FBA Inbound Qty** is how many are on the way to Amazon.
