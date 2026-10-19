@@ -75,6 +75,7 @@ Never practice on a real part, a real PO or a real shipment.
 | **Returns Grading** | Check items that Amazon sent back to us. |
 | **Backorders** | PO lines we are still waiting for. |
 | **CC Orders** | Clear Conscience orders. |
+| **Claims** | File Amazon claims for lost or damaged units. See [Claims](claims.html). |
 
 ## The most important rules
 
