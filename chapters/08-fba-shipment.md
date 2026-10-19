@@ -113,6 +113,12 @@ Some buttons are inside the **…** menu at the top of the page.
 - After **Confirm placement**, the two box label files appear under **Label Files**.
 - After **Confirm freight** (truck shipments), the pallet labels and the bill of lading appear too.
 
+## Products with two Amazon SKUs
+
+- Some products have two Amazon SKUs: the original and a **-stickered** or **-barcode** version. RemBase treats both as the same product. The stock is counted on the original product.
+- Becca chooses the **one** SKU to ship under. In the **sku-map**, she ticks **Ship as** on that SKU.
+- If a product has two active SKUs and not exactly one is ticked, the shipment stops. **Inbound Result** says **NOT DONE** and asks Becca to tick **Ship as**. Nothing is sent to Amazon until this is fixed.
+
 ## Common mistakes
 
 - **Pressing a button twice because nothing seems to happen.** Wait for **Inbound Pending** to clear.
@@ -120,3 +126,4 @@ Some buttons are inside the **…** menu at the top of the page.
 - **Wrong label size.** Use 4x6 for the thermal printer and 6-up for normal paper.
 - **Confirming without checking the price.** Confirm placement and Confirm freight cost money.
 - **Practicing on this page.** These buttons are real. There is no TEST shipment.
+- **Two Amazon SKUs with no Ship as tick.** The shipment stops until Becca ticks **Ship as** on one SKU.

@@ -62,6 +62,7 @@ Never practice on a real part, a real PO or a real shipment.
 
 | Page | What it is for |
 |---|---|
+| **Home** | Reports, today's sales, Amazon storage space and other summaries. See [Home](home.html). |
 | **Inventory** | Find a part. See how much we have and where. |
 | **Cycle Count** | Count the stock in a bin. |
 | **Purchase Orders** | Make and track orders to vendors. |
@@ -74,7 +75,6 @@ Never practice on a real part, a real PO or a real shipment.
 | **Returns Grading** | Check items that Amazon sent back to us. |
 | **Backorders** | PO lines we are still waiting for. |
 | **CC Orders** | Clear Conscience orders. |
-| **Home** | Reports, today's sales and other summaries. See [Home](home.html). |
 
 ## The most important rules
 

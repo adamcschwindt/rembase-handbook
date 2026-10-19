@@ -174,6 +174,12 @@ The files:
 <li>After <strong>Confirm placement</strong>, the two box label files appear under <strong>Label Files</strong>.</li>
 <li>After <strong>Confirm freight</strong> (truck shipments), the pallet labels and the bill of lading appear too.</li>
 </ul>
+<h2 id="products-with-two-amazon-skus">Products with two Amazon SKUs</h2>
+<ul>
+<li>Some products have two Amazon SKUs: the original and a <strong>-stickered</strong> or <strong>-barcode</strong> version. RemBase treats both as the same product. The stock is counted on the original product.</li>
+<li>Becca chooses the <strong>one</strong> SKU to ship under. In the <strong>sku-map</strong>, she ticks <strong>Ship as</strong> on that SKU.</li>
+<li>If a product has two active SKUs and not exactly one is ticked, the shipment stops. <strong>Inbound Result</strong> says <strong>NOT DONE</strong> and asks Becca to tick <strong>Ship as</strong>. Nothing is sent to Amazon until this is fixed.</li>
+</ul>
 <h2 id="common-mistakes">Common mistakes</h2>
 <ul>
 <li><strong>Pressing a button twice because nothing seems to happen.</strong> Wait for <strong>Inbound Pending</strong> to clear.</li>
@@ -181,13 +187,14 @@ The files:
 <li><strong>Wrong label size.</strong> Use 4x6 for the thermal printer and 6-up for normal paper.</li>
 <li><strong>Confirming without checking the price.</strong> Confirm placement and Confirm freight cost money.</li>
 <li><strong>Practicing on this page.</strong> These buttons are real. There is no TEST shipment.</li>
+<li><strong>Two Amazon SKUs with no Ship as tick.</strong> The shipment stops until Becca ticks <strong>Ship as</strong> on one SKU.</li>
 </ul>
 
   </article>
   
   <nav class="pager"><a class="prev" href="production-run.html">← Production Run</a><a class="next" href="home.html">Home →</a></nav>
 </main>
-<footer class="wrap foot">RemBase Handbook · Remington Supply · updated October 18, 2026 · Private data in pictures is blacked out.</footer>
+<footer class="wrap foot">RemBase Handbook · Remington Supply · updated October 19, 2026 · Private data in pictures is blacked out.</footer>
 <script src="assets/search-index.js"></script>
 <script src="assets/search.js"></script>
 </body>

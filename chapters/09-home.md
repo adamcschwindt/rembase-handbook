@@ -1,6 +1,6 @@
 ---
 title: Home
-subtitle: Reports and today's sales
+subtitle: Reports, today's sales and Amazon storage space
 slug: home
 order: 9
 ---
@@ -11,7 +11,7 @@ order: 9
 
 **Who uses it:** Adam and Becca can open it for now. If you need access, ask Adam.
 
-This chapter covers two parts: **Reports** and **Today so far**.
+This chapter covers three parts: **Reports**, **Today so far** and **FBA storage space**.
 
 **These parts only show information.** Nothing here changes stock or orders.
 
@@ -69,6 +69,24 @@ If a report says **Late** or **Stale**, tell Adam.
 - It updates every hour.
 - Pending orders often have no price yet. That part is an **estimate**. **D – Note** says how much is estimated.
 - The final number for the day comes the next morning, in the daily sales.
+
+## FBA storage space
+
+**FBA storage space** is on the **Home** page (menu: **Home** → **Home**). It shows how much space we use at Amazon, this month and next month.
+
+![FBA storage space table with every number blacked out and the Level and colour bar marked](img/home-06-storage.png)
+
+- **E – Level** and **F – the colour bar** show how full our space is:
+
+| Level | Colour | What it means |
+|---|---|---|
+| **OK** | green | Under 85% of our limit. |
+| **Watch** | yellow | 85% of the limit or more. |
+| **Over** | red | 100% of the limit or more. |
+
+- **Our estimate** counts our stock the same way Amazon does. It is usually a little higher than Amazon's number (about 1–3%).
+- The **Level** uses Amazon's number while that number is less than a month old.
+- The limits are updated once a month, around the 28th.
 
 ## Common mistakes
 
