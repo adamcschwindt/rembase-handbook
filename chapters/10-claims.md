@@ -31,7 +31,7 @@ Claims is **real work now**, not practice. These are real claims. You file each 
 
 1. Click **Claims** in the menu. Click **File Claims**.
 2. Start at the top of the list. Click a claim to open it.
-3. Read **How To File**. Its steps are different for each type of claim. Follow them.
+3. Read **How To File**. Its steps are different for each type of claim. Follow them. (For a **Defective dispute**, see [below](#defective-dispute-claims).)
 
    ![A claim with Case ID, Packet Text (blacked out) and How To File marked](img/claims-02-detail.png)
 
@@ -48,6 +48,21 @@ A supplier invoice named **CANDIDATE – check** was matched by RemBase. Check t
 - **Supplier Invoice (highlighted, reference)** has a copy of each CANDIDATE file. The matching lines are yellow, and a red banner says it is for reference only.
 - Use the highlighted copy to check. Always send Amazon the **original** (the CANDIDATE file), never the **HIGHLIGHTED** copy.
 - RemBase keeps credit memos and wrong invoices off this page.
+
+## Defective dispute claims
+
+Sometimes Amazon grades one of our returned or warehouse units as **defective**. Then Amazon does not pay us back. If we think the unit was damaged while Amazon handled it, we ask Amazon to check the grading again.
+
+- These claims have the Group Type **Defective dispute**. There is one claim for each item each month.
+- There is no minimum value. File every one.
+- The **Packet Text** is ready to paste into a Seller Support case.
+
+To file one:
+
+1. Open a new Seller Support case. Ask Adam for the link.
+2. Choose the **FBA inventory / reimbursement** topic.
+3. Copy the **Packet Text** and paste it into the case. Click **Submit**.
+4. Paste the case number into **Case ID**. RemBase marks the claim **Filed**.
 
 ## What you should see
 
