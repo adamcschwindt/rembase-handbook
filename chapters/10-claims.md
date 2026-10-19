@@ -55,14 +55,17 @@ Sometimes Amazon grades one of our returned or warehouse units as **defective**.
 
 - These claims have the Group Type **Defective dispute**. There is one claim for each item each month.
 - There is no minimum value. File every one.
-- The **Packet Text** is ready to paste into a Seller Support case.
+- The **Packet Text** is ready to paste into the Amazon support case.
 
 To file one:
 
-1. Open a new Seller Support case. Ask Adam for the link.
-2. Choose the **FBA inventory / reimbursement** topic.
-3. Copy the **Packet Text** and paste it into the case. Click **Submit**.
-4. Paste the case number into **Case ID**. RemBase marks the claim **Filed**.
+1. Click **Open in Seller Central** on the claim. Amazon's **Get support** page opens. Click **Create new issue**. Store: **United States**. Service: **Selling on Amazon**.
+2. Select **My issue is not listed**.
+3. Paste the **Packet Text** into the box.
+4. Amazon shows an automatic answer ("Policy Ineligibility"). Do not stop. Click **Contact an associate**, then **Check warehouse damaged reimbursement status**.
+5. Fill in **only** the FNSKU (it is in the Packet Text). Leave **Removal order ID** and **Batch ID** empty. Click **Continue**.
+6. Contact method: **Email**. Click **Submit**.
+7. Copy the case number into **Case ID**. You can also find it under **Manage support cases**. RemBase marks the claim **Filed**.
 
 ## What you should see
 
