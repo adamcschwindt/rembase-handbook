@@ -108,11 +108,33 @@
 <figure>
 <a class="zoom" href="img/rcv-06-open-pos.png"><img src="img/rcv-06-open-pos.png" loading="lazy" alt="Open POs list" /></a><figcaption aria-hidden="true">Open POs list</figcaption>
 </figure>
+<h2 id="wrong-amounts-on-a-po">Wrong amounts on a PO</h2>
+<figure>
+<a class="zoom" href="img/rcv-09-short.png"><img src="img/rcv-09-short.png" loading="lazy" alt="PO line with Line Type and the Close this line short box marked" /></a><figcaption aria-hidden="true">PO line with Line Type and the Close this line short box marked</figcaption>
+</figure>
+<p><strong>Something arrived that is not on the PO (Not Ordered)</strong></p>
+<ul>
+<li>Before December 1, Becca first adds the line in <strong>Fishbowl</strong>, with the price from the vendor. Then it is received as normal.</li>
+<li>In RemBase the line shows <strong>A – Line Type: Not Ordered</strong>.</li>
+<li>Never receive it on the line of another product.</li>
+</ul>
+<p><strong>More arrived than we ordered (Over)</strong></p>
+<ul>
+<li>Receive what arrived.</li>
+<li>RemBase makes a flag for Becca about the extra units.</li>
+<li>If the extra units cost nothing, no approval is needed.</li>
+</ul>
+<p><strong>Less arrived than we ordered (Short)</strong></p>
+<ul>
+<li>The rest is still coming: leave the line open.</li>
+<li>The rest is <strong>not</strong> coming: Becca opens the line on the <strong>Receiving</strong> page and ticks <strong>B – Close this line short (rest is not coming)</strong>. Only Becca does this.</li>
+</ul>
 <h2 id="common-mistakes">Common mistakes</h2>
 <ul>
 <li><strong>Typing cases in the Units box.</strong> Units = single items. Cases = full cases.</li>
 <li><strong>No expiration date.</strong> Without a date the system cannot use the oldest stock first.</li>
 <li><strong>Wrong bin.</strong> Choose the bin where the stock really is.</li>
+<li><strong>Receiving an item on the wrong line.</strong> If it is not on the PO, ask Becca to add a Not Ordered line first.</li>
 <li><strong>No bin, or a bin scan that does not match one bin.</strong> The receipt is <strong>not</strong> posted, and a flag is made. Fix the bin. Then it posts once.</li>
 <li><strong>Receiving twice.</strong> Look at <strong>Received so far</strong> before you receive.</li>
 <li><strong>Saving a receipt with no quantity.</strong> RemBase raises a flag. Enter the receipt again with the right quantity.</li>

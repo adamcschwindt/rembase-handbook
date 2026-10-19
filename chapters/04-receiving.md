@@ -97,11 +97,33 @@ The stock is now on the part page in [Inventory](inventory.html).
 
 ![Open POs list](img/rcv-06-open-pos.png)
 
+## Wrong amounts on a PO
+
+![PO line with Line Type and the Close this line short box marked](img/rcv-09-short.png)
+
+**Something arrived that is not on the PO (Not Ordered)**
+
+- Before December 1, Becca first adds the line in **Fishbowl**, with the price from the vendor. Then it is received as normal.
+- In RemBase the line shows **A – Line Type: Not Ordered**.
+- Never receive it on the line of another product.
+
+**More arrived than we ordered (Over)**
+
+- Receive what arrived.
+- RemBase makes a flag for Becca about the extra units.
+- If the extra units cost nothing, no approval is needed.
+
+**Less arrived than we ordered (Short)**
+
+- The rest is still coming: leave the line open.
+- The rest is **not** coming: Becca opens the line on the **Receiving** page and ticks **B – Close this line short (rest is not coming)**. Only Becca does this.
+
 ## Common mistakes
 
 - **Typing cases in the Units box.** Units = single items. Cases = full cases.
 - **No expiration date.** Without a date the system cannot use the oldest stock first.
 - **Wrong bin.** Choose the bin where the stock really is.
+- **Receiving an item on the wrong line.** If it is not on the PO, ask Becca to add a Not Ordered line first.
 - **No bin, or a bin scan that does not match one bin.** The receipt is **not** posted, and a flag is made. Fix the bin. Then it posts once.
 - **Receiving twice.** Look at **Received so far** before you receive.
 - **Saving a receipt with no quantity.** RemBase raises a flag. Enter the receipt again with the right quantity.
