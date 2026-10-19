@@ -45,11 +45,13 @@ If a report says **Late** or **Stale**, tell Adam.
 
 ### What you should see
 
-![Top of the Reports page with the two counters](img/home-02-reports-top.png)
+![Top of the Reports page with the two counters and the Late or stale now list](img/home-02-reports-top.png)
 
 - **A – Reports late or stale** is **0**.
 - **B – Library not refreshed (36 h)** is **0**.
 - Every report says **OK**.
+- If a counter is not 0, look at **Late or stale now (which report, and where)**, just under the counters. It shows which report, its status, why, when it was due, and its links. Tell Adam.
+- RemBase checks the reports every hour from 12:35 to 6:35 PM ET (also at 7:40 AM, 11:40 AM and 10:10 PM). A new daily file shows within the hour.
 
 ### Older files
 
@@ -61,14 +63,16 @@ If a report says **Late** or **Stale**, tell Adam.
 
 ## Today so far
 
-**Today so far** is on the **Home** page (menu: **Home** → **Home**).
+**Today so far** is at the top of the **Home** page (menu: **Home** → **Home**).
 
 ![Today so far with all amounts blacked out and the Note marked](img/home-05-today.png)
 
-- It shows today's Amazon sales. The day is the **Pacific** time day.
+- The first box, **Today so far (as of the time shown below)**, shows today's Amazon sales. The day is the **Pacific** time day.
+- It is **not** a full day, and it includes estimated lines.
 - It updates every hour.
 - Pending orders often have no price yet. That part is an **estimate**. **D – Note** says how much is estimated.
 - The final number for the day comes the next morning, in the daily sales.
+- Under it, **Sales (Amazon.com)** starts with **Last full day sales**.
 
 ## FBA storage space
 
