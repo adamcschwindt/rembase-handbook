@@ -40,10 +40,14 @@ Claims is **real work now**, not practice. These are real claims. You file each 
    ![Open in Seller Central, Search For and the evidence files, all documents blacked out](img/claims-03-evidence.png)
 
 5. In Amazon, search for the number in **Search For**. Copy the **Packet Text** and paste it into Amazon's form.
-6. Look at **Evidence Status**. If Amazon asks for proof, attach the files from this page: the **Amazon BOL** and the **Supplier Invoice**. Then submit the claim in Amazon.
+6. Look at **Evidence Status**. If Amazon asks for proof, attach the files from this page: the **Amazon BOL** and the **Supplier Invoice** (the original **CANDIDATE** file). Then submit the claim in Amazon.
 7. Copy Amazon's case number. Paste it into **Case ID**.
 
-A supplier invoice named **CANDIDATE – check** was matched by RemBase. Open it and check that it is the right invoice before you send it to Amazon.
+A supplier invoice named **CANDIDATE – check** was matched by RemBase. Check that it is the right invoice before you send it to Amazon:
+
+- **Supplier Invoice (highlighted, reference)** has a copy of each CANDIDATE file. The matching lines are yellow, and a red banner says it is for reference only.
+- Use the highlighted copy to check. Always send Amazon the **original** (the CANDIDATE file), never the **HIGHLIGHTED** copy.
+- RemBase keeps credit memos and wrong invoices off this page.
 
 ## What you should see
 
@@ -68,3 +72,4 @@ A supplier invoice named **CANDIDATE – check** was matched by RemBase. Open it
 - **Forgetting the Case ID.** Without it, RemBase thinks the claim is not filed. It stays on the list.
 - **Missing the deadline.** After the **Earliest Deadline**, Amazon does not pay.
 - **Sending the wrong invoice.** Check every **CANDIDATE – check** file before you attach it.
+- **Sending the highlighted copy.** Amazon gets the original CANDIDATE file only.
