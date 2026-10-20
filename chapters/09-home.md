@@ -1,6 +1,6 @@
 ---
 title: Home
-subtitle: Reports, today's sales and Amazon storage space
+subtitle: Reports, today's sales, Amazon storage space and listing alerts
 slug: home
 order: 9
 ---
@@ -11,7 +11,7 @@ order: 9
 
 **Who uses it:** Adam and Becca can open it for now. If you need access, ask Adam.
 
-This chapter covers three parts: **Reports**, **Today so far** and **FBA storage space**.
+This chapter covers four parts: **Reports**, **Today so far**, **FBA storage space** and **Listings**.
 
 **These parts only show information.** Nothing here changes stock or orders.
 
@@ -91,6 +91,22 @@ If a report says **Late** or **Stale**, tell Adam.
 - **Our estimate** counts our stock the same way Amazon does. It is usually a little higher than Amazon's number (about 1–3%).
 - The **Level** uses Amazon's number while that number is less than a month old.
 - The limits are updated once a month, around the 28th.
+
+## Listings
+
+**Listings** shows problems with our Amazon listings (menu: **Home** → **Listings**). Discontinued items are hidden.
+
+![Listing alerts counters: Open P1, Open P2, Not buyable, Buy box problems](img/home-07-listings.png)
+
+| Priority | What it means |
+|---|---|
+| **P1** (urgent) | The item sells 10 or more a month, and it is out of stock, not active, or its buy box is suppressed while it has stock. For our own brands, also when we lost the buy box. |
+| **P2** | Other real problems. |
+| **P3** | Low priority, for example discontinued items, other sellers' brands, or alerts that keep going on and off. Not counted. |
+
+- **G – Open P1 (urgent)** and **H – Open P2** count the alerts.
+- **I – Not buyable / status problems** and **J – Buy box problems** count only P1 and P2 alerts.
+- **Caused by:** some alerts happen only because of another alert. For example, a listing is not active because it is out of stock. Then **Caused by** names the main alert, and the side alert is not counted twice.
 
 ## Common mistakes
 
