@@ -66,15 +66,27 @@ Most pages show a list. The buttons at the top right help you find things.
    - **Count in** a bin, or **Count this bin**, opens a count of that bin.
 
 ::: warn
-Until December 1, **Count this bin** on the phone is a **practice** count. Nothing is saved. Real counts stay in Fishbowl.
+Until December 1, a count on a **real** bin is practice. The heading says **Practice — nothing posted**, and there is no Save button. Real counts stay in Fishbowl.
 :::
 
-**Practice count on the phone:**
+**Practice count on TEST-BIN (phone):**
 
-1. Tap **Count this bin**.
+1. Scan **TEST-BIN**. Tap **Count this bin**.
 2. Scan each item. Each scan adds 1.
 3. If a line is right, tap **Matches**. To type a number, tap the line.
-4. Tap **Finish**. You see the differences. Nothing is saved.
+4. Tap **Finish**. You see the differences.
+5. Tap **Save count to RemBase** and answer the question. It says **Saved – posting**. RemBase posts the stock changes next.
+
+**Messages you may see:**
+
+| Message | What to do |
+|---|---|
+| **Not saved: stock moved while you counted** | Count the bin again. |
+| **Recount needed – not saved** | Count again, and choose the expiration date. |
+| **Not confirmed – tell Adam. Code …** | Give Adam the code. |
+| **No connection… kept on this phone** | Wait. It sends again by itself. |
+| **Keep this page open: this phone cannot store the count.** | Keep the page open until it is saved. |
+| **Sign in again…** | Sign in. The count waits for you. |
 
 ## Common mistakes
 
