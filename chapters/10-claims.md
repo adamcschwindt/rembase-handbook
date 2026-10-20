@@ -21,11 +21,19 @@ Claims is **real work now**, not practice. These are real claims. You file each 
 
 ![File Claims list with the shipment numbers and amounts blacked out](img/claims-01-list.png)
 
-- The list shows only claims that are not filed yet. Work from the top.
+- The **To file** tab shows only claims that are not filed yet. Work from the top.
 - **A – Earliest Deadline:** file before this date.
 - **B – Group Value (known):** about how much Amazon should pay back. Blank means the cost is not known yet. **Still file it.**
 - **C – Case ID:** empty until you file.
 - **Cost Unknown Lines:** how many lines in the claim have no cost yet.
+
+## The tabs
+
+![File Claims tabs: To file, Filed & closed, All records](img/claims-04-tabs.png)
+
+- **D – To file:** claims you still need to file. This tab opens first.
+- **E – Filed & closed:** claims that are filed, reimbursed, denied or closed. To find a claim you already filed, open this tab.
+- **F – All records:** every claim (Airtable's own tab).
 
 ## Task: file a claim (every Monday)
 
@@ -70,8 +78,14 @@ To file one:
 ## What you should see
 
 - After you type the **Case ID**, RemBase sets the claim to **Filed** and fills in **Date Filed** by itself.
-- The claim leaves the list.
+- The claim leaves **To file**. You find it under **Filed & closed**.
 - When the list is empty, you are done for the week.
+
+## Fix a case number
+
+- **Wrong case number?** Paste the right one into **Case ID**.
+- **The claim was not really filed?** Delete the **Case ID**. The claim goes back to **To file**.
+- Each case number belongs to **one** shipment. If **Notes** says **DUPLICATE CASE ID**, check which shipment the case is for.
 
 ## Claim status
 
