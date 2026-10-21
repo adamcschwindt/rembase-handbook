@@ -102,7 +102,8 @@ If a report says **Late** or **Stale**, tell Adam.
 - The list shows the same stock by brand. Each line shows its units and **M – Est. Surcharge**: Amazon's estimate of the aged-stock fee. The bottom line shows the totals.
 - **L – Snapshot Date:** the day Amazon counted the ages. It is usually a few days before today.
 - **N – Recommended Action** and the sale price come from Amazon. Blank means Amazon gave none.
-- The list updates every morning. You cannot change anything on this list.
+- The list updates every morning. You cannot change the numbers.
+- To record what we will do, open a product (point at the row and click the **expand** button). In the box **Your plan**, choose a **Plan** (**Watching**, **Sale planned**, **Removal planned** or **Done**) and write a **Plan Note** if needed.
 
 ## Listings
 
@@ -119,6 +120,7 @@ If a report says **Late** or **Stale**, tell Adam.
 - **G – Open P1 (urgent)** and **H – Open P2** count the alerts.
 - **I – Not buyable / status problems** and **J – Buy box problems** count only P1 and P2 alerts.
 - **Overwrite** means Amazon shows something different from what we sent, for example a different title. It is a P2 alert. For the main image, Overwrite shows only when Amazon is not using our main image at all. (Amazon keeps each main image in two sizes. If either one is ours, it is not an overwrite.)
+- Click an alert to open it. After you fix the problem, in the box **Your check** tick **Checked** and write a **Note**. Everything else on the alert is read-only.
 - **Caused by:** some alerts happen only because of another alert. For example, a listing is not active because it is out of stock. Then **Caused by** names the main alert, and the side alert is not counted twice.
 
 ## Common mistakes

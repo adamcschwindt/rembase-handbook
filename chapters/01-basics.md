@@ -32,8 +32,10 @@ Most pages show a list. The buttons at the top right help you find things.
 
 ## Open a record
 
-1. Click a row in the list.
+1. Click a row in the list. In some lists, point at the row and click the **expand** button (two small arrows).
 2. The record opens on the right side or in the middle.
+
+On the **Home** pages (Home, Listings, Reports), you can also click a **number tile**. It opens the list of records behind the number, and each of those opens too. Most record pages are read-only. Where you can write something, the page shows a box for it (for example **Your check** or **Your plan**).
 
 ## Move between records and close
 

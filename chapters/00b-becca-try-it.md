@@ -52,7 +52,7 @@ order: 1
      - **Recommended Action** and **Recommended Sale Price** = Amazon's advice. Blank = Amazon gave none.
 7. Look at the **Snapshot Date** column.
    - This is the day Amazon counted the ages, usually a few days before today.
-8. Done. You cannot change anything on this page.
+8. Optional: open a product in the aged list (point at the row and click the **expand** button). In **Your plan**, choose a **Plan** and add a **Plan Note**. You cannot change the numbers.
 
 **Done when:** you have looked at all four parts.
 
@@ -101,15 +101,16 @@ More help: [Home → Reports](home.html#reports).
    - **Detail** says what is wrong or what changed.
 6. Look at **Caused by**.
    - If it names another alert, this alert happens only because of that one. Fix the main one first.
-7. Click **Amazon Link** to open the listing on Amazon.
+7. Click the alert to open it, then click **Amazon Link** to open the listing on Amazon.
 8. Fix the problem your normal way in Seller Central. RemBase does not change Amazon.
    - The alert closes by itself on a later daily run, after the problem is gone.
+   - After you fix it, open the alert again. In **Your check**, tick **Checked** and write a **Note** (what you did).
 9. Good to know:
    - **Overwrite** = Amazon shows something different from what we sent. On wholesale brands this is normal, because the brand owner's data wins.
    - In the list **Content changes, last 7 days**, **Expected** means someone planned that change ahead of time.
    - Discontinued items and other low-priority alerts (P3) are hidden.
 
-**Done when:** you have looked at every P1 row.
+**Done when:** you have looked at every P1 row, and ticked **Checked** on the ones you fixed.
 
 More help: [Home → Listings](home.html#listings).
 
