@@ -2,7 +2,7 @@
 title: Basics
 subtitle: Search, open a record, close it
 slug: basics
-order: 1
+order: 2
 ---
 
 ## What this chapter is for

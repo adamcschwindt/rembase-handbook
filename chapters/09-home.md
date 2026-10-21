@@ -2,7 +2,7 @@
 title: Home
 subtitle: Reports, today's sales, Amazon storage space and listing alerts
 slug: home
-order: 9
+order: 10
 ---
 
 ## What this page is for

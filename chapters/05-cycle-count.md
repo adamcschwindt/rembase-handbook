@@ -2,7 +2,7 @@
 title: Cycle Count
 subtitle: Count the stock in a bin
 slug: cycle-count
-order: 5
+order: 6
 ---
 
 ## What this page is for
