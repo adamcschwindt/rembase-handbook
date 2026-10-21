@@ -53,11 +53,13 @@ Inventory shows every part. You can see how many we have in the warehouse and at
 
 ## What you should see
 
-For TEST-COMP-A after the practice receipt:
+For a TEST part after a practice receipt:
 
-- Warehouse On Hand Qty = **24**
-- One lot that expires **12/31/2027** in **TEST-BIN**
-- One ledger line of type **Receipt**
+- **Warehouse On Hand Qty** went up by what you received.
+- A lot with your expiration date in **TEST-BIN**.
+- A ledger line of type **Receipt** for your receipt.
+
+The numbers may differ from what you expect: others practice on the shared TEST parts too. Your own parts (for example TEST-BECCA-A) start at 0.
 
 ## Task: add a new part (Becca and Adam only)
 

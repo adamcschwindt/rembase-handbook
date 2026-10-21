@@ -8,16 +8,15 @@ order: 1
 ## Read this first
 
 - **Until December 1, real work stays in Fishbowl.** In RemBase you only look, or you practice on TEST items.
-- **Your practice items:** PO **TEST-PRACTICE-BECCA**, parts **TEST-COMP-A** and **TEST-COMP-B**, bin **TEST-BIN**.
+- **Your practice items:** first PO **TEST-PRACTICE-BECCA** (finish it in Task 4), new PO **TEST-PRACTICE-BECCA-2** with your parts **TEST-BECCA-A** (#9111#) and **TEST-BECCA-B** (#9112#), bin **TEST-BIN** (#9001#).
 - **RemBase saves by itself.** There is no Save button. Press **Tab** or click outside the box.
 - **Never delete anything.** If something gets deleted by mistake, tell Adam. Nothing else is needed.
+- **Made a typing mistake?** Press **Cmd+Z** (**Ctrl+Z** on Windows) right away to undo it.
 - **While you practice, never press these buttons:**
   - **Email PO**
-  - **Delete PO** (in the **…** menu of a PO)
   - **Email Staged POs**
   - **Delete Staged POs**
   - **Create "…"** in a part list
-  - **Reverse this receipt**
   - **Escalate To Asana**
   - Anything on the **Ads** page
   - The Amazon buttons on **FBA Shipment**
@@ -114,25 +113,35 @@ More help: [Home → Reports](home.html#reports).
 
 More help: [Home → Listings](home.html#listings).
 
-## Task 4 – Practice: receive your practice PO (TEST only)
+## Task 4 – Practice: finish your first PO, then receive your new PO (TEST only)
 
-**Goal:** receive one full line and one short line, then close the short line.
+**Goal:** finish your first practice PO, then receive your new one.
 
-On **Receiving**, your PO shows **2 lines**. Both have the same line number (…-L2). Tell them apart by the product name:
+::: warn
+**Always pick the bin.** If a receipt has no bin, nothing is added to stock, and a flag appears within about an hour.
+
+**Already saved a receipt with no bin?** Do **not** receive again. Open the receipt: **Receiving** → your PO line → **Received so far** → click the receipt with no bin. In the box **Add the bin (receipt not posted yet)**, type or scan the bin barcode and press **Enter**. For practice, TEST-BIN's barcode is **#9001#**. It posts once.
+:::
+
+Pick the line by product name (**TEST component A** or **TEST component B**), not by number.
+
+If a line already says **Fulfilled**, you already received it. Go to the next line.
+
+**Part 1 – Finish your first PO (TEST-PRACTICE-BECCA)**
 
 | Product | Ordered | Received | Still open |
 |---|---|---|---|
 | **TEST component B** (TEST-COMP-B) | 24 | 0 | 24 |
 | **TEST component A** (TEST-COMP-A) | 24 | 1 | 23 |
 
-If a line already says **Fulfilled**, you already received it. Go to the next line.
+*TEST component B: receive all 24*
 
-**Line 1: receive all of TEST-COMP-B**
+TEST component B shows **24** still to receive. That is correct. If you already saved a receipt there without a bin, add the bin (see the box above) instead of receiving again.
 
 1. In the RemBase menu, click **Receiving**.
 2. Click **Search** at the top of the list and type **TEST-PRACTICE-BECCA**.
 3. Click the row for **TEST component B**.
-4. Scroll down to **Received so far**. It should be empty.
+4. Look at **Received so far**.
    - This check stops you from receiving twice.
 5. Click **Receive**. The **Receive Shipment** form opens.
 
@@ -141,14 +150,14 @@ If a line already says **Fulfilled**, you already received it. Go to the next li
 6. **4 – Received By:** choose **Becca**.
 7. **5 – Quantity Received (Units):** type **24**. Leave **Cases** empty.
 8. **6 – Expiration Date:** type **12/31/2027**.
-9. **7 – Bin (Actual):** click **+ Add record**, type **TEST-BIN**, and click it. (Or scan the TEST-BIN label into **Bin Scan**.)
+9. **7 – Bin:** scan or type **#9001#** into **Bin Scan**, or under **Bin (Actual)** click **+ Add record**, type **TEST-BIN**, and click it.
 10. Check every box again.
 11. Click **8 – Post Receipt**.
     - You should see the receipt under **Received so far**.
     - **Derived Status** = **Fulfilled**, and **Outstanding Qty** = 0.
     - The line leaves the Receiving list. That is correct.
 
-**Line 2: receive part of TEST-COMP-A, then close it short**
+*TEST component A: receive part, then close it short*
 
 12. Back on **Receiving**, search **TEST-PRACTICE-BECCA** again.
 13. Click the row for **TEST component A**.
@@ -157,7 +166,7 @@ If a line already says **Fulfilled**, you already received it. Go to the next li
 16. **Received By:** **Becca**.
 17. **Quantity Received (Units):** **20**.
 18. **Expiration Date:** **12/31/2027**.
-19. **Bin (Actual):** **TEST-BIN**.
+19. **Bin:** **TEST-BIN** (#9001#).
 20. Click **Post Receipt**.
     - You should see **Derived Status** = **Partial** and **Outstanding Qty** = **3**.
 21. Pretend the vendor confirmed that the last 3 are not coming. (In real work, Chad checks with the vendor, then Vicky ticks this box. You are the backup.)
@@ -167,9 +176,14 @@ If a line already says **Fulfilled**, you already received it. Go to the next li
 
     - You should see **Derived Status** = **Closed Short** and **Outstanding Qty** = 0. The line leaves the list.
 
-**Do not** press **Reverse this receipt**. If a receipt is wrong, leave it and tell Adam.
+**Part 2 – More practice: receive TEST-PRACTICE-BECCA-2**
 
-**Done when:** both lines have left the Receiving list.
+22. Search **TEST-PRACTICE-BECCA-2** on **Receiving**.
+23. Receive **TEST-BECCA-A** and **TEST-BECCA-B** (24 each) the same way, into **TEST-BIN**.
+
+If you make a mistake, you may press **Reverse this receipt**, then receive again. See [Fix a wrong receipt](receiving.html#fix-a-wrong-receipt).
+
+**Done when:** all lines of both POs have left the Receiving list.
 
 More help: [Receiving](receiving.html).
 
@@ -194,16 +208,15 @@ More help: [Receiving](receiving.html).
 
 ## Task 6 – Practice: add a line to a PO and open the PO PDF (TEST only)
 
-**Goal:** add one line to your practice PO and see the PDF update.
+**Goal:** add one line to your new practice PO (TEST-PRACTICE-BECCA-2) and see the PDF update.
 
 1. In the RemBase menu, click **Purchase Orders**.
-2. Search **TEST-PRACTICE-BECCA** and click the PO number.
+2. Search **TEST-PRACTICE-BECCA-2** and click the PO number.
    - Only open PO numbers that start with **TEST-** or **PRACTICE-**. Real POs look like 2026-061.
-   - **PO Lines** shows 3 lines. The third line is empty (no quantity). Leave it.
 3. In **PO Lines**, click the **+** under the last line.
    - A new empty line appears.
 4. Click the **+** in the new line's **Part** cell.
-5. Type **TEST-COMP-B** and click it in the list.
+5. Type **TEST-BECCA-A** and click it in the list.
    - Never click **Create "…"** at the bottom of the list.
 6. Point at the new line and click the **expand** button (two small arrows).
 

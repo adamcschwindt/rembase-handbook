@@ -12,7 +12,7 @@ When boxes arrive from a vendor, you **receive** them. Receiving puts the stock 
 **Who uses it:** Chad and Sabith.
 
 ::: warn
-Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA, -CHAD or -SABITH). The pictures use TEST-HB-1.
+Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA-2, -CHAD-2 or -SABITH-2). The pictures use TEST-HB-1.
 :::
 
 ## The Receiving page
@@ -26,7 +26,11 @@ Each row is one PO line that still has something to receive. Click a row to see 
 
 During practice this list shows only TEST lines. Real parts are hidden on purpose.
 
-Until December 1, a receipt on a **real** part is blocked: the receipt line says **Blocked – not posted**, nothing is added to stock, and a Flag goes to Becca. Practice only on TEST POs.
+Until December 1, a receipt on a **real** part is blocked: the receipt line says **Blocked – not posted**, nothing is added to stock, and a flag is made. Practice only on TEST POs.
+
+::: warn
+**Always pick the bin.** If a receipt has no bin, nothing is added to stock, and a flag appears within about an hour. See [Forgot the bin](#forgot-the-bin).
+:::
 
 ## Task: receive a PO line
 
@@ -97,6 +101,31 @@ The stock is now on the part page in [Inventory](inventory.html).
 
 ![Open POs list](img/rcv-06-open-pos.png)
 
+## Forgot the bin
+
+Already saved a receipt with no bin? **Do not receive again.**
+
+1. Open the receipt: **Receiving** → your PO line → **Received so far** → click the receipt with no bin.
+2. In the box **Add the bin (receipt not posted yet)**, type or scan the bin barcode and press **Enter**. For practice, TEST-BIN's barcode is **#9001#**.
+3. The receipt posts once.
+
+## Fix a wrong receipt
+
+Anyone may press **Reverse this receipt**.
+
+1. Open the receipt: **Receiving** → the PO line → **Received so far** → click the receipt.
+2. Press **Reverse this receipt**.
+3. Read **Reverse Result**. **OK** means the stock was taken back out, the receipt is marked **Reversed**, and a flag was made.
+4. Receive the line again with the right numbers. A new receipt is made (…-R2).
+
+If **Reverse Result** says:
+
+| Message | What it means |
+|---|---|
+| **REFUSED … Ask a manager** | The stock was already used or moved. Nothing changed. Tell Becca or Chad. |
+| **REFUSED: this receipt was never posted to stock** | Nothing to reverse. Use [Add the bin](#forgot-the-bin) instead. |
+| **REFUSED … came from Fishbowl** | Until December 1, fix it in Fishbowl. |
+
 ## Wrong amounts on a PO
 
 ![PO line with Line Type and the Close this line short box marked](img/rcv-09-short.png)
@@ -124,7 +153,7 @@ The stock is now on the part page in [Inventory](inventory.html).
 - **No expiration date.** Without a date the system cannot use the oldest stock first.
 - **Wrong bin.** Choose the bin where the stock really is.
 - **Receiving an item on the wrong line.** If it is not on the PO, ask Becca to add a Not Ordered line first.
-- **No bin, or a bin scan that does not match one bin.** The receipt is **not** posted, and a flag is made. Fix the bin. Then it posts once.
+- **No bin, or a bin scan that does not match one bin.** The receipt is **not** posted, and a flag appears within about an hour. Do not receive again. [Add the bin](#forgot-the-bin). Then it posts once.
 - **Receiving twice.** Look at **Received so far** before you receive.
 - **Saving a receipt with no quantity.** RemBase raises a flag. Enter the receipt again with the right quantity.
-- **A wrong receipt.** Do not try to fix it yourself. Ask Becca. (**Reverse this receipt** is on the [Do not press](do-not-press.html) list.)
+- **A wrong receipt.** Press **Reverse this receipt**, then receive again. See [Fix a wrong receipt](#fix-a-wrong-receipt).

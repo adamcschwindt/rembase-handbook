@@ -16,7 +16,7 @@ order: 9
 
 - **Confirm placement** and **Confirm freight** cost money. Check the price first.
 - Press a button **once**. Then wait until **Inbound Pending** is empty again.
-- Not sure? Ask Becca before you press.
+- Not sure? Ask Adam before you press.
 :::
 
 ## Sub-pages

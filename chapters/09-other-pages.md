@@ -32,7 +32,7 @@ To work on a flag:
 
 1. Click the flag.
 2. Read the **Title** and **Note**.
-3. Fix the cause in the right place, or ask Becca.
+3. Fix the cause in the right place, or ask the person for that area (see [Who to ask](who-to-ask.html)).
 4. When it is fixed, set **Status** to **Resolved**.
 
 ## Returns Grading

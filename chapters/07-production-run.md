@@ -43,7 +43,7 @@ Before December 1, enter real runs in **Fishbowl**. In RemBase, practice only on
    - **Chosen Lot** (5): which lot to take. RemBase picks the lot that expires first.
 
 ::: warn
-If **Run Components** is empty, RemBase has no recipe for this product. Do not build. Tell Becca.
+If **Run Components** is empty, RemBase has no recipe for this product. Do not build. Tell Chad.
 :::
 
 ## Task: enter what you built (Floor page)
@@ -93,4 +93,4 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 - **Pressing Finish Run twice.** Press once and read **Finish Result**.
 - **Units do not match Qty Built.** Check Boxes × Units Per Box.
 - **Weight of the whole stack instead of one box.** Type the weight of one box.
-- **Taking a different lot than Chosen Lot.** Use the lot RemBase picked, or tell Becca.
+- **Taking a different lot than Chosen Lot.** Use the lot RemBase picked, or tell Chad.

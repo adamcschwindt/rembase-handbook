@@ -48,6 +48,12 @@ Most pages show a list. The buttons at the top right help you find things.
 - **Grey text** or text with no box is read-only. The system fills it in.
 - RemBase saves what you type by itself. There is no Save button. Click outside the box or press **Tab** when you finish.
 
+## Undo, history and comments
+
+- Made a mistake while typing? Press **Cmd+Z** (**Ctrl+Z** on Windows) right away to undo it.
+- RemBase pages cannot show who changed what. If something looks wrong, ask Adam. He can check the history.
+- Comments on a record are visible to everyone.
+
 ## How to scan
 
 **RemBase Scan** is a page for your phone. It shows what RemBase knows about an item or a bin. Ask Adam for the **RemBase Scan** bookmark. You sign in with your work Google account.
@@ -55,7 +61,7 @@ Most pages show a list. The buttons at the top right help you find things.
 1. Open the **RemBase Scan** bookmark.
 2. Scan a code in one of three ways:
    - Pull the trigger on the Bluetooth scanner. You do not need to tap anything first.
-   - Tap the box and type the code.
+   - Tap the box and type the code. (TEST-BIN's code is **#9001#**.)
    - Tap **Scan with camera**.
 3. Read the result:
    - **An item** shows its bins and how many are in each, its lots and expiration dates, and its open POs. A date in **red** expires in less than 90 days.

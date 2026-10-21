@@ -8,7 +8,7 @@ order: 13
 ::: warn
 **Do not press any button on this page.**
 
-These buttons email vendors, move real stock or delete records. If you think one is needed, **ask Adam or Becca first**.
+These buttons email vendors, move real stock or delete records. If you think one is needed, **ask Adam first**.
 :::
 
 ## Email PO
@@ -17,23 +17,11 @@ These buttons email vendors, move real stock or delete records. If you think one
 
 It emails the PO to the vendor.
 
-## Delete PO
-
-![Delete PO in the menu, marked do not press](img/dnp-delete-po.png)
-
-It is inside the **…** menu on a PO. It deletes the PO.
-
 ## Email Staged POs and Delete Staged POs
 
 ![Email and delete staged POs buttons marked do not press](img/dnp-staged-pos.png)
 
 They are at the bottom of the Purchase Orders list. They email or delete every staged PO at once.
-
-## Reverse this receipt
-
-![Reverse this receipt button marked do not press](img/dnp-reverse-receipt.png)
-
-It undoes a receipt. If a receipt is wrong, ask Becca.
 
 ## Production buttons
 

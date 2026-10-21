@@ -12,7 +12,7 @@ A **purchase order (PO)** is an order we send to a vendor. Each PO has **lines**
 **Who uses it:** Becca makes and sends POs. Everyone can look.
 
 ::: warn
-Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA, -CHAD or -SABITH). A brand-new PO you make before December 1 gets a **PRACTICE-** number, not a real PO number. Use the TEST Vendor and TEST parts on it. The pictures use TEST-HB-1.
+Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA-2, -CHAD-2 or -SABITH-2). A brand-new PO you make before December 1 gets a **PRACTICE-** number, not a real PO number. Use the TEST Vendor and TEST parts on it. The pictures use TEST-HB-1.
 :::
 
 ## Sub-pages
@@ -41,11 +41,11 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
 - **Partial** – some of it has arrived.
 - **Fulfilled** – everything has arrived.
 - **Closed Short** – closed before everything arrived.
-- **Cancelled** – the PO was made by mistake or is not needed. Set **Cancelled**. Never delete a PO.
+- **Cancelled** – the PO was made by mistake or is not needed. To stop a PO, set **Status** to **Cancelled**. Never delete a PO. (There is no Delete button for POs or PO lines.)
 
 ## Task: add a line to a PO (practice)
 
-1. Open **your own practice PO**. Add a line for **TEST-COMP-A** or **TEST-COMP-B**.
+1. Open **your own practice PO**. Add a line for one of **your own parts** (for example TEST-BECCA-A).
 2. In **PO Lines**, click the **+** under the last line.
 
    ![Practice PO page with the add-line plus sign](img/po-02-add-line.png)
@@ -105,7 +105,7 @@ You only change the status by hand if Becca asks you to. Click the **Status** bo
 2. Click the file under **PO PDF**.
 3. Print it from your browser.
 
-RemBase makes the PDF by itself and makes it again after every change. Do not upload or change it by hand. If the file is missing after a few minutes, ask Becca.
+RemBase makes the PDF by itself and makes it again after every change. Do not upload or change it by hand. If the file is missing after a few minutes, ask Adam.
 
 ## PO Planning (look only)
 

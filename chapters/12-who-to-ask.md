@@ -14,8 +14,8 @@ Look in the handbook first. Then ask the person for that area.
 | System problems and bugs (something in RemBase does not work) | **Adam** |
 | Planning decisions and Becca's approval buttons | **Becca** |
 | Amazon claims | **Karly** |
-| Any button on the [Do not press](do-not-press.html) list | **Adam** or **Becca**, before you press |
-| Amazon shipments | Anyone may press the shipment buttons. Not sure? Ask **Becca** first. |
+| Any button on the [Do not press](do-not-press.html) list | **Adam**, before you press |
+| Amazon shipments | Anyone may press the shipment buttons. Not sure? Ask **Adam** first. |
 
 ## When you ask, send
 

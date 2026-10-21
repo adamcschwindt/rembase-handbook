@@ -26,13 +26,15 @@ Use RemBase only to practice.
 
 ## Practice only with TEST items
 
-Each person has their own practice PO and practice run:
+Each person has their own practice PO, parts and practice run:
 
-| Person | Receive this PO | Build this run | Count this bin |
-|---|---|---|---|
-| **Becca** | TEST-PRACTICE-BECCA | TEST-PRACTICE-RUN-BECCA | TEST-BIN |
-| **Chad** | TEST-PRACTICE-CHAD | TEST-PRACTICE-RUN-CHAD | TEST-BIN |
-| **Sabith** | TEST-PRACTICE-SABITH | TEST-PRACTICE-RUN-SABITH | TEST-BIN |
+| Person | Receive this PO | Your parts (scan code) | Build this run | Count this bin |
+|---|---|---|---|---|
+| **Becca** | TEST-PRACTICE-BECCA-2 | TEST-BECCA-A (#9111#), TEST-BECCA-B (#9112#) | TEST-PRACTICE-RUN-BECCA | TEST-BIN (#9001#) |
+| **Chad** | TEST-PRACTICE-CHAD-2 | TEST-CHAD-A (#9121#), TEST-CHAD-B (#9122#) | TEST-PRACTICE-RUN-CHAD | TEST-BIN (#9001#) |
+| **Sabith** | TEST-PRACTICE-SABITH-2 | TEST-SABITH-A (#9131#), TEST-SABITH-B (#9132#) | TEST-PRACTICE-RUN-SABITH | TEST-BIN (#9001#) |
+
+Your parts start at 0. Receive them into **TEST-BIN**. Your first practice PO (TEST-PRACTICE-BECCA, -CHAD or -SABITH) may already be done.
 
 Practice in this order: **1.** receive your PO, **2.** count TEST-BIN, **3.** build your run.
 
@@ -40,7 +42,7 @@ Other TEST items:
 
 | Type | Name |
 |---|---|
-| Parts | TEST-COMP-A, TEST-COMP-B, TEST-KIT-2PK (a 2-pack made from A and B) |
+| Shared parts | TEST-COMP-A, TEST-COMP-B, TEST-KIT-2PK (a 2-pack made from A and B). Others practice on these too, so their stock numbers change. |
 | Vendor | TEST Vendor (practice) |
 | Used in the pictures | PO TEST-HB-1, run TEST-HB-RUN-1 |
 
