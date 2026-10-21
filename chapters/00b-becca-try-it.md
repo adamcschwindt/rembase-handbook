@@ -125,6 +125,8 @@ On **Receiving**, your PO shows **2 lines**. Both have the same line number (…
 | **TEST component B** (TEST-COMP-B) | 24 | 0 | 24 |
 | **TEST component A** (TEST-COMP-A) | 24 | 1 | 23 |
 
+If a line already says **Fulfilled**, you already received it. Go to the next line.
+
 **Line 1: receive all of TEST-COMP-B**
 
 1. In the RemBase menu, click **Receiving**.
