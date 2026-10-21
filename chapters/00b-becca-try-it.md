@@ -134,6 +134,8 @@ If a line already says **Fulfilled**, you already received it. Go to the next li
 | **TEST component B** (TEST-COMP-B) | 24 | 0 | 24 |
 | **TEST component A** (TEST-COMP-A) | 24 | 1 | 23 |
 
+Your first PO also has an empty line you started (…-L3). You can type **10** in its **Qty Ordered**, or leave it.
+
 *TEST component B: receive all 24*
 
 TEST component B shows **24** still to receive. That is correct. If you already saved a receipt there without a bin, add the bin (see the box above) instead of receiving again.
