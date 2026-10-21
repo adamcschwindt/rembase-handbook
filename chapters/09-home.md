@@ -118,6 +118,7 @@ If a report says **Late** or **Stale**, tell Adam.
 
 - **G – Open P1 (urgent)** and **H – Open P2** count the alerts.
 - **I – Not buyable / status problems** and **J – Buy box problems** count only P1 and P2 alerts.
+- **Overwrite** means Amazon shows something different from what we sent, for example a different title. It is a P2 alert. For the main image, Overwrite shows only when Amazon is not using our main image at all. (Amazon keeps each main image in two sizes. If either one is ours, it is not an overwrite.)
 - **Caused by:** some alerts happen only because of another alert. For example, a listing is not active because it is out of stock. Then **Caused by** names the main alert, and the side alert is not counted twice.
 
 ## Common mistakes
