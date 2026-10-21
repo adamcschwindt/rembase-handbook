@@ -160,7 +160,7 @@ If a line already says **Fulfilled**, you already received it. Go to the next li
 19. **Bin (Actual):** **TEST-BIN**.
 20. Click **Post Receipt**.
     - You should see **Derived Status** = **Partial** and **Outstanding Qty** = **3**.
-21. Pretend the vendor told you the last 3 are not coming.
+21. Pretend the vendor confirmed that the last 3 are not coming. (In real work, Chad checks with the vendor, then Vicky ticks this box. You are the backup.)
     - In the **Quantities** group, tick **B – Close this line short (rest is not coming)**.
 
       ![PO line with Line Type and the Close this line short box marked](img/rcv-09-short.png)
@@ -228,5 +228,5 @@ More help: [Purchase Orders](purchase-orders.html).
 
 - **PO Planning, Run Planning, New Part:** the ticks are shared with real planning, and there is nothing safe to practice before December 1. You can look at them.
 - **Cycle count, production runs, Next shipment:** floor jobs (Chad and Sabith).
-- **Claims:** done each week by the person who files claims.
+- **Claims:** Karly's weekly task.
 - **Ads:** on hold.

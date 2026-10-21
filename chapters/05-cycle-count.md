@@ -65,7 +65,7 @@ RemBase makes one **count line** (4) for each part and lot in the bin. **Expecte
 **Count every line.** If you leave a line empty, RemBase skips it and changes nothing, so that part is not counted at all.
 :::
 
-- If you find a part that has no line, do not use **Add found item**. Write it down and tell Becca.
+- If you find a part that has no line, do not use **Add found item**. Write it down and tell Chad. Chad checks first (is it in the wrong bin?). Ask Becca only if a new part must be created.
 
 ## What you should see
 

@@ -22,7 +22,7 @@ Use RemBase only to practice.
 - RemBase is copied from Fishbowl every night.
 - The nightly copy does **not** touch TEST items, so your TEST practice stays.
 - Practice on a real part is reset by the nightly copy. That is one more reason to practice only on TEST items.
-- If you are not sure where to do something, do it in Fishbowl and ask Becca.
+- If you are not sure where to do something, do it in Fishbowl. Then ask the person for that area (see [Who to ask](who-to-ask.html)).
 
 ## Practice only with TEST items
 
@@ -82,7 +82,7 @@ Never practice on a real part, a real PO or a real shipment.
 1. Real work goes in **Fishbowl** until December 1.
 2. Practice only with **TEST** items.
 3. Some buttons send money, emails or orders. Read **[Do not press](do-not-press.html)** before you start.
-4. Not sure? Stop and ask **Becca**.
+4. Not sure? Stop and ask. See **[Who to ask](who-to-ask.html)**.
 
 ## About the pictures
 

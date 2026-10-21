@@ -116,7 +116,7 @@ The stock is now on the part page in [Inventory](inventory.html).
 **Less arrived than we ordered (Short)**
 
 - The rest is still coming: leave the line open.
-- The rest is **not** coming: Becca opens the line on the **Receiving** page and ticks **B – Close this line short (rest is not coming)**. Only Becca does this.
+- The rest is **not** coming: Chad checks with the vendor that the rest is not coming. Then Vicky opens the line on the **Receiving** page and ticks **B – Close this line short (rest is not coming)**. Becca is the backup.
 
 ## Common mistakes
 

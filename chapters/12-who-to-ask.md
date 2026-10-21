@@ -5,11 +5,15 @@ slug: who-to-ask
 order: 15
 ---
 
-| Question | Ask |
+Look in the handbook first. Then ask the person for that area.
+
+| Area | Ask |
 |---|---|
-| Anything about RemBase or practice | **Becca** |
-| Purchase orders, planning, flags | **Becca** |
-| Warehouse work, bins, counting, building | **Chad** |
+| Warehouse: bins, counts, builds, labels | **Chad** |
+| Payments and receiving costs | **Vicky** |
+| System problems and bugs (something in RemBase does not work) | **Adam** |
+| Planning decisions and Becca's approval buttons | **Becca** |
+| Amazon claims | **Karly** |
 | Any button on the [Do not press](do-not-press.html) list | **Adam** or **Becca**, before you press |
 | Amazon shipments | Anyone may press the shipment buttons. Not sure? Ask **Becca** first. |
 

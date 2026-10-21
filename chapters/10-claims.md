@@ -11,7 +11,7 @@ Sometimes Amazon loses or damages our units. For example, Amazon does not receiv
 
 **Claims → File Claims** lists the claims we still need to file. RemBase finds them and prepares the text and the files for you.
 
-**Who uses it:** the person who files claims every Monday, and Adam. If you need access, ask Adam.
+**Who uses it:** Karly files the claims every Monday. Adam can also open it. If you need access, ask Adam.
 
 ::: warn
 Claims is **real work now**, not practice. These are real claims. You file each one in **Amazon Seller Central**. RemBase does not file it for you.
