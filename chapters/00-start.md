@@ -62,7 +62,7 @@ Never practice on a real part, a real PO or a real shipment.
 
 | Page | What it is for |
 |---|---|
-| **Home** | Reports, today's sales, Amazon storage space, listing alerts and other summaries. See [Home](home.html). |
+| **Home** | Reports, today's sales, Amazon storage space, aged stock, listing alerts and other summaries. See [Home](home.html). |
 | **Inventory** | Find a part. See how much we have and where. |
 | **Cycle Count** | Count the stock in a bin. |
 | **Purchase Orders** | Make and track orders to vendors. |

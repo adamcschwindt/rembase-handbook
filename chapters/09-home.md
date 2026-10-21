@@ -11,7 +11,7 @@ order: 9
 
 **Who uses it:** Adam and Becca can open it for now. If you need access, ask Adam.
 
-This chapter covers four parts: **Reports**, **Today so far**, **FBA storage space** and **Listings**.
+This chapter covers five parts: **Reports**, **Today so far**, **FBA storage space**, **Aged FBA stock** and **Listings**.
 
 **These parts only show information.** Nothing here changes stock or orders.
 
@@ -91,6 +91,18 @@ If a report says **Late** or **Stale**, tell Adam.
 - **Our estimate** counts our stock the same way Amazon does. It is usually a little higher than Amazon's number (about 1–3%).
 - The **Level** uses Amazon's number while that number is less than a month old.
 - The limits are updated once a month, around the 28th.
+
+## Aged FBA stock
+
+**Aged FBA stock (181+ days)** is on the **Home** page (menu: **Home** → **Home**).
+
+![Aged FBA stock: the number of aged units and the list by brand, with every amount and ASIN blacked out](img/home-08-aged.png)
+
+- **K – Aged 181+ days (units):** all our units at Amazon that are 181 days old or more.
+- The list shows the same stock by brand. Each line shows its units and **M – Est. Surcharge**: Amazon's estimate of the aged-stock fee. The bottom line shows the totals.
+- **L – Snapshot Date:** the day Amazon counted the ages. It is usually a few days before today.
+- **N – Recommended Action** and the sale price come from Amazon. Blank means Amazon gave none.
+- The list updates every morning. You cannot change anything on this list.
 
 ## Listings
 
