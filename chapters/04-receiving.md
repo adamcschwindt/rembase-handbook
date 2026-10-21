@@ -24,6 +24,8 @@ Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice
 
 Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list. Each row also shows the product's scan keys (the codes you can scan).
 
+On the line page, **Cost from last paid. Check it.** means the Unit Cost was filled in from the last price paid. **Price/Qty changed by / at** shows who last changed the price or quantity, and when. See [Purchase Orders](purchase-orders.html).
+
 During practice this list shows only TEST lines. Real parts are hidden on purpose.
 
 Until December 1, a receipt on a **real** part is blocked: the receipt line says **Blocked – not posted**, nothing is added to stock, and a flag is made. Practice only on TEST POs.

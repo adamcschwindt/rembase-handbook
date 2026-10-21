@@ -100,6 +100,9 @@
 </figure></li>
 <li><p>Type the <strong>Qty Ordered</strong>.</p></li>
 <li><p>Type the <strong>Unit Cost</strong> (the price for one unit).</p>
+<ul>
+<li>If you leave it blank, RemBase fills in the last price paid for that part. Then the line shows <strong>Cost from last paid. Check it.</strong> Check it against the vendor’s price and change it if needed. The note goes away when you change the price.</li>
+</ul>
 <figure>
 <a class="zoom" href="img/po-06-qty-cost.png"><img src="img/po-06-qty-cost.png" loading="lazy" alt="Quantity and cost boxes on a PO line" /></a><figcaption aria-hidden="true">Quantity and cost boxes on a PO line</figcaption>
 </figure></li>
@@ -130,6 +133,7 @@
 <li>The lines are listed under <strong>PO Lines</strong>.</li>
 <li><strong>Total Outstanding Qty</strong> = what has not arrived yet.</li>
 <li><strong>Issued Warning:</strong> if a PO was already sent to the vendor, a change here does <strong>not</strong> reach the vendor. Tell the vendor yourself.</li>
+<li><strong>Price/Qty changed by</strong> and <strong>Price/Qty changed at</strong> (on a PO line): who last changed the price or the quantity on this line, and when. <strong>Automations</strong> means the system filled it (for example the last-paid price, or a PO made from planning). A name means that person changed it. Older lines stay blank until their next change.</li>
 </ul>
 <h2 id="to-print-a-po">To print a PO</h2>
 <ol type="1">

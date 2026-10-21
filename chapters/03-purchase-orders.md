@@ -68,6 +68,7 @@ The PO opens on the right. You see its status, vendor, dates, notes and lines.
 
 6. Type the **Qty Ordered**.
 7. Type the **Unit Cost** (the price for one unit).
+   - If you leave it blank, RemBase fills in the last price paid for that part. Then the line shows **Cost from last paid. Check it.** Check it against the vendor's price and change it if needed. The note goes away when you change the price.
 
    ![Quantity and cost boxes on a PO line](img/po-06-qty-cost.png)
 
@@ -98,6 +99,7 @@ You only change the status by hand if Becca asks you to. Click the **Status** bo
 - The lines are listed under **PO Lines**.
 - **Total Outstanding Qty** = what has not arrived yet.
 - **Issued Warning:** if a PO was already sent to the vendor, a change here does **not** reach the vendor. Tell the vendor yourself.
+- **Price/Qty changed by** and **Price/Qty changed at** (on a PO line): who last changed the price or the quantity on this line, and when. **Automations** means the system filled it (for example the last-paid price, or a PO made from planning). A name means that person changed it. Older lines stay blank until their next change.
 
 ## To print a PO
 

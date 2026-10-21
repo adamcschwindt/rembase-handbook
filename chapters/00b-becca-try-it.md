@@ -227,6 +227,7 @@ More help: [Receiving](receiving.html).
 
 7. **Qty Ordered:** type **10**.
 8. **Unit Cost:** type **1.00**.
+   - If you leave Unit Cost empty, RemBase fills the last price paid and shows **Check it**.
 9. Press **Tab**. RemBase saves by itself.
 10. Close the line (the **✕** at the top).
     - You should see the new line in **PO Lines**.

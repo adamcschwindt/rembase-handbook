@@ -53,7 +53,9 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
 ## Undo, history and comments
 
 - Made a mistake while typing? Press **Cmd+Z** (**Ctrl+Z** on Windows) right away to undo it.
-- RemBase pages cannot show who changed what. If something looks wrong, ask Adam. He can check the history.
+- Stock changes are always recorded in the **Ledger**: who entered them and when (receipts, counts, builds, reversals, shipments).
+- On a PO line, **Price/Qty changed by / at** shows who last changed the price or quantity.
+- For anything else, ask Adam. He can see the full history.
 - Comments on a record are visible to everyone.
 
 ## How to scan
