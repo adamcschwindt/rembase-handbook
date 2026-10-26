@@ -36,6 +36,7 @@
 <li>Use <strong>Search</strong> (2) to find a PO number or a part.</li>
 </ol>
 <p>Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list. Each row also shows the product’s scan keys (the codes you can scan).</p>
+<p>A PO line number (like TEST-HB-1-L1) never changes once it is made.</p>
 <p>On the line page, <strong>Cost from last paid. Check it.</strong> means the Unit Cost was filled in from the last price paid. <strong>Price/Qty changed by / at</strong> shows who last changed the price or quantity, and when. See <a href="purchase-orders.html">Purchase Orders</a>.</p>
 <p>During practice this list shows only TEST lines. Real parts are hidden on purpose.</p>
 <p>Until December 1, a receipt on a <strong>real</strong> part is blocked: the receipt line says <strong>Blocked – not posted</strong>, nothing is added to stock, and a flag is made. Practice only on TEST POs.</p>
@@ -79,7 +80,10 @@
 <li><strong>4 – Received By:</strong> choose your name.</li>
 <li><strong>5 – Quantity Received (Units):</strong> how many single units arrived. Use this for most receipts.</li>
 <li><strong>Quantity Received (Cases):</strong> only for full cases. Leave it empty if you typed Units.</li>
-<li><strong>6 – Expiration Date:</strong> the date on the box. Always fill it in if the box has a date.</li>
+<li><strong>6 – Expiration Date:</strong> the date on the box. Always fill it in if the box has a date.
+<ul>
+<li>One receipt has one expiration date. If the boxes have two different dates, make two receipts: one for each date.</li>
+</ul></li>
 <li><strong>Quantity Damaged:</strong> how many are broken. Leave it empty if none.</li>
 <li><strong>Discrepancy Notes:</strong> write what is wrong, if anything.</li>
 <li><strong>7 – Bin Scan</strong> or <strong>Bin (Actual):</strong> the bin where you put the stock. You must fill in one of them. For practice: <strong>TEST-BIN</strong>.
@@ -179,6 +183,7 @@
 <ul>
 <li><strong>Typing cases in the Units box.</strong> Units = single items. Cases = full cases.</li>
 <li><strong>No expiration date.</strong> Without a date the system cannot use the oldest stock first.</li>
+<li><strong>Two expiration dates on one receipt.</strong> Make one receipt for each date.</li>
 <li><strong>Wrong bin.</strong> Choose the bin where the stock really is.</li>
 <li><strong>Receiving an item on the wrong line.</strong> If it is not on the PO, ask Becca to add a Not Ordered line first.</li>
 <li><strong>No bin, or a bin scan that does not match one bin.</strong> The receipt is <strong>not</strong> posted, and a flag appears within about an hour. Do not receive again. <a href="#forgot-the-bin">Add the bin</a>. Then it posts once.</li>

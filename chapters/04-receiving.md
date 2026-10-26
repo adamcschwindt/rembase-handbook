@@ -24,6 +24,8 @@ Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice
 
 Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list. Each row also shows the product's scan keys (the codes you can scan).
 
+A PO line number (like TEST-HB-1-L1) never changes once it is made.
+
 On the line page, **Cost from last paid. Check it.** means the Unit Cost was filled in from the last price paid. **Price/Qty changed by / at** shows who last changed the price or quantity, and when. See [Purchase Orders](purchase-orders.html).
 
 During practice this list shows only TEST lines. Real parts are hidden on purpose.
@@ -71,6 +73,7 @@ There are three ways to open the **Receive** form. All three open the same form.
    - **5 – Quantity Received (Units):** how many single units arrived. Use this for most receipts.
    - **Quantity Received (Cases):** only for full cases. Leave it empty if you typed Units.
    - **6 – Expiration Date:** the date on the box. Always fill it in if the box has a date.
+     - One receipt has one expiration date. If the boxes have two different dates, make two receipts: one for each date.
    - **Quantity Damaged:** how many are broken. Leave it empty if none.
    - **Discrepancy Notes:** write what is wrong, if anything.
    - **7 – Bin Scan** or **Bin (Actual):** the bin where you put the stock. You must fill in one of them. For practice: **TEST-BIN**.
@@ -153,6 +156,7 @@ If **Reverse Result** says:
 
 - **Typing cases in the Units box.** Units = single items. Cases = full cases.
 - **No expiration date.** Without a date the system cannot use the oldest stock first.
+- **Two expiration dates on one receipt.** Make one receipt for each date.
 - **Wrong bin.** Choose the bin where the stock really is.
 - **Receiving an item on the wrong line.** If it is not on the PO, ask Becca to add a Not Ordered line first.
 - **No bin, or a bin scan that does not match one bin.** The receipt is **not** posted, and a flag appears within about an hour. Do not receive again. [Add the bin](#forgot-the-bin). Then it posts once.
