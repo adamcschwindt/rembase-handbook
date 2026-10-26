@@ -19,7 +19,7 @@ def read_chapter(path):
     text = open(path, encoding='utf-8').read()
     m = re.match(r'^---\n(.*?)\n---\n', text, re.S)
     meta = dict(line.split(':', 1) for line in m.group(1).splitlines() if ':' in line)
-    meta = {k.strip(): v.strip() for k, v in meta.items()}
+    meta = {k.strip(): v.strip().strip('"') for k, v in meta.items()}
     meta['order'] = int(meta['order'])
     meta['body_md'] = text[m.end():]
     return meta
