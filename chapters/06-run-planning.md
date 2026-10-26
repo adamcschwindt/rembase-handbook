@@ -2,7 +2,7 @@
 title: Run Planning
 subtitle: Decide what to build next
 slug: run-planning
-order: 7
+order: 8
 ---
 
 ## What this page is for

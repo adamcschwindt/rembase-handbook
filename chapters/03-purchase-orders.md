@@ -2,7 +2,7 @@
 title: Purchase Orders
 subtitle: Make and track orders to vendors
 slug: purchase-orders
-order: 4
+order: 5
 ---
 
 ## What this page is for

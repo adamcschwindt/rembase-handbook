@@ -2,7 +2,7 @@
 title: Glossary
 subtitle: Words used in RemBase
 slug: glossary
-order: 14
+order: 15
 ---
 
 | Word | Meaning |

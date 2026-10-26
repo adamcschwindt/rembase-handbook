@@ -2,7 +2,7 @@
 title: FBA Shipment
 subtitle: Send stock to Amazon and print box labels
 slug: fba-shipment
-order: 9
+order: 10
 ---
 
 ## What this page is for

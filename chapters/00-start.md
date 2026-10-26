@@ -11,6 +11,15 @@ RemBase is our new inventory system. It will replace Fishbowl on **December 1, 2
 
 RemBase has pages for stock, purchase orders, receiving, counting, production runs and Amazon shipments.
 
+## Quick start for your job
+
+Short, click-by-click steps for your own work:
+
+- [Becca: quick start](becca-try-it.html)
+- [Karly: quick start](karly-quick-start.html)
+
+Pages for Chad, Sabith and Vicky are coming.
+
 ## Until December 1: Fishbowl is real, RemBase is practice
 
 ::: warn

@@ -2,7 +2,7 @@
 title: Receiving
 subtitle: Enter what arrived from a vendor
 slug: receiving
-order: 5
+order: 6
 ---
 
 ## What this page is for

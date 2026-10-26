@@ -1,5 +1,5 @@
 ---
-title: "Becca: try it"
+title: "Becca: quick start"
 subtitle: Six short tasks to learn RemBase
 slug: becca-try-it
 order: 1
@@ -220,7 +220,7 @@ More help: [Purchase Orders](purchase-orders.html).
 ## Not in these steps (and why)
 
 - **Ticks on PO Planning and Run Planning, and New Part:** these are shared with real planning. There is nothing safe to practice before December 1. You can look at them.
-- **Listing alerts (Home → Listings):** not in your steps for now.
+- **Listing alerts (Home → Listings):** Karly's task. See [Karly: quick start](karly-quick-start.html).
 - **Cycle count, production runs, Next shipment:** floor jobs (Chad and Sabith).
 - **Claims:** Karly's weekly task.
 - **Ads:** on hold.
