@@ -74,7 +74,7 @@ There are three ways to open the **Receive** form. All three open the same form.
    - **Quantity Damaged:** how many are broken. Leave it empty if none.
    - **Discrepancy Notes:** write what is wrong, if anything.
    - **7 – Bin Scan** or **Bin (Actual):** the bin where you put the stock. You must fill in one of them. For practice: **TEST-BIN**.
-     - **Bin Scan:** scan the bin label into this box.
+     - **Bin Scan:** scan the bin barcode into this box. TEST-BIN's barcode is **#9001#**.
      - **Bin (Actual):** or choose the bin from the list.
 
 2. To choose the bin from the list, click **+ Add record** under **Bin (Actual)**, type the bin name, and click the bin.

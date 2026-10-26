@@ -119,13 +119,14 @@ PO Planning shows what we should order.
   - It covers the next **90 days** of sales.
   - It uses the last **30 days'** sales rate.
   - It is adjusted for the season (more before the holidays).
+  - For a part that goes into packs, the packs' sales count too (**Demand from packs (90d)**).
   - Stock moving between Amazon warehouses counts as stock at Amazon.
 - **Clear Conscience** lens and liquid show **0**. Consigned stock that we can buy any time covers them.
 
 ![PO Planning columns and the Commit button](img/pop-02-columns.png)
 
 - **2 – Planning Override Qty:** Becca types her own number here.
-- **3 – Start New PO:** tick to start a new PO for this part.
+- **3 – Start New PO For Vendor:** tick to start a new PO for this part's vendor.
 - **4 – Planning Add To PO:** tick to add this part to a PO.
 - **5 – Commit / Clear:** goes to the Commit page. **Becca only.**
 

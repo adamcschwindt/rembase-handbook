@@ -23,11 +23,11 @@ order: 1
   - The label buttons on **CC Orders**
 - Everything else in these steps is safe. You do not have to worry about breaking anything.
 
-**Order:** do Tasks 1, 2 and 3 any day. Do the practice tasks in this order: 4 → 5 → 6.
+**When:** Task 1 every morning. Task 2 when you plan an order. Task 3 once a month. Do the practice tasks in this order: 4 → 5 → 6.
 
 ## Task 1 – Morning check on Home (look only)
 
-**Goal:** see today's sales, our Amazon storage space and our aged stock in one place.
+**Goal:** see today's sales and our Amazon storage space.
 
 1. In the RemBase menu, click **Home**, then **Home**.
    - Sign in with your **work** Airtable account if it asks.
@@ -40,9 +40,41 @@ order: 1
    - **OK** (green) = fine.
    - **Watch** (yellow) = 85% of our limit or more.
    - **Over** (red) = 100% of our limit or more. If you see red, tell Adam.
-5. Scroll down to **Aged FBA stock (181+ days)**.
+
+**Done when:** you have looked at all three parts.
+
+More help: [Home](home.html).
+
+## Task 2 – See what to order on PO Planning (look only)
+
+**Goal:** see what RemBase says we should order. Until December 1, you still make the real PO in **Fishbowl**.
+
+1. In the RemBase menu, click **Purchase Orders**, then **PO Planning**.
+   - The parts with the biggest **Recommended Order Qty** are at the top.
+2. To find one part, click **Search** (the magnifying glass) and type the SKU or the product name.
+3. Read **Recommended Order Qty**. This is how many RemBase says we should order.
+   - It covers the next **90 days** of sales, adjusted for the season.
+   - For a part that goes into packs, the packs' sales count too (**Demand from packs (90d)**).
+4. Scroll right. Check what we already have:
+   - **Open PO Qty** = already ordered, not received yet.
+   - **Warehouse On Hand Qty** = in our warehouse.
+   - **FBA On Hand Qty** and **FBA Inbound Qty** = at Amazon, and on the way to Amazon.
+5. Make the real PO in **Fishbowl**, like before.
+6. Do not tick **Start New PO For Vendor** or **Planning Add To PO**. Do not press **Commit / Clear**.
+7. Does a number look wrong? Tell Adam the SKU and the number you expected. Adam fixes RemBase.
+
+**Done when:** you have checked the parts you want to order.
+
+More help: [PO Planning](purchase-orders.html#po-planning-look-only).
+
+## Task 3 – Once a month: check aged stock on Home (look only)
+
+**Goal:** see which of our units at Amazon are getting old (181 days or more).
+
+1. In the RemBase menu, click **Home**, then **Home**.
+2. Scroll down to **Aged FBA stock (181+ days)**.
    - The big number = all our units at Amazon that are 181 days old or more.
-6. Look at the list under it, **Aged stock by brand**.
+3. Look at the list under it, **Aged stock by brand**.
    - Each brand has a group. The grey header line shows that brand's totals.
    - Columns:
      - **Units 181-270 / 271-365 / 365+** = how old.
@@ -50,69 +82,13 @@ order: 1
      - **Est. Storage Next Month** = next month's storage cost.
      - **Sell-through** = how fast it sells.
      - **Recommended Action** and **Recommended Sale Price** = Amazon's advice. Blank = Amazon gave none.
-7. Look at the **Snapshot Date** column.
+4. Look at the **Snapshot Date** column.
    - This is the day Amazon counted the ages, usually a few days before today.
-8. Optional: open a product in the aged list (point at the row and click the **expand** button). In **Your plan**, choose a **Plan** and add a **Plan Note**. You cannot change the numbers.
+5. Optional: open a product in the list (point at the row and click the **expand** button). In **Your plan**, choose a **Plan** and add a **Plan Note**. You cannot change the numbers.
 
-**Done when:** you have looked at all four parts.
+**Done when:** you have looked at every brand group.
 
-More help: [Home](home.html).
-
-## Task 2 – Open the Inventory Pipeline file (look only)
-
-**Goal:** open the newest Inventory Pipeline file for ordering and send-in planning.
-
-1. In the RemBase menu, click **Home**, then **Reports**.
-2. At the top, look at the two counters: **A – Reports late or stale** and **B – Library not refreshed (36 h)**.
-   - Both should be **0**.
-   - If one is not 0, look at the list **Late or stale now** under them and tell Adam which report.
-3. Find the list **Newest file of each report**. Click **All brands** to open that group.
-4. Find the row **Inventory Pipeline**.
-   - **C – Status** should say **OK**.
-5. Make sure you are signed in to Google with your **work** account.
-6. Click **Drive Link** on the Inventory Pipeline row.
-   - The file opens in Google Drive. It is the same file you used before.
-7. To find an older file: scroll down to **Older files (history)** and click **Inventory Pipeline**.
-   - Older files are listed, newest first.
-8. To see one brand only (for reports made per brand): click **Filter**.
-   - Filter changes only your own view.
-   - A number next to **Filter** means a filter is still on. Remove it when you finish.
-
-**Done when:** the newest Inventory Pipeline file is open in Drive.
-
-More help: [Home → Reports](home.html#reports).
-
-## Task 3 – Check listing alerts (look only)
-
-**Goal:** see which listings need you today.
-
-1. In the RemBase menu, click **Home**, then **Listings**.
-2. Look at the four counters:
-   - **G – Open P1 (urgent)**
-   - **H – Open P2**
-   - **I – Not buyable / status problems**
-   - **J – Buy box problems**
-
-   The numbers change every day.
-3. Look at the list **Open P1 alerts (oldest first)**. These are the urgent ones.
-   - P1 = it sells 10 or more a month, and it is out of stock, not active, or the buy box is suppressed while it has stock. For our own brands, also when we lost the buy box.
-4. The **Brand** column shows the brand of each row. The chart **Open alerts by brand** shows how many each brand has.
-5. For each row, read **Alert Type** and **Detail**.
-   - **Detail** says what is wrong or what changed.
-6. Look at **Caused by**.
-   - If it names another alert, this alert happens only because of that one. Fix the main one first.
-7. Click the alert to open it, then click **Amazon Link** to open the listing on Amazon.
-8. Fix the problem your normal way in Seller Central. RemBase does not change Amazon.
-   - The alert closes by itself on a later daily run, after the problem is gone.
-   - After you fix it, open the alert again. In **Your check**, tick **Checked** and write a **Note** (what you did).
-9. Good to know:
-   - **Overwrite** = Amazon shows something different from what we sent. On wholesale brands this is normal, because the brand owner's data wins.
-   - In the list **Content changes, last 7 days**, **Expected** means someone planned that change ahead of time.
-   - Discontinued items and other low-priority alerts (P3) are hidden.
-
-**Done when:** you have looked at every P1 row, and ticked **Checked** on the ones you fixed.
-
-More help: [Home → Listings](home.html#listings).
+More help: [Home → Aged FBA stock](home.html#aged-fba-stock).
 
 ## Task 4 – Practice: finish your first PO, then receive your new PO (TEST only)
 
@@ -153,7 +129,7 @@ TEST component B shows **24** still to receive. That is correct. If you already 
 6. **4 – Received By:** choose **Becca**.
 7. **5 – Quantity Received (Units):** type **24**. Leave **Cases** empty.
 8. **6 – Expiration Date:** type **12/31/2027**.
-9. **7 – Bin:** scan or type **#9001#** into **Bin Scan**, or under **Bin (Actual)** click **+ Add record**, type **TEST-BIN**, and click it.
+9. **7 – Bin Scan:** scan the bin barcode (TEST-BIN = **#9001#**). No scanner? Type **#9001#**.
 10. Check every box again.
 11. Click **8 – Post Receipt**.
     - You should see the receipt under **Received so far**.
@@ -169,7 +145,7 @@ TEST component B shows **24** still to receive. That is correct. If you already 
 16. **Received By:** **Becca**.
 17. **Quantity Received (Units):** **20**.
 18. **Expiration Date:** **12/31/2027**.
-19. **Bin:** **TEST-BIN** (#9001#).
+19. **Bin Scan:** scan the bin barcode (TEST-BIN = **#9001#**).
 20. Click **Post Receipt**.
     - You should see **Derived Status** = **Partial** and **Outstanding Qty** = **3**.
 21. Pretend the vendor confirmed that the last 3 are not coming. (In real work, Chad checks with the vendor, then Vicky ticks this box. You are the backup.)
@@ -182,7 +158,7 @@ TEST component B shows **24** still to receive. That is correct. If you already 
 **Part 2 – More practice: receive TEST-PRACTICE-BECCA-2**
 
 22. Search **TEST-PRACTICE-BECCA-2** on **Receiving**.
-23. Receive **TEST-BECCA-A** and **TEST-BECCA-B** (24 each) the same way, into **TEST-BIN**.
+23. Receive **TEST-BECCA-A** and **TEST-BECCA-B** (24 each) the same way. Bin: scan **#9001#** (TEST-BIN).
 
 If you make a mistake, you may press **Reverse this receipt**, then receive again. See [Fix a wrong receipt](receiving.html#fix-a-wrong-receipt).
 
@@ -235,7 +211,7 @@ More help: [Receiving](receiving.html).
     - The PDF now shows your new line. RemBase makes the PDF by itself.
 12. Do not change **Status**. It changes by itself (Issued / Partial / Fulfilled).
 13. **Do not** press **Email PO**.
-14. Extra practice (optional): your new line now shows on **Receiving**. You can receive it as in Task 4 (10 units, TEST-BIN).
+14. Extra practice (optional): your new line now shows on **Receiving**. You can receive it as in Task 4 (10 units, bin **#9001#**).
 
 **Done when:** your new line shows in the PO PDF.
 
@@ -243,7 +219,8 @@ More help: [Purchase Orders](purchase-orders.html).
 
 ## Not in these steps (and why)
 
-- **PO Planning, Run Planning, New Part:** the ticks are shared with real planning, and there is nothing safe to practice before December 1. You can look at them.
+- **Ticks on PO Planning and Run Planning, and New Part:** these are shared with real planning. There is nothing safe to practice before December 1. You can look at them.
+- **Listing alerts (Home → Listings):** not in your steps for now.
 - **Cycle count, production runs, Next shipment:** floor jobs (Chad and Sabith).
 - **Claims:** Karly's weekly task.
 - **Ads:** on hold.

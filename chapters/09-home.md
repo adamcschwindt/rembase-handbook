@@ -94,7 +94,7 @@ If a report says **Late** or **Stale**, tell Adam.
 
 ## Aged FBA stock
 
-**Aged FBA stock (181+ days)** is on the **Home** page (menu: **Home** → **Home**).
+**Aged FBA stock (181+ days)** is on the **Home** page (menu: **Home** → **Home**). Check it **once a month**.
 
 ![Aged FBA stock: the number of aged units and the list by brand, with every amount and ASIN blacked out](img/home-08-aged.png)
 
