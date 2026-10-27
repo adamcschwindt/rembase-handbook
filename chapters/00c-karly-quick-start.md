@@ -86,13 +86,15 @@ More help: [Fix a case number](claims.html#fix-a-case-number).
 5. Look at **Caused by**. If it names another alert, fix that one first.
 6. Click the alert to open it. Click **Amazon Link** to see the listing on Amazon.
 7. Fix the problem in Seller Central. RemBase does not change Amazon.
+   - **Before you change anything in Seller Central,** add a row to the **Planned Listing Changes** sheet. Fill in **Date planned** (today), **ASIN**, **Field** (Title, Bullets, Images, Variation, Price or Other), **What we are changing** and **Who** (your name). Then make the change. Cannot open the sheet? Ask Adam.
+   - **A price change is needed?** Do not change it. Write the price you suggest in **Note** and tell Becca. Becca or Adam says yes.
    - Not sure how to fix it? Ask Adam.
 
 Good to know:
 
 - The alert closes by itself on a later daily run, after the problem is gone.
 - **Overwrite** = Amazon shows something different from what we sent. On wholesale brands this is normal.
-- In **Content changes, last 7 days**, **Expected** means someone planned that change.
+- In **Content changes, last 7 days**, **Expected** means someone planned that change (a row in the **Planned Listing Changes** sheet).
 
 **Done when:** you have looked at every P1 row.
 
@@ -104,7 +106,7 @@ More help: [Home → Listings](home.html#listings).
 
 1. Open the alert again (**Home** → **Listings** → click the alert).
 2. In **Your check**, tick **Checked**.
-3. In **Note**, write what you did. Example: "Fixed the price in Seller Central."
+3. In **Note**, write what you did. Example: "Suggested a lower price to Becca."
 
 **Done when:** every alert you fixed is ticked **Checked** with a **Note**.
 
