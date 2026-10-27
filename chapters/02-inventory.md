@@ -2,7 +2,7 @@
 title: Inventory
 subtitle: Find a part and see its stock
 slug: inventory
-order: 4
+order: 5
 ---
 
 ## What this page is for

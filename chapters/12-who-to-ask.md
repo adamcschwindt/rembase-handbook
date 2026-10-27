@@ -2,14 +2,14 @@
 title: Who to ask
 subtitle: Get help fast
 slug: who-to-ask
-order: 16
+order: 17
 ---
 
 Look in the handbook first. Then ask the person for that area.
 
 | Area | Ask |
 |---|---|
-| Warehouse: bins, counts, builds, labels | **Chad** |
+| Warehouse: bins, counts, builds, labels, Clear Conscience (CC) orders | **Chad** |
 | Payments and receiving costs | **Vicky** |
 | System problems and bugs (something in RemBase does not work) | **Adam** |
 | Planning decisions and Becca's approval buttons | **Becca** |

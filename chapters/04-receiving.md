@@ -2,7 +2,7 @@
 title: Receiving
 subtitle: Enter what arrived from a vendor
 slug: receiving
-order: 6
+order: 7
 ---
 
 ## What this page is for
@@ -17,23 +17,29 @@ Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice
 
 ## The Receiving page
 
-![Receiving list with the practice lines](img/rcv-01-list.png)
+![Receiving list grouped by PO, with the practice lines](img/rcv-01-list.png)
 
 1. Click **Receiving** in the menu (1).
 2. Use **Search** (2) to find a PO number or a part.
 
-Each row is one PO line that still has something to receive. Click a row to see what was ordered and what has arrived. When everything on a line has arrived, the line leaves this list. Each row also shows the product's scan keys (the codes you can scan).
+The list is grouped by PO (3). Each row is one PO line, with the product name and its **Derived Status**. The list shows the lines that still have something to receive, and the lines received in the last 14 days. Click a row to see what was ordered and what has arrived.
 
 A PO line number (like TEST-HB-1-L1) never changes once it is made.
 
-On the line page, **Cost from last paid. Check it.** means the Unit Cost was filled in from the last price paid. **Price/Qty changed by / at** shows who last changed the price or quantity, and when. See [Purchase Orders](purchase-orders.html).
+On the line page:
+
+- **Outstanding Qty** = how many are still to come.
+- **Receipt status** warns you when a receipt on this line is not posted.
+- **Case math** warns you when the part has no **Units Per Case**. Then receive in **Units**.
+
+**Cost from last paid. Check it.** means the Unit Cost was filled in from the last price paid. **Price/Qty changed by / at** shows who last changed the price or quantity, and when. See [Purchase Orders](purchase-orders.html).
 
 During practice this list shows only TEST lines. Real parts are hidden on purpose.
 
-Until December 1, a receipt on a **real** part is blocked: the receipt line says **Blocked – not posted**, nothing is added to stock, and a flag is made. Practice only on TEST POs.
+Until December 1, a receipt on a **real** part is blocked: its **Post Status** says **Blocked (Fishbowl is stock master)**, nothing is added to stock, and a flag is made. Practice only on TEST POs.
 
 ::: warn
-**Always pick the bin.** If a receipt has no bin, nothing is added to stock, and a flag appears within about an hour. See [Forgot the bin](#forgot-the-bin).
+**Always pick the bin.** If a receipt has no bin, nothing is added to stock. Its **Post Status** says **Not posted – needs bin**. See [Forgot the bin](#forgot-the-bin).
 :::
 
 ## Task: receive a PO line
@@ -73,11 +79,12 @@ There are three ways to open the **Receive** form. All three open the same form.
    - **5 – Quantity Received (Units):** how many single units arrived. Use this for most receipts.
    - **Quantity Received (Cases):** only for full cases. Leave it empty if you typed Units.
    - **6 – Expiration Date:** the date on the box. Always fill it in if the box has a date.
+     - You can still fix the date on the receipt before it is posted.
      - One receipt has one expiration date. If the boxes have two different dates, make two receipts: one for each date.
    - **Quantity Damaged:** how many are broken. Leave it empty if none.
    - **Discrepancy Notes:** write what is wrong, if anything.
    - **7 – Bin Scan** or **Bin (Actual):** the bin where you put the stock. You must fill in one of them. For practice: **TEST-BIN**.
-     - **Bin Scan:** scan the bin barcode into this box. TEST-BIN's barcode is **#9001#**.
+     - **Bin Scan:** scan the bin label, or type the bin name. For practice: scan **#9001#** or type **TEST-BIN**.
      - **Bin (Actual):** or choose the bin from the list.
 
 2. To choose the bin from the list, click **+ Add record** under **Bin (Actual)**, type the bin name, and click the bin.
@@ -91,12 +98,27 @@ There are three ways to open the **Receive** form. All three open the same form.
 
 The receipt appears under **Received so far** (and under **Receipt Lines** on the PO line):
 
-![Quantities and the receipt list after receiving](img/rcv-05-done.png)
+![Quantities, Receipt status and Case math on a received line, and the receipt list](img/rcv-05-done.png)
 
 - **Qty Received** goes up.
 - **Outstanding Qty** goes down.
 - **Derived Status** says **Partial** or **Fulfilled**.
-- **Received so far** lists each receipt with the bin, the expiration date, who received it, and **Received At**: the date and time in Eastern time.
+- **Received so far** lists each receipt with the bin, the expiration date, who received it, **Received At** (Eastern time) and **Post Status**.
+
+**Post Status** on each receipt:
+
+| Post Status | What it means |
+|---|---|
+| **Posted** | The stock is in the bin. |
+| **Not posted – needs bin** | No bin yet. [Add the bin](#forgot-the-bin). |
+| **Not posted – problem** | **Post problem** on the receipt says what is wrong, for example "Bin 'X' not found. Scan the bin label again, or type the bin name". |
+| **Cancelled (not posted)** | Cancelled before it was posted. No stock changed. |
+| **Reversed** | It was posted, then taken back out. |
+| **⚠ Expiry changed after posting: reverse and receive again** | Someone changed the date after posting. Reverse it and receive again. |
+| **Blocked (Fishbowl is stock master)** | A real part before December 1. Nothing posted. |
+| **Historical** | An old receipt copied from Fishbowl. |
+
+**Entry warning** on a receipt is a warning only. The receipt is still accepted. For example: the expiration date is soon, or the part has no **Units Per Case** (receive in **Units**, or ask Becca to set Units Per Case).
 
 The stock is now on the part page in [Inventory](inventory.html).
 
@@ -108,28 +130,35 @@ The stock is now on the part page in [Inventory](inventory.html).
 
 ## Forgot the bin
 
-Already saved a receipt with no bin? **Do not receive again.**
+Already saved a receipt with no bin, or with a wrong bin? Its **Post Status** says **Not posted**. **Do not receive again.**
 
-1. Open the receipt: **Receiving** → your PO line → **Received so far** → click the receipt with no bin.
-2. In the box **Add the bin (receipt not posted yet)**, type or scan the bin barcode and press **Enter**. For practice, TEST-BIN's barcode is **#9001#**.
+1. Open the receipt: **Receiving** → your PO line → **Received so far** → click the receipt.
+2. In the box **Add the bin (receipt not posted yet)**, scan the bin label or type the bin name, and press **Enter**. For practice: **#9001#** or **TEST-BIN**.
 3. The receipt posts once.
 
 ## Fix a wrong receipt
 
-Anyone may press **Reverse this receipt**.
+Anyone in the warehouse may press **Reverse or cancel this receipt**.
+
+- A receipt that is **not posted** yet is **cancelled**. No stock changes.
+- A receipt that is **posted** is **reversed**. The stock is taken back out.
 
 1. Open the receipt: **Receiving** → the PO line → **Received so far** → click the receipt.
-2. Press **Reverse this receipt**.
-3. Read **Reverse Result**. **OK** means the stock was taken back out, the receipt is marked **Reversed**, and a flag was made.
-4. Receive the line again with the right numbers. A new receipt is made (…-R2).
+2. In **Reverse Reason**, type why. You must write a reason.
+3. Press **Reverse or cancel this receipt** and confirm.
+4. Read **Reverse Result**. **OK** means it worked.
+5. Receive the line again with the right numbers. A new receipt is made (…-R2).
+
+Wrong expiration date? Before the receipt is posted, just fix the date on the receipt. After it is posted, reverse it and receive again.
 
 If **Reverse Result** says:
 
 | Message | What it means |
 |---|---|
+| **REFUSED: type why in the Reverse Reason box first** | Write a reason, then press the button again. |
 | **REFUSED … Ask a manager** | The stock was already used or moved. Nothing changed. Tell Becca or Chad. |
-| **REFUSED: this receipt was never posted to stock** | Nothing to reverse. Use [Add the bin](#forgot-the-bin) instead. |
 | **REFUSED … came from Fishbowl** | Until December 1, fix it in Fishbowl. |
+| **REFUSED: this receipt was already cancelled** or **already reversed** | Nothing to do. |
 
 ## Wrong amounts on a PO
 
@@ -159,7 +188,7 @@ If **Reverse Result** says:
 - **Two expiration dates on one receipt.** Make one receipt for each date.
 - **Wrong bin.** Choose the bin where the stock really is.
 - **Receiving an item on the wrong line.** If it is not on the PO, ask Becca to add a Not Ordered line first.
-- **No bin, or a bin scan that does not match one bin.** The receipt is **not** posted, and a flag appears within about an hour. Do not receive again. [Add the bin](#forgot-the-bin). Then it posts once.
+- **No bin, or a bin that is not found.** The receipt is **not** posted. Do not receive again. [Add the bin](#forgot-the-bin). Then it posts once.
 - **Receiving twice.** Look at **Received so far** before you receive.
-- **Saving a receipt with no quantity.** RemBase raises a flag. Enter the receipt again with the right quantity.
-- **A wrong receipt.** Press **Reverse this receipt**, then receive again. See [Fix a wrong receipt](#fix-a-wrong-receipt).
+- **Saving a receipt with no quantity.** It is not posted. Cancel it (see [Fix a wrong receipt](#fix-a-wrong-receipt)), then receive again with the right quantity.
+- **A wrong receipt.** Write a **Reverse Reason**, press **Reverse or cancel this receipt**, then receive again. See [Fix a wrong receipt](#fix-a-wrong-receipt).

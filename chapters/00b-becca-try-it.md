@@ -23,25 +23,23 @@ order: 1
   - The label buttons on **CC Orders**
 - Everything else in these steps is safe. You do not have to worry about breaking anything.
 
-**When:** Task 1 every morning. Task 2 when you plan an order. Task 3 once a month. Do the practice tasks in this order: 4 → 5 → 6.
+**When:** Task 1 every morning. Task 2 when you plan an order. Task 3 every week and every month. Do the practice tasks in this order: 4 → 5 → 6.
 
-## Task 1 – Morning check on Home (look only)
+## Task 1 – Every morning: sales and reports (look only)
 
-**Goal:** see today's sales and our Amazon storage space.
+**Goal:** see today's sales and check that every report came in.
 
 1. In the RemBase menu, click **Home**, then **Home**.
    - Sign in with your **work** Airtable account if it asks.
 2. Look at the first box, **Today so far**.
    - This is today's Amazon sales, so far. It updates every hour.
    - It is not the full day. **D – Note** says how much is an estimate.
-3. Scroll down to **Sales (Amazon.com)**. Look at **Last full day sales**.
-   - This is yesterday's final number.
-4. Scroll down to **FBA storage space**. Look at **E – Level**.
-   - **OK** (green) = fine.
-   - **Watch** (yellow) = 85% of our limit or more.
-   - **Over** (red) = 100% of our limit or more. If you see red, tell Adam.
+3. In the RemBase menu, click **Home**, then **Reports**.
+4. Look at the two counters: **A – Reports late or stale** and **B – Library not refreshed (36 h)**.
+   - Both should be **0**.
+   - If one is not 0, look at the list **Late or stale now** under them and tell Adam which report.
 
-**Done when:** you have looked at all three parts.
+**Done when:** you have looked at **Today so far** and both counters.
 
 More help: [Home](home.html).
 
@@ -67,14 +65,24 @@ More help: [Home](home.html).
 
 More help: [PO Planning](purchase-orders.html#po-planning-look-only).
 
-## Task 3 – Once a month: check aged stock on Home (look only)
+## Task 3 – Every week and every month (look only)
 
-**Goal:** see which of our units at Amazon are getting old (181 days or more).
+**Every week (for example on Monday):**
 
-1. In the RemBase menu, click **Home**, then **Home**.
-2. Scroll down to **Aged FBA stock (181+ days)**.
+1. In the RemBase menu, click **Home**, then **Home**. Scroll down to **FBA storage space**. Look at **E – Level**.
+   - **OK** (green) = fine.
+   - **Watch** (yellow) = 85% of our limit or more.
+   - **Over** (red) = 100% of our limit or more. If you see red, tell Adam.
+2. In the RemBase menu, click **Home**, then **Reports**.
+3. In the list **Newest file of each report**, find **Sales by Brand**, **Restock Pressure** and **Stockout Cost**. Click **All brands** if that group is closed.
+4. Click **Drive Link** on each row. The file opens in Google Drive.
+
+**Every month:**
+
+5. On **Reports**, find **Subscribe & Save**. Click **Drive Link**.
+6. In the RemBase menu, click **Home**, then **Home**. Scroll down to **Aged FBA stock (181+ days)**.
    - The big number = all our units at Amazon that are 181 days old or more.
-3. Look at the list under it, **Aged stock by brand**.
+7. Look at the list under it, **Aged stock by brand**.
    - Each brand has a group. The grey header line shows that brand's totals.
    - Columns:
      - **Units 181-270 / 271-365 / 365+** = how old.
@@ -82,22 +90,22 @@ More help: [PO Planning](purchase-orders.html#po-planning-look-only).
      - **Est. Storage Next Month** = next month's storage cost.
      - **Sell-through** = how fast it sells.
      - **Recommended Action** and **Recommended Sale Price** = Amazon's advice. Blank = Amazon gave none.
-4. Look at the **Snapshot Date** column.
+8. Look at the **Snapshot Date** column.
    - This is the day Amazon counted the ages, usually a few days before today.
-5. Optional: open a product in the list (point at the row and click the **expand** button). In **Your plan**, choose a **Plan** and add a **Plan Note**. You cannot change the numbers.
+9. Optional: open a product in the list (point at the row and click the **expand** button). In **Your plan**, choose a **Plan** and add a **Plan Note**. You cannot change the numbers.
 
-**Done when:** you have looked at every brand group.
+**Done when:** you have opened the weekly files (every week) and the monthly file and aged stock (every month).
 
-More help: [Home → Aged FBA stock](home.html#aged-fba-stock).
+More help: [Home → Reports](home.html#reports), [Home → Aged FBA stock](home.html#aged-fba-stock).
 
 ## Task 4 – Practice: finish your first PO, then receive your new PO (TEST only)
 
 **Goal:** finish your first practice PO, then receive your new one.
 
 ::: warn
-**Always pick the bin.** If a receipt has no bin, nothing is added to stock, and a flag appears within about an hour.
+**Always pick the bin.** If a receipt has no bin, nothing is added to stock. Its **Post Status** says **Not posted – needs bin**.
 
-**Already saved a receipt with no bin?** Do **not** receive again. Open the receipt: **Receiving** → your PO line → **Received so far** → click the receipt with no bin. In the box **Add the bin (receipt not posted yet)**, type or scan the bin barcode and press **Enter**. For practice, TEST-BIN's barcode is **#9001#**. It posts once.
+**Already saved a receipt with no bin?** Do **not** receive again. Open the receipt: **Receiving** → your PO line → **Received so far** → click the receipt with no bin. In the box **Add the bin (receipt not posted yet)**, type **TEST-BIN** (or scan **#9001#**) and press **Enter**. It posts once.
 :::
 
 Pick the line by product name (**TEST component A** or **TEST component B**), not by number.
@@ -129,12 +137,12 @@ TEST component B shows **24** still to receive. That is correct. If you already 
 6. **4 – Received By:** choose **Becca**.
 7. **5 – Quantity Received (Units):** type **24**. Leave **Cases** empty.
 8. **6 – Expiration Date:** type **12/31/2027**.
-9. **7 – Bin Scan:** scan the bin barcode (TEST-BIN = **#9001#**). No scanner? Type **#9001#**.
+9. **7 – Bin Scan:** scan the bin label, or type the bin name **TEST-BIN**.
 10. Check every box again.
 11. Click **8 – Post Receipt**.
     - You should see the receipt under **Received so far**.
     - **Derived Status** = **Fulfilled**, and **Outstanding Qty** = 0.
-    - The line leaves the Receiving list. That is correct.
+    - The receipt's **Post Status** = **Posted**.
 
 *TEST component A: receive part, then close it short*
 
@@ -145,7 +153,7 @@ TEST component B shows **24** still to receive. That is correct. If you already 
 16. **Received By:** **Becca**.
 17. **Quantity Received (Units):** **20**.
 18. **Expiration Date:** **12/31/2027**.
-19. **Bin Scan:** scan the bin barcode (TEST-BIN = **#9001#**).
+19. **Bin Scan:** **TEST-BIN** (or scan **#9001#**).
 20. Click **Post Receipt**.
     - You should see **Derived Status** = **Partial** and **Outstanding Qty** = **3**.
 21. Pretend the vendor confirmed that the last 3 are not coming. (In real work, Chad checks with the vendor, then Vicky ticks this box. You are the backup.)
@@ -153,16 +161,16 @@ TEST component B shows **24** still to receive. That is correct. If you already 
 
       ![PO line with Line Type and the Close this line short box marked](img/rcv-09-short.png)
 
-    - You should see **Derived Status** = **Closed Short** and **Outstanding Qty** = 0. The line leaves the list.
+    - You should see **Derived Status** = **Closed Short** and **Outstanding Qty** = 0.
 
 **Part 2 – More practice: receive TEST-PRACTICE-BECCA-2**
 
 22. Search **TEST-PRACTICE-BECCA-2** on **Receiving**.
-23. Receive **TEST-BECCA-A** and **TEST-BECCA-B** (24 each) the same way. Bin: scan **#9001#** (TEST-BIN).
+23. Receive **TEST-BECCA-A** and **TEST-BECCA-B** (24 each) the same way, into **TEST-BIN**.
 
-If you make a mistake, you may press **Reverse this receipt**, then receive again. See [Fix a wrong receipt](receiving.html#fix-a-wrong-receipt).
+Made a mistake? Open the receipt. Type why in **Reverse Reason**. Press **Reverse or cancel this receipt**. Then receive again. See [Fix a wrong receipt](receiving.html#fix-a-wrong-receipt).
 
-**Done when:** all lines of both POs have left the Receiving list.
+**Done when:** every line of both POs says **Fulfilled** or **Closed Short**.
 
 More help: [Receiving](receiving.html).
 
@@ -211,7 +219,7 @@ More help: [Receiving](receiving.html).
     - The PDF now shows your new line. RemBase makes the PDF by itself.
 12. Do not change **Status**. It changes by itself (Issued / Partial / Fulfilled).
 13. **Do not** press **Email PO**.
-14. Extra practice (optional): your new line now shows on **Receiving**. You can receive it as in Task 4 (10 units, bin **#9001#**).
+14. Extra practice (optional): your new line now shows on **Receiving**. You can receive it as in Task 4 (10 units, **TEST-BIN**).
 
 **Done when:** your new line shows in the PO PDF.
 

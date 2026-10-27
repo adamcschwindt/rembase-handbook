@@ -2,7 +2,7 @@
 title: Claims
 subtitle: Get paid back for units Amazon lost or damaged
 slug: claims
-order: 12
+order: 13
 ---
 
 ## What this page is for

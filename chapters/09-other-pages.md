@@ -2,7 +2,7 @@
 title: Other pages
 subtitle: Approvals, Flags, Returns Grading, Backorders, CC Orders
 slug: other-pages
-order: 13
+order: 14
 ---
 
 ## Approvals
@@ -66,7 +66,7 @@ This page is read-only. Click a line to see its PO.
 
 **What it is for:** orders that Clear Conscience sends us for **their** customers. We pack and ship them.
 
-**Who uses it:** Sabith and Becca.
+**Who uses it:** Chad owns CC orders. Sabith, Becca and Vicky also use this page.
 
 ![CC Orders list, customer data hidden](img/ccord-01-list.png)
 

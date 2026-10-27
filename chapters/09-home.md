@@ -2,7 +2,7 @@
 title: Home
 subtitle: Reports, today's sales, Amazon storage space and listing alerts
 slug: home
-order: 11
+order: 12
 ---
 
 ## What this page is for
@@ -14,6 +14,17 @@ order: 11
 This chapter covers five parts: **Reports**, **Today so far**, **FBA storage space**, **Aged FBA stock** and **Listings**.
 
 **These parts only show information.** Nothing here changes stock or orders.
+
+## Who checks what
+
+| Who | When | What |
+|---|---|---|
+| **Becca** | Every morning | **Today so far**, and the **Reports** counters A and B |
+| **Becca** | Every week | **FBA storage space**, and the reports **Sales by Brand**, **Restock Pressure** and **Stockout Cost** |
+| **Becca** | Every month | The report **Subscribe & Save**, and **Aged FBA stock** |
+| **Karly** | Twice a week | **Listings** |
+
+Page owners: **Listings** and **Customer Service** = Karly. **Ads**, **Campaigns**, **Bid suggestions** and **Automation** = Adam.
 
 ## Reports
 

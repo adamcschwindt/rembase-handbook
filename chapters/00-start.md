@@ -17,8 +17,9 @@ Short, click-by-click steps for your own work:
 
 - [Becca: quick start](becca-try-it.html)
 - [Karly: quick start](karly-quick-start.html)
+- [Vicky: quick start](vicky-quick-start.html)
 
-Pages for Chad, Sabith and Vicky are coming.
+Pages for Chad and Sabith are coming.
 
 ## Until December 1: Fishbowl is real, RemBase is practice
 
