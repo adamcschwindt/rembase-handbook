@@ -39,18 +39,19 @@ To work on a flag:
 
 **What it is for:** Amazon sends products back to us (removal orders). We check each item and decide what to do with it.
 
-**Who uses it:** Sabith.
+**Who uses it:** Sabith. He grades the returns here now.
 
-![Returns grading page, order ids hidden](img/ret-01-grading.png)
+![Returns Grading: one returned item with its grading boxes marked, removal order id blacked out](img/ret-01-grading.png)
 
-The list shows each returned product and how many we expect. After December 1, for each item:
+The list shows each returned product and how many we expect. Click an item. Then:
 
 1. Count the items. Type the number in **Received Qty** (1).
 2. Choose a **grade** (2).
-3. Choose a **Disposition** (3): what we do with it.
-4. If you keep it, choose the **Putaway Bin** (4) and the **Expiration Date**.
+3. **Wrong item came back?** Choose the grade **Wrong item received**. In **What came back** (3), write what Amazon sent instead: the name, the brand, and the barcode if you can see it. Add photos in **Damage Photos** (A).
+4. Choose a **Disposition** (4): what we do with it.
+5. If you keep it, choose the **Putaway Bin** (5) and the **Expiration Date**.
 
-Before December 1, look only. Do not type on this page unless Becca asks.
+Before December 1, grading does not change stock. Real stock moves stay in Fishbowl.
 
 ## Backorders
 
