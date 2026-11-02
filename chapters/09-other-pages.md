@@ -69,6 +69,26 @@ This page is read-only. Click a line to see its PO.
 
 **Who uses it:** Chad owns CC orders. Sabith, Becca and Vicky also use this page.
 
-![CC Orders list, customer data hidden](img/ccord-01-list.png)
+![CC Orders list (To do tab), customer data hidden](img/ccord-01-list.png)
 
-Before December 1, look only. Real CC orders are still handled the old way.
+The buttons work on **real** orders. Only Chad or Adam presses them.
+
+### The buttons, in order
+
+Open an order. **Get labels** is at the top. The other buttons are in the **...** menu next to it. Every answer shows in **Bot Result**.
+
+1. **Take over in RemBase.** Wait up to 5 minutes.
+2. **Release.**
+3. **Get labels.** It buys **real** FedEx labels. A big order can take about 30 minutes.
+4. **Mark shipped** after the truck leaves. Do not use it yet. It works after the CC change-over. Adam will tell you.
+
+- **Retry labels** and **Void labels:** only when **Bot Result** says so.
+- **Cancel order** is red. You cannot undo it here.
+
+### Rules for now
+
+- Press **Get labels** only **once**.
+- After **Get labels**, wait **10 minutes** before you press **Void labels** or **Cancel order**.
+- An **error** in Bot Result? Wait 10 minutes. Check Shippo. Do **not** press **Retry labels**.
+- **Check needed** after **Void labels**? Stop. Tell Adam.
+- **Never** press **Void labels** on an order that has shipped.
