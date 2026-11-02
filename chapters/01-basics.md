@@ -76,16 +76,19 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
    - **Count in** a bin, or **Count this bin**, opens a count of that bin.
 
 ::: warn
-Until December 1, a count on a **real** bin is practice. The heading says **Practice — nothing posted**, and there is no Save button. Real counts stay in Fishbowl.
+**Count real bins here now.** A count on a **real** bin saves. The page says **Counts in this bin save in RemBase. Adam copies them to Fishbowl.** Adam checks each count. Then it is copied to Fishbowl. You do **not** count that bin again in Fishbowl.
 :::
 
-**Practice count on TEST-BIN (phone):**
+**Count a bin (phone):**
 
-1. Scan **TEST-BIN**. Tap **Count this bin**.
+1. Scan the bin. Tap **Count this bin**. (To practice, use **TEST-BIN**.)
 2. Scan each item. Each scan adds 1.
-3. If a line is right, tap **Matches**. To type a number, tap the line.
-4. Tap **Finish**. You see the differences.
-5. Tap **Save count to RemBase** and answer the question. It says **Saved – posting**. RemBase posts the stock changes next.
+3. The phone may ask **which expiry?** Choose the expiration date printed on the item. Not sure? Tap **Not sure**. That item is not saved. Count it again.
+4. If a line is right, tap **Matches**. To type a number, tap the line.
+5. Tap **Finish**. You see the differences.
+6. Tap **Save count to RemBase** and answer the question.
+   - **Real bin:** it says **Saved. Adam copies it to Fishbowl.**
+   - **TEST-BIN:** it says **Saved – posting**. RemBase posts the stock changes next.
 
 **Messages you may see:**
 

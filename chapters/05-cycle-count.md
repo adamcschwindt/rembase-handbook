@@ -12,9 +12,9 @@ A **cycle count** means you count what is really in one bin and compare it with 
 **Who uses it:** Chad and Sabith.
 
 ::: warn
-Before December 1, do real counts in **Fishbowl**. In RemBase, practice only on **TEST-BIN**.
+**Count real bins with RemBase Scan** on your phone. See [How to scan](basics.html#how-to-scan). The count saves. Adam checks it. Then it is copied to Fishbowl. You do **not** count that bin again in Fishbowl.
 
-If you complete a count session on a **real** bin before December 1, RemBase changes **no** stock. It makes one flag ("Practice count…").
+On **this** page, before December 1, practice only on **TEST-BIN**. A count session you complete here on a **real** bin changes **no** stock and is **not** copied to Fishbowl. It makes one flag ("Practice count…").
 :::
 
 A count session with status **Failed – floor app** or **Cancelled – duplicate**: never complete it. Count the bin again.

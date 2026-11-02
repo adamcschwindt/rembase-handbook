@@ -27,6 +27,8 @@ Pages for Chad and Sabith are coming.
 **Do all real work in Fishbowl.**
 
 Use RemBase only to practice.
+
+**One exception:** count real bins with **RemBase Scan**. See [How to scan](basics.html#how-to-scan).
 :::
 
 - RemBase is copied from Fishbowl every night.

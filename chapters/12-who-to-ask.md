@@ -27,6 +27,6 @@ Look in the handbook first. Then ask the person for that area.
 
 ## Remember
 
-- Until December 1, real work goes in **Fishbowl**.
+- Until December 1, real work goes in **Fishbowl**. Bin counts: **RemBase Scan**.
 - Practice only with **TEST** items.
 - Not sure? **Stop and ask.** It is always OK to ask.
