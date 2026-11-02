@@ -30,6 +30,14 @@ They are at the bottom of the Purchase Orders list. They email or delete every s
 
 See [Production Run](production-run.html).
 
+## CC Orders buttons (Chad or Adam only)
+
+- **Get labels** – buys real FedEx labels.
+- **Void labels** – cancels labels that were bought.
+- **Cancel order** – cancels the order. You cannot undo it here.
+
+See [CC Orders](other-pages.html#cc-orders).
+
 ## Planning buttons (Becca only)
 
 - **Commit PO Planning** and **Clear PO Planning Selections**
