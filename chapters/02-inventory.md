@@ -93,7 +93,7 @@ Only **Becca** and **Adam** add new parts. Everyone else: ask Becca to add the p
 - **Open PO Qty** is how many are ordered but not received yet.
 - **FBA Inbound Qty** is how many are on the way to Amazon.
 
-**Often bought with** (a field on each part in **Parts**): the top 3 products that Amazon customers bought together with this product last month. It comes from Amazon's **Market Basket** report and updates about the 4th of each month.
+**Often bought with** (on the part page, under **Vendor**; read only): the top 3 products that Amazon customers bought together with this product last month. It comes from Amazon's **Market Basket** report and updates about the 4th of each month.
 
 - **[ours, N in FBA]** means it is one of our products, with N at Amazon. **[ours, 0 stock]** means it is ours, with no stock.
 - Grocery-delivery items are left out.

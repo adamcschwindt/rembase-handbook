@@ -62,15 +62,21 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 
    ![Floor page with Qty Built and cartons](img/pr-03-floor.png)
 
-3. Type the number you built in **Qty Built** (6).
-4. In **Run Cartons**, click the **+** (7) to add a carton row.
-5. Fill in the row. Press **Tab** to go to the next box:
+3. Read the **Pick list** (above **Run Cartons**). For each part it shows:
+   - **Component Part SKU:** the part.
+   - **Qty To Consume:** how many to take.
+   - **Chosen Lot Label:** the expiration date, the lot, how many are left, and the bin.
+
+   Take that lot from that bin. You cannot change the pick list here.
+4. Build. Type the number you built in **Qty Built** (6).
+5. In **Run Cartons**, click the **+** (7) to add a carton row.
+6. Fill in the row. Press **Tab** to go to the next box:
    - **Boxes:** how many boxes of this size.
    - **Units Per Box:** how many units in each box.
    - **Length**, **Width**, **Height:** box size in inches.
    - **Weight Per Box (lb):** weight of one full box in pounds.
-6. If you have boxes of different sizes, add one row per size.
-7. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
+7. If you have boxes of different sizes, add one row per size.
+8. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
 
 ## What you should see
 
