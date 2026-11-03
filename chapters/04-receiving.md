@@ -13,6 +13,8 @@ When boxes arrive from a vendor, you **receive** them. Receiving puts the stock 
 
 ::: warn
 Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA-2, -CHAD-2 or -SABITH-2). The pictures use TEST-HB-1.
+
+You can also practice on your phone: see [Receive a delivery with RemBase Scan](basics.html#receive-a-delivery-with-rembase-scan).
 :::
 
 ## The Receiving page
