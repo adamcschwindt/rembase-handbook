@@ -22,12 +22,12 @@ Before December 1, enter real runs in **Fishbowl**. In RemBase, practice only on
 | Sub-page | What it is for |
 |---|---|
 | **Production Run** | The office view: plan, components and lots. |
-| **Production Run – Floor** | The floor view: what you built, cartons and pallet. |
+| **Production Run - Floor** | The floor view: what you built, cartons and pallet. |
 
 ## Task: find a run and check its parts
 
 1. Click **Production Run** in the menu.
-2. Click the run in the list (1). The list is sorted by due date.
+2. Click the run in the list (1). **Rush** runs come first, then the soonest due date.
 
    ![Production run page for the practice run](img/pr-01-office.png)
 
@@ -46,9 +46,18 @@ Before December 1, enter real runs in **Fishbowl**. In RemBase, practice only on
 If **Run Components** is empty, RemBase has no recipe for this product. Do not build. Tell Chad.
 :::
 
+## Task: change the due date or put a run first (Becca)
+
+1. Click **Production Run** in the menu.
+2. Click the run in the list.
+3. To change the due date: change **Due date (change if needed)** near the top. The **Due Date** lower down follows by itself.
+4. To put the run first: tick **Rush**.
+
+Both run lists (**Production Run** and **Production Run - Floor**) show Rush runs first. On the Floor page you see **Rush**, but you cannot change it.
+
 ## Task: enter what you built (Floor page)
 
-1. Click **Production Run – Floor** in the menu.
+1. Click **Production Run - Floor** in the menu.
 2. Click your run in the list.
 
    ![Floor page with Qty Built and cartons](img/pr-03-floor.png)
