@@ -90,6 +90,11 @@ Only **Becca** and **Adam** add new parts. Everyone else: ask Becca to add the p
 - **Scan Keys** are the codes you can scan to find this part (for example the UPC and the Amazon label).
 - **Amazon ASIN** is the ASIN of the part's **active** Amazon listing. If a part has two active Amazon SKUs, the **Ship as** SKU's ASIN comes first. Blank means RemBase has no active ASIN for the part yet. You can still search by ASIN.
 - **Max Available to Build** is **not** stock. For a pack, it is how many packs the parts can make. For a single part that goes into packs, it is what is left after the packs take their share. See [Run Planning](run-planning.html).
+- **Recipe** (on a pack or kit): the parts in one unit, with **Qty Per Unit** for each part.
+- **Used in packs** (on a single part): the packs that use this part, and how many per pack.
+- **Box Part** is the box this product ships in. **Boxes Per Unit** is how many boxes one unit uses (0.5 = one box for two units).
+- **Standard Labor Minutes Per Unit** and **Standard Prep Cost Per Unit**: the minutes of work and the cost of supplies (tape, bags, labels) to make one unit.
+- These recipe fields are read only. To change a recipe, ask Adam.
 - **Open PO Qty** is how many are ordered but not received yet.
 - **FBA Inbound Qty** is how many are on the way to Amazon.
 
