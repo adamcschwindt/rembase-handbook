@@ -12,7 +12,7 @@ A **cycle count** means you count what is really in one bin and compare it with 
 **Who uses it:** Chad and Sabith.
 
 ::: warn
-**Count real bins with RemBase Scan** on your phone. See [How to scan](basics.html#how-to-scan). The count saves. Adam checks it. Then it is copied to Fishbowl. You do **not** count that bin again in Fishbowl.
+**Count real bins with RemBase Scan** on your phone. See [How to scan](basics.html#how-to-scan). The count saves and goes to Fishbowl automatically (within 5 min). A big change waits for Becca or Adam first. You do **not** count that bin again in Fishbowl.
 
 On **this** page, before December 1, practice only on **TEST-BIN**. A count session you complete here on a **real** bin changes **no** stock and is **not** copied to Fishbowl. It makes one flag ("Practice count…").
 :::

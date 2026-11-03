@@ -76,7 +76,7 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
    - **Count in** a bin, or **Count this bin**, opens a count of that bin.
 
 ::: warn
-**Count real bins here now.** A count on a **real** bin saves. The page says **Counts in this bin save in RemBase. Adam copies them to Fishbowl.** Adam checks each count. Then it is copied to Fishbowl. You do **not** count that bin again in Fishbowl.
+**Count real bins here now.** A count on a **real** bin saves. The page says **Counts in this bin save in RemBase and go to Fishbowl automatically (within 5 min).** You do **not** count that bin again in Fishbowl.
 :::
 
 **Count a bin (phone):**
@@ -87,7 +87,7 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
 4. If a line is right, tap **Matches**. To type a number, tap the line.
 5. Tap **Finish**. You see the differences.
 6. Tap **Save count to RemBase** and answer the question.
-   - **Real bin:** it says **Saved. Adam copies it to Fishbowl.**
+   - **Real bin:** it says **Saved. Sent to Fishbowl automatically (within 5 min).** Keep RemBase Scan open (you can count the next bin). A few minutes later you see **In Fishbowl ✓**.
    - **TEST-BIN:** it says **Saved – posting**. RemBase posts the stock changes next.
 
 **Messages you may see:**
@@ -100,6 +100,14 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
 | **No connection… kept on this phone** | Wait. It sends again by itself. |
 | **Keep this page open: this phone cannot store the count.** | Keep the page open until it is saved. |
 | **Sign in again…** | Sign in. The count waits for you. |
+
+**After a real count, a red box may show at the top.** It names the bin. It stays until you tap **OK**.
+
+| Red box | What to do |
+|---|---|
+| **Held for a person: big change. Becca/Adam will check it.** | Tap **OK**. Becca or Adam checks it. Do not change it in Fishbowl. |
+| **Not sent to Fishbowl: this lot is not set up in Fishbowl. Adam sees it in Flags.** | Tap **OK**. Adam fixes it. Do not change it in Fishbowl. |
+| **Not changed in Fishbowl: the stock changed there too. Adam sees it in Flags.** | Tap **OK**. Adam fixes it. Do not change it in Fishbowl. |
 
 ## Common mistakes
 
