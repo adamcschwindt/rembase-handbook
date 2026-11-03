@@ -65,8 +65,10 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
 1. Open the **RemBase Scan** bookmark.
 2. Scan a code in one of three ways:
    - Pull the trigger on the Bluetooth scanner. You do not need to tap anything first.
-   - Tap the box and type the code. (TEST-BIN's code is **#9001#**.)
+   - Tap **Type**. Type the first 2 letters or numbers of the code. A list shows. Tap the right one. It works like a scan. You can also type part of the name. (TEST-BIN's code is **#9001#**.)
    - Tap **Scan with camera**.
+
+   When you count a bin, the list shows the items RemBase expects in that bin first. When you receive, it shows only the items on that PO.
 3. Read the result:
    - **An item** shows its bins and how many are in each, its lots and expiration dates, and its open POs. A date in **red** expires in less than 90 days.
    - **A bin** shows what is in it.
