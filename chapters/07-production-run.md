@@ -115,7 +115,12 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
    The 110% limit is in Settings. Becca can change it.
 
 - **Real runs:** only when **Build in RemBase (real)** is ticked. Without the tick, RemBase refuses: Finish Result says **NOT DONE: this run uses real parts …** and nothing moves. *(after Adam's update, this week)*
-- **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. First type the reason in **Run Reverse Reason** on the run. RemBase copies it into **Finish Result**. *(after Adam's update, this week)*
+- **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **Production Run** page, not on the Floor page:
+  1. Click **Production Run** in the menu. Click the run.
+  2. At the top, type why in **Run Reverse Reason (type it before Reverse Run)**.
+  3. Press **Reverse Run** **once**. Read **Finish Result**.
+
+  RemBase copies your reason into **Finish Result**. Without a reason, Reverse Run is refused. *(after Adam's update, this week)*
 
 ## Common mistakes
 
