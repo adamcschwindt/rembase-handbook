@@ -84,6 +84,34 @@ Only **Becca** and **Adam** add new parts. Everyone else: ask Becca to add the p
 
 **Always use New Part.** A part made any other way (the data grid, an import, or **Create "…"** in a part list) is left out of planning, and Becca gets a flag.
 
+## Task: change a recipe (Becca and Adam only)
+
+::: warn
+Only **Becca** and **Adam** can change a recipe. RemBase refuses everyone else.
+:::
+
+1. Click **Inventory** in the menu. Open the product (the pack or kit).
+2. Scroll to **Recipe changes**. Click **Change recipe**.
+3. A form opens. Choose the **Component Part**.
+4. Choose **Change**:
+   - **Change quantity:** the part is already in the recipe.
+   - **Add component:** a new part for the recipe.
+5. Type **New Qty Per Unit**. It must be more than 0.
+6. Type the **Reason**. You must fill it in.
+7. Send the form.
+8. Wait a few seconds. In **Recipe changes**, read **Status** and **Result**:
+   - **Applied** – the recipe is changed.
+   - **Refused** – nothing was changed. **Result** says why.
+
+| Result says | What to do |
+|---|---|
+| **Run … is open for …: finish or reverse it first** | A run for this product is not finished. Finish or reverse it. Then try again. |
+| **Only Becca or Adam can change a recipe** | Ask Becca. |
+| **… Use "Add component"** or **… Use "Change quantity"** | Choose the other **Change** and send the form again. |
+| **Write the reason for the change first** | Fill in **Reason**. |
+
+To **remove** a part from a recipe, ask Adam.
+
 ## Words on this page
 
 - **Where (bins)** shows the bins that hold this part.
@@ -94,7 +122,7 @@ Only **Becca** and **Adam** add new parts. Everyone else: ask Becca to add the p
 - **Used in packs** (on a single part): the packs that use this part, and how many per pack.
 - **Box Part** is the box this product ships in. **Boxes Per Unit** is how many boxes one unit uses (0.5 = one box for two units).
 - **Standard Labor Minutes Per Unit** and **Standard Prep Cost Per Unit**: the minutes of work and the cost of supplies (tape, bags, labels) to make one unit.
-- These recipe fields are read only. To change a recipe, ask Adam.
+- These recipe fields are read only. To change a recipe, use **Change recipe** (Becca and Adam only). See [Change a recipe](#task-change-a-recipe-becca-and-adam-only).
 - **Open PO Qty** is how many are ordered but not received yet.
 - **FBA Inbound Qty** is how many are on the way to Amazon.
 
