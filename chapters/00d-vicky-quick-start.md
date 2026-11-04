@@ -67,6 +67,29 @@ More help: [Wrong amounts on a PO](receiving.html#wrong-amounts-on-a-po).
 
 More help: [Wrong amounts on a PO](receiving.html#wrong-amounts-on-a-po).
 
+## Task 5 – Close a damaged receipt
+
+**Goal:** tell RemBase if the vendor gave a credit for damaged units.
+
+When the floor receives damaged units, they go to the **DAMAGED** bin, and you get an Asana task.
+
+1. Ask the vendor for a credit.
+2. Open the link in your Asana task. The flag opens.
+3. At the bottom, choose **Damaged Outcome**:
+   - **Credit received** – the vendor credits the damaged units.
+   - **No credit - scrap** – we write them off.
+4. **Credit Reference:** type the credit memo number (you may leave it empty).
+5. **Credited Units:** how many units the vendor credited. Leave it empty if the vendor credited all of them. The rest are written off.
+6. RemBase does the rest. Read **Damaged Close Result**: it says what was done, or why it is still waiting.
+
+**Done when:** **Damaged Close Result** says what was done.
+
+## Good to know
+
+- **Packaging (boxes and other supplies):** these orders get a PO in RemBase. Soon RemBase makes them by itself from the vendor's order email.
+- **Boxes and packaging are Inventory Asset**, with their freight. The bill never goes to COGS. A box becomes part of the product cost when it is used in a run, and COGS when the product sells.
+- **QuickBooks:** from **November 7** at the earliest (Adam tells you the day), RemBase sends bills and journals to QuickBooks. Their numbers start with **RB**. Attach the vendor invoice to each bill.
+
 ## Not your job (who does it)
 
 - **Receiving, counts, runs:** Chad and Sabith.
