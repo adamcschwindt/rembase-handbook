@@ -24,7 +24,7 @@ Everything else stays the same until December 1: other real work goes in **Fishb
 A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 
 ::: warn
-**Adam tells you by Monday, November 9** if prep runs are in RemBase next week. If he says no, do prep in Fishbowl as today.
+**Prep runs are in RemBase from next week.** Do **not** make them in Fishbowl.
 :::
 
 ![Run Planning list and its main columns](img/rp-01-list.png)
