@@ -73,7 +73,7 @@
 <li><strong>Qty Received By Amazon</strong> (3): how many Amazon has counted.</li>
 <li><strong>Qty Remaining:</strong> how many Amazon has not counted yet.</li>
 <li><strong>FBA Shipment Lines</strong> (4): one line per product.</li>
-<li><strong>Export Transfer For Fishbowl</strong>, <strong>Fishbowl Transfer File</strong>, <strong>Fishbowl Transfer Note:</strong> for the Fishbowl transfer after <strong>Mark as sent</strong>. Do not tick it yet. Adam tells you when.</li>
+<li><strong>Export Transfer For Fishbowl</strong>, <strong>Fishbowl Transfer File</strong>, <strong>Fishbowl Transfer Note:</strong> the Fishbowl transfer for this shipment. See <a href="#task-make-the-fishbowl-transfer-file">Make the Fishbowl transfer file</a>.</li>
 </ul></li>
 </ol>
 <h2 id="the-next-shipment-page">The Next shipment page</h2>
@@ -121,6 +121,46 @@ The files:
 <li>Put one box label on every box. Do not cover other labels.</li>
 <li>Put the four pallet labels on the four sides of each pallet.</li>
 </ol>
+<h2 id="task-make-the-fishbowl-transfer-file">Task: make the Fishbowl transfer file</h2>
+<p>Do this right after <strong>Mark as sent</strong>, on the shipment you just sent. Never on an older shipment: it may already be in Fishbowl.</p>
+<ol type="1">
+<li>Click <strong>FBA Shipment → Sent to Amazon</strong>.</li>
+<li>Click the shipment you just sent.</li>
+<li>Tick <strong>Export Transfer For Fishbowl</strong> <strong>once</strong>.</li>
+<li>Wait 5 minutes. The tick clears by itself.</li>
+<li>Read <strong>Fishbowl Transfer Note</strong>:</li>
+</ol>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fishbowl Transfer Note says</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Exported …</strong></td>
+<td>The file is in <strong>Fishbowl Transfer File</strong>. If Amazon split the shipment, there is one file for each FBA shipment ID. Tell Adam.</td>
+</tr>
+<tr class="even">
+<td><strong>CHECK the stock first</strong> (under <strong>Exported</strong>)</td>
+<td>The warehouse may not have enough. Tell Adam.</td>
+</tr>
+<tr class="odd">
+<td><strong>NOT exported …</strong></td>
+<td>No file was made. Tell Adam.</td>
+</tr>
+<tr class="even">
+<td><strong>The file could not be attached …</strong></td>
+<td>Tick the box again in a few minutes.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Adam</strong> imports each file in Fishbowl (<strong>Import &gt; Transfer Order</strong>). Do <strong>not</strong> make the transfer in Fishbowl yourself.</p>
 <h2 id="sent-from-this-plan">Sent from this plan</h2>
 <p><strong>FBA Shipment → Sent from this plan</strong> lists each product line that went out with the last plan: how many units, when, and which Amazon shipment it went in. It is read-only.</p>
 <figure>

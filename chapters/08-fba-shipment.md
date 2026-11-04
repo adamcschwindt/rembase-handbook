@@ -44,7 +44,7 @@ order: 11
    - **Qty Received By Amazon** (3): how many Amazon has counted.
    - **Qty Remaining:** how many Amazon has not counted yet.
    - **FBA Shipment Lines** (4): one line per product.
-   - **Export Transfer For Fishbowl**, **Fishbowl Transfer File**, **Fishbowl Transfer Note:** for the Fishbowl transfer after **Mark as sent**. Do not tick it yet. Adam tells you when.
+   - **Export Transfer For Fishbowl**, **Fishbowl Transfer File**, **Fishbowl Transfer Note:** the Fishbowl transfer for this shipment. See [Make the Fishbowl transfer file](#task-make-the-fishbowl-transfer-file).
 
 ## The Next shipment page
 
@@ -87,6 +87,25 @@ Below, the parts of the page are numbered in the order you use them:
 4. The file opens. Print it.
 5. Put one box label on every box. Do not cover other labels.
 6. Put the four pallet labels on the four sides of each pallet.
+
+## Task: make the Fishbowl transfer file
+
+Do this right after **Mark as sent**, on the shipment you just sent. Never on an older shipment: it may already be in Fishbowl.
+
+1. Click **FBA Shipment → Sent to Amazon**.
+2. Click the shipment you just sent.
+3. Tick **Export Transfer For Fishbowl** **once**.
+4. Wait 5 minutes. The tick clears by itself.
+5. Read **Fishbowl Transfer Note**:
+
+| Fishbowl Transfer Note says | What to do |
+|---|---|
+| **Exported …** | The file is in **Fishbowl Transfer File**. If Amazon split the shipment, there is one file for each FBA shipment ID. Tell Adam. |
+| **CHECK the stock first** (under **Exported**) | The warehouse may not have enough. Tell Adam. |
+| **NOT exported …** | No file was made. Tell Adam. |
+| **The file could not be attached …** | Tick the box again in a few minutes. |
+
+**Adam** imports each file in Fishbowl (**Import > Transfer Order**). Do **not** make the transfer in Fishbowl yourself.
 
 ## Sent from this plan
 
