@@ -29,11 +29,11 @@ Before December 1, a **real** run is done in RemBase only when Becca ticks **Bui
 1. Click **Production Run** in the menu.
 2. Click the run in the list (1). **Rush** runs come first, then the soonest due date.
 
-   ![Production run page for the practice run](img/pr-01-office.png)
+   ![Production Run page for a TEST run](img/pr-01-office.png)
 
 3. Check **Qty Planned** (2). This is how many to build.
 4. Check **Output Part**. This is the product you build.
-5. **Run Cartons** (3) will show the boxes after you enter them on the Floor page.
+5. **Run Cartons** (lower on the page) will show the boxes after you enter them on the Floor page.
 6. Scroll down to **Run Components** (4).
 
    ![Components the run will use, with lots](img/pr-02-components.png)
@@ -62,7 +62,7 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 1. Click **Production Run - Floor** in the menu.
 2. Click your run in the list.
 
-   ![Floor page with Qty Built and cartons](img/pr-03-floor.png)
+   ![Floor page with Qty Built and the Pick list](img/pr-03-floor.png)
 
 3. Read the **Pick list** (above **Run Cartons**). For each part it shows:
    - **Component Part SKU:** the part.
@@ -72,7 +72,7 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 
    Take that lot from that bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. You cannot change anything else in the pick list.
 4. Build. Type the number you built in **Qty Built** (6).
-5. In **Run Cartons**, click the **+** (7) to add a carton row.
+5. In **Run Cartons** (below the **Pick list**), click the **+** to add a carton row.
 6. Fill in the row. Press **Tab** to go to the next box:
    - **Boxes:** how many boxes of this size.
    - **Units Per Box:** how many units in each box.

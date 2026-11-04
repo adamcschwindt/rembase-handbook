@@ -48,7 +48,7 @@ A run with a recipe (a kit or a pack) has the same steps.
 
 **Build the run (Chad, Sabith):**
 
-![Floor page with Qty Built and cartons](img/pr-03-floor.png)
+![Floor page with Qty Built and the Pick list](img/pr-03-floor.png)
 
 1. Click **Production Run - Floor** in the menu. **Rush** runs are at the top.
 2. Click the run. A real run shows **Build in RemBase (real)** ticked, under **Rush**. You cannot change it. *(after Adam's update, this week)* A prep run shows **one** part in the **Pick list**: the product itself.
