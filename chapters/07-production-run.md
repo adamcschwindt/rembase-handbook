@@ -64,6 +64,7 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 
 1. Click **Production Run - Floor** in the menu.
 2. Click your run in the list.
+   The product card (**Output Part**) shows **Box To Use** (which box, or **No box**) and **Packing Notes** (what else to pack, for example labels). Tap the card to open the product.
 
    ![Floor page with Qty Built and the Pick list](img/pr-03-floor.png)
 

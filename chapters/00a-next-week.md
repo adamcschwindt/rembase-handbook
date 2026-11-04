@@ -55,6 +55,7 @@ A run with a recipe (a kit or a pack) has the same steps.
 
 1. Click **Production Run - Floor** in the menu. **Rush** runs are at the top.
 2. Click the run. A prep run shows **one** part in the **Pick list**: the product itself.
+   The product card (**Output Part**) shows **Box To Use** (which box, or **No box**) and **Packing Notes** (what else to pack, for example labels). Tap the card to open the product.
 3. Read the **Pick list**: each part (**Component Part SKU**), how many to take (**Qty To Consume**), and which lot and bin (**Chosen Lot Label**). RemBase chose the lot that expires first. Take **that** lot from **that** bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. **The Pick list is empty?** Do **not** press **Finish Run**. Tell Becca.
 4. Build. Type the number you built in **Qty Built**. In **Run Performed By**, pick your name.
 5. In **Run Cartons**, add one row for each box size: **Boxes**, **Units Per Box**, size and **Weight Per Box (lb)**.
