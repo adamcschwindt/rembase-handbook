@@ -38,7 +38,7 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 5. Click **Production Run** in the menu. Click the new run.
 6. Check **Run Components**. A prep run has **one** row: the product itself. (A run with a recipe shows its parts.) If **Run Components** is empty, stop and tell Adam.
 7. Check **Chosen Lot** on that row. RemBase chose the lot that expires first. The warehouse can choose another lot on the Floor page. If **Chosen Lot** is empty, there was no stock when you pressed Commit. The run cannot be finished until a lot is chosen.
-8. **Due date (change if needed)** is 7 days from today. Change it if needed. Do not leave it empty.
+8. **Date Needed (change if needed)** is 7 days from today. Change it if needed. Do not leave it empty.
 9. If the run is urgent, tick **Rush**. Rush runs are at the top of the Floor page.
 10. Tick **Build in RemBase (real)** (under **Rush**). Only a ticked run can be finished for real. Never tick a run that was made in Fishbowl.
 
@@ -54,8 +54,8 @@ A run with a recipe (a kit or a pack) has the same steps.
 
 1. Click **Production Run - Floor** in the menu. **Rush** runs are at the top.
 2. Click the run. A real run shows **Build in RemBase (real)** ticked, under **Rush**. You cannot change it. A prep run shows **one** part in the **Pick list**: the product itself.
-3. Read the **Pick list**: each part (**Component Part SKU**), how many to take (**Qty To Consume**), and which lot and bin (**Chosen Lot Label**). RemBase chose the lot that expires first. Take **that** lot from **that** bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show.
-4. Build. Type the number you built in **Qty Built**.
+3. Read the **Pick list**: each part (**Component Part SKU**), how many to take (**Qty To Consume**), and which lot and bin (**Chosen Lot Label**). RemBase chose the lot that expires first. Take **that** lot from **that** bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. **The Pick list is empty?** Do **not** press **Finish Run**. Tell Becca.
+4. Build. Type the number you built in **Qty Built**. In **Run Performed By**, pick your name.
 5. In **Run Cartons**, add one row for each box size: **Boxes**, **Units Per Box**, size and **Weight Per Box (lb)**.
 6. Press **Finish Run** **once**. Read **Finish Result**.
    - **DONE …** – the run is finished. A prep run says **DONE: Moved …**: the items moved to the pallet.
@@ -67,7 +67,7 @@ A run with a recipe (a kit or a pack) has the same steps.
    |---|---|
    | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
-   | **this run has no Date Needed …** | Ask Becca to fill in **Due date (change if needed)**. Then press **Finish Run** again. |
+   | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
    | **this run uses real parts …** | The run is not ticked **Build in RemBase (real)**. Stop. Ask Becca. |
    | **… the builds mirror is OFF …** | Stop. Tell Adam. |
 7. Do **not** enter this run in Fishbowl.

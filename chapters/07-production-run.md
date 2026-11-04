@@ -50,7 +50,7 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 
 1. Click **Production Run** in the menu.
 2. Click the run in the list.
-3. To change the due date: change **Due date (change if needed)** near the top. The **Due Date** lower down follows by itself.
+3. To change the due date: change **Date Needed (change if needed)** near the top. The **Due Date** lower down follows by itself.
 4. To put the run first: tick **Rush**.
 
 Both run lists (**Production Run** and **Production Run - Floor**) show Rush runs first. On the Floor page you see **Rush**, but you cannot change it.
@@ -71,15 +71,18 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
    - **Chosen Lot Label:** the expiration date, the lot, how many are left, and the bin.
 
    Take that lot from that bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. You cannot change anything else in the pick list.
+
+   **The Pick list is empty?** RemBase has no recipe for this product. Do **not** press **Finish Run**. Tell Becca.
 4. Build. Type the number you built in **Qty Built** (6).
-5. In **Run Cartons** (below the **Pick list**), click the **+** to add a carton row.
-6. Fill in the row. Press **Tab** to go to the next box:
+5. In **Run Performed By** (under **Qty Built**), pick your name.
+6. In **Run Cartons** (below the **Pick list**), click the **+** to add a carton row.
+7. Fill in the row. Press **Tab** to go to the next box:
    - **Boxes:** how many boxes of this size.
    - **Units Per Box:** how many units in each box.
    - **Length**, **Width**, **Height:** box size in inches.
    - **Weight Per Box (lb):** weight of one full box in pounds.
-7. If you have boxes of different sizes, add one row per size.
-8. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
+8. If you have boxes of different sizes, add one row per size.
+9. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
 
 ## What you should see
 
@@ -108,7 +111,7 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
    |---|---|
    | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
-   | **this run has no Date Needed …** | Ask Becca to fill in **Due date (change if needed)**. Then press **Finish Run** again. |
+   | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
    | **this run uses real parts …** | The run is not ticked **Build in RemBase (real)**. Stop. Ask Becca. |
    | **… the builds mirror is OFF …** | Stop. Tell Adam. |
 
