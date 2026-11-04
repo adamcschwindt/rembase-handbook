@@ -12,7 +12,7 @@ A **production run** is one job where we build a product from its parts. Example
 **Who uses it:** Chad and Sabith on the floor. Becca plans the runs.
 
 ::: warn
-Before December 1, a **real** run is done in RemBase only when Becca ticks **Build in RemBase (real)** on it. Then do it **only** in RemBase, not in Fishbowl. See [Next week in RemBase](next-week.html). Every other real run: in **Fishbowl**. *(after Adam's update, this week)* To practice, use **your own practice run** (TEST-PRACTICE-RUN-BECCA, -CHAD or -SABITH).
+Before December 1, a **real** run is done in RemBase only when Becca ticks **Build in RemBase (real)** on it. Then do it **only** in RemBase, not in Fishbowl. See [Next week in RemBase](next-week.html). Every other real run: in **Fishbowl**. To practice, use **your own practice run** (TEST-PRACTICE-RUN-BECCA, -CHAD or -SABITH).
 
 **Press Finish Run on a real run only when Build in RemBase (real) is ticked.** You **may** press it on your own practice run.
 :::
@@ -102,7 +102,7 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
    - **DONE …** – the run is finished.
    - **NOT DONE: …** – nothing was changed. The message says what to fix, for example "add the cartons" or "the cartons hold 4 units but Qty built is 2". Fix it and press Finish Run again.
 
-   **Finish Run may refuse. Then read Finish Result:** *(after Adam's update, this week)*
+   **Finish Run may refuse. Then read Finish Result:**
 
    | Finish Result says | What to do |
    |---|---|
@@ -114,13 +114,13 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 
    The 110% limit is in Settings. Becca can change it.
 
-- **Real runs:** only when **Build in RemBase (real)** is ticked. Without the tick, RemBase refuses: Finish Result says **NOT DONE: this run uses real parts …** and nothing moves. *(after Adam's update, this week)*
+- **Real runs:** only when **Build in RemBase (real)** is ticked. Without the tick, RemBase refuses: Finish Result says **NOT DONE: this run uses real parts …** and nothing moves.
 - **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **Production Run** page, not on the Floor page:
   1. Click **Production Run** in the menu. Click the run.
   2. At the top, type why in **Run Reverse Reason (type it before Reverse Run)**.
   3. Press **Reverse Run** **once**. Read **Finish Result**.
 
-  RemBase copies your reason into **Finish Result**. Without a reason, Reverse Run is refused. *(after Adam's update, this week)*
+  RemBase copies your reason into **Finish Result**. Without a reason, Reverse Run is refused.
 
 ## Common mistakes
 
