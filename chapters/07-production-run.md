@@ -65,9 +65,10 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 3. Read the **Pick list** (above **Run Cartons**). For each part it shows:
    - **Component Part SKU:** the part.
    - **Qty To Consume:** how many to take.
+   - **Chosen Lot:** the lot to take. RemBase chose the lot that expires first.
    - **Chosen Lot Label:** the expiration date, the lot, how many are left, and the bin.
 
-   Take that lot from that bin. You cannot change the pick list here.
+   Take that lot from that bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. You cannot change anything else in the pick list.
 4. Build. Type the number you built in **Qty Built** (6).
 5. In **Run Cartons**, click the **+** (7) to add a carton row.
 6. Fill in the row. Press **Tab** to go to the next box:
@@ -108,4 +109,4 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 - **Pressing Finish Run twice.** Press once and read **Finish Result**.
 - **Units do not match Qty Built.** Check Boxes × Units Per Box.
 - **Weight of the whole stack instead of one box.** Type the weight of one box.
-- **Taking a different lot than Chosen Lot.** Use the lot RemBase picked, or tell Chad.
+- **Taking a different lot without changing Chosen Lot.** Change **Chosen Lot** first, or take the lot RemBase picked.
