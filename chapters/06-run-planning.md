@@ -35,7 +35,7 @@ The numbers update every hour. During the update some rows can show different ti
 - **Staged for commit** lists the products you ticked. Check it first.
 - **Commit Run Planning** makes production runs from the ticked rows right away.
 - **Clear Run Planning** removes all the ticks. **Staged for commit** is then empty.
-- **Planned runs** lists the runs, with their **Run Stage**.
+- **Planned runs** lists the open runs, with their **Run Stage**. TEST runs are not shown here.
 
 The page says: **Commit makes the runs right away. Check 'Staged for commit' first. Clear empties the staged list.**
 
