@@ -21,6 +21,7 @@ When boxes arrive from a vendor, you **receive** them. Receiving puts the stock 
 2. Scan the PO number on the packing slip, or tap the PO.
 3. Scan each item, or tap its line.
 4. Type how many (units or cases). Pick the expiry date if the item has one. Scan the bin label.
+   Some are broken? Also type how many are damaged. Damaged units go to the **DAMAGED** bin by themselves. Vicky gets a task to ask the vendor for a credit.
 5. Tap **Save receipt**. It says **Saved ✓ … RemBase is posting it.** Then: **Saved … RemBase copies it to Fishbowl.**
 6. The same item with another date: after you save, tap **Same item, another date**.
 7. When the delivery is done: tap **Done with this delivery (tell Becca)**. The phone shows what is still due. Tap **Yes, tell Becca**.
@@ -122,7 +123,7 @@ This is the office way, on a computer. The floor uses RemBase Scan. Receive each
    - **6 – Expiration Date:** the date on the box. Always fill it in if the box has a date.
      - You can still fix the date on the receipt before it is posted.
      - One receipt has one expiration date. If the boxes have two different dates, make two receipts: one for each date.
-   - **Quantity Damaged:** how many are broken. Leave it empty if none.
+   - **Quantity Damaged:** how many are broken. Leave it empty if none. Damaged units go to the **DAMAGED** bin by themselves. Vicky gets a task to ask the vendor for a credit.
    - **Discrepancy Notes:** write what is wrong, if anything.
    - **7 – Bin Scan** or **Bin (Actual):** the bin where you put the stock. You must fill in one of them. For practice: **TEST-BIN**.
      - **Bin Scan:** scan the bin label, or type the bin name. For practice: scan **#9001#** or type **TEST-BIN**.
