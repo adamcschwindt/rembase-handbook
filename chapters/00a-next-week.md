@@ -71,6 +71,8 @@ A run with a recipe (a kit or a pack) has the same steps.
 
 See [Production Run](production-run.html) for more.
 
+**Move stock between bins:** use **RemBase Scan**. See [Move stock with RemBase Scan](basics.html#move-stock-with-rembase-scan). Do **not** move it again in Fishbowl.
+
 **Count bins:** use **RemBase Scan**, the same as now. Each count goes to Fishbowl by itself. A **red box** after a count means it waits for Becca or Adam: tap **OK**. See [How to scan](basics.html#how-to-scan).
 
 **Receive deliveries:** the same way as today. Adam tells you when receiving with **RemBase Scan** is on. To practice now, see [Receive a delivery with RemBase Scan](basics.html#receive-a-delivery-with-rembase-scan).

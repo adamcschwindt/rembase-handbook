@@ -76,6 +76,7 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
    - **Open in Inventory** opens the part in RemBase.
    - **Receive: PO …** opens that PO line, so you can receive it.
    - **Count in** a bin, or **Count this bin**, opens a count of that bin.
+   - **Move stock from this bin** moves stock to another bin. See [Move stock with RemBase Scan](#move-stock-with-rembase-scan).
 
 ::: warn
 **Count real bins here now.** A count on a **real** bin saves. The page says **Counts in this bin save in RemBase and go to Fishbowl automatically (within 5 min).** You do **not** count that bin again in Fishbowl.
@@ -110,6 +111,29 @@ On the **Home** pages (Home, Listings, Reports), you can also click a **number t
 | **Held for a person: big change. Becca/Adam will check it.** | Tap **OK**. Becca or Adam checks it. Do not change it in Fishbowl. |
 | **Not sent to Fishbowl: this lot is not set up in Fishbowl. Adam sees it in Flags.** | Tap **OK**. Adam fixes it. Do not change it in Fishbowl. |
 | **Not changed in Fishbowl: the stock changed there too. Adam sees it in Flags.** | Tap **OK**. Adam fixes it. Do not change it in Fishbowl. |
+
+### Move stock with RemBase Scan
+
+Move stock from one bin to another on your phone. RemBase copies the move to Fishbowl. You do **not** move it again in Fishbowl.
+
+1. Scan the bin the stock is in now. Tap **Move stock from this bin**.
+2. Tap the item you move. A line that says **Cannot be moved here.** cannot be moved. Ask Adam.
+3. Type how many you move. **All …** moves everything you can.
+4. Scan the bin you move it **to**. (Or type the bin code and tap **Use this bin**.)
+5. Check the line: item × how many → bin. Tap **Save move**.
+6. It says **Saved … Fishbowl moves it within 5 min.** A few minutes later you see **Moved … in Fishbowl ✓**.
+
+| Message | What to do |
+|---|---|
+| **That is …, the bin you move FROM. Scan the bin you move TO.** | Scan the other bin. |
+| **Bin … is not in Fishbowl. Pick another bin, or tell Adam.** | Pick another bin, or tell Adam. |
+| **… are the same place in Fishbowl. Pick another bin.** | Pick another bin. |
+| **Not saved: the stock in this bin changed. Open the bin again.** | Open the bin again. Move it again. |
+| **Not saved. Move it again. Adam sees why in Flags.** | Move it again. |
+| **Not saved: moves are not switched on for this item. Move it in Fishbowl.** | Move this item in Fishbowl. |
+| **No connection. Tap Send again (it saves once).** | Tap **Send again**. |
+| **Sent. RemBase has not confirmed it yet. Do NOT move it again** | Do **not** move it again. Open the bin in a minute. |
+| **Not moved in Fishbowl: …** | Tell Adam. Do **not** move it in Fishbowl. |
 
 ### Receive a delivery with RemBase Scan
 
