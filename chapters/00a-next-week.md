@@ -29,6 +29,8 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 
 ![Run Planning list and its main columns](img/rp-01-list.png)
 
+**First:** open **Run Planning – Commit** and press **Clear Run Planning** **once**. This removes old ticks, so Commit makes only today's runs.
+
 1. Click **Run Planning** in the menu. Find the product. Check **Recommended Send Qty**.
 2. To use your own number, type it in **Run Planning Override Qty**.
 3. Tick **Run Planning Add To Run**.
