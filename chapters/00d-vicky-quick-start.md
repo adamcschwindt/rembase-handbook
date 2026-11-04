@@ -40,7 +40,7 @@ More help: [Purchase Orders](purchase-orders.html).
 4. Read **Discrepancy Notes**. It says what is wrong.
 5. Compare with the vendor's bill.
 
-Right now this list shows practice lines only. Real receiving moves to RemBase on December 1.
+Real deliveries are received in RemBase now (since November 4), so real lines show here.
 
 **Done when:** you have checked the lines of the PO on the bill.
 

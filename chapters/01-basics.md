@@ -137,20 +137,7 @@ Move stock from one bin to another on your phone. RemBase copies the move to Fis
 
 ### Receive a delivery with RemBase Scan
 
-::: warn
-**Practice only for now.** Use your own practice PO and your TEST parts. On a real part the phone says **Practice only: real receipts go in Fishbowl until Adam turns on floor receipts.** Receive real deliveries in Fishbowl until Adam tells you Scan receiving is on.
-:::
-
-1. Tap **Receive a delivery**.
-2. Scan the PO number on the packing slip, or tap the PO.
-3. Scan each item, or tap its line.
-4. Type how many. Pick the expiry date if the item has one. Scan the bin label.
-5. Tap **Save receipt**. A TEST part says **Saved ✓**. RemBase posts it.
-6. The same item with another date: after you save, tap **Same item, another date**.
-7. An item that is **not on the PO**: the phone asks. Tap **Report an extra (tells Becca)**. Type how many, scan the bin (the hold shelf is fine) and tap **Send to Becca**. Nothing is received in RemBase. Becca adds it.
-8. When the delivery is done: tap **Done with this delivery (tell Becca)**. The phone shows what is still due. Tap **Yes, tell Becca**.
-
-**No Wi-Fi?** The phone keeps your receipt and sends it when Wi-Fi is back. If it says **Sent. RemBase has not confirmed it yet. Do NOT receive it again**, do **not** receive it again. Check the PO in a minute.
+Receive real deliveries on your phone. See [Receive a delivery with RemBase Scan](receiving.html#receive-a-delivery-with-rembase-scan) on the Receiving page for the steps, items not on the PO, and more than ordered. Never also receive in Fishbowl.
 
 ## Common mistakes
 

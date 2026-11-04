@@ -9,15 +9,56 @@ order: 7
 
 When boxes arrive from a vendor, you **receive** them. Receiving puts the stock in a bin with its expiration date.
 
-**Who uses it:** Chad and Sabith.
+**Who uses it:** Chad and Sabith receive. Becca fixes POs. Vicky checks costs.
 
 ::: warn
-Before December 1, receive real deliveries in **Fishbowl**. In RemBase, practice only on **your own practice PO** (TEST-PRACTICE-BECCA-2, -CHAD-2 or -SABITH-2). The pictures use TEST-HB-1.
-
-You can also practice on your phone: see [Receive a delivery with RemBase Scan](basics.html#receive-a-delivery-with-rembase-scan).
+**Receive real deliveries in RemBase only**: the floor with **RemBase Scan**, the office on the **Receiving** page. Never also in Fishbowl. If you receive in both, the stock is counted twice.
 :::
 
+## Receive a delivery with RemBase Scan
+
+1. Open **RemBase Scan**. Tap **Receive a delivery**.
+2. Scan the PO number on the packing slip, or tap the PO.
+3. Scan each item, or tap its line.
+4. Type how many (units or cases). Pick the expiry date if the item has one. Scan the bin label.
+5. Tap **Save receipt**. It says **Saved ✓ … RemBase is posting it.** Then: **Saved … RemBase copies it to Fishbowl.**
+6. The same item with another date: after you save, tap **Same item, another date**.
+7. When the delivery is done: tap **Done with this delivery (tell Becca)**. The phone shows what is still due. Tap **Yes, tell Becca**.
+
+**After you save:** the stock is in RemBase right away. Once a day, **Adam** imports the day's receipts into Fishbowl. Until then Fishbowl does not show it. Do **not** receive it in Fishbowl.
+
+**No Wi-Fi?** The phone keeps your receipt and sends it when Wi-Fi is back. If it says **Sent. RemBase has not confirmed it yet. Do NOT receive it again**, do **not** receive it again. Check the PO in a minute.
+
+### An item that is not on the PO
+
+1. The phone says **Not on this PO.** Tap **Report an extra (tells Becca)**.
+2. Type how many. Scan the bin: put it on the **hold shelf**. Tap **Send to Becca**. Nothing is received yet.
+3. Becca adds the line to the PO in Fishbowl. Within an hour it shows on the PO in RemBase Scan.
+4. Then receive it like any other line, from the hold shelf.
+
+### More than we ordered
+
+- **A little more** than ordered: the phone asks. If your count is right, tap **Yes, receive it anyway**. RemBase makes a flag for Becca.
+- **Much more** than ordered: the phone says **Too many for this PO. Receive … now, then report the other ….**
+  1. Save the receipt for the number it allows.
+  2. Tap **Report … more than ordered (tells Becca)**. Put the rest on the **hold shelf**. Tap **Send to Becca**.
+  3. Becca raises the quantity on the PO in Fishbowl. Within an hour it shows in RemBase Scan.
+  4. Then receive the rest on the same line.
+- **The line is already received in full:** the phone says **already received in full (… of …)**. If more came, tap **Report the extra (tells Becca)**. Do not receive it again.
+
+### Messages you may see
+
+| Message | What to do |
+|---|---|
+| **This PO line is not in Fishbowl. Tell Becca.** | Tell Becca. Do not receive it yet. |
+| **Not saved. Receive it again. Adam sees why in Flags.** | Receive it again. |
+| **Not saved: RemBase refused this receipt. Adam sees why in Flags.** | Tell Adam. |
+| **Not saved: this line is already received in full. If more came, report the extra.** | Tap **Report the extra (tells Becca)**. |
+| **Sent. RemBase has not confirmed it yet. Do NOT receive it again** | Do **not** receive it again. Check the PO in a minute. |
+
 ## The Receiving page
+
+The **Receiving** page in RemBase is for the office: to check a PO line, receive at a computer, fix a receipt, or close a line short. **The floor receives with RemBase Scan.**
 
 ![Receiving list grouped by PO, with the practice lines](img/rcv-01-list.png)
 
@@ -36,9 +77,7 @@ On the line page:
 
 **Cost from last paid. Check it.** means the Unit Cost was filled in from the last price paid. **Price/Qty changed by / at** shows who last changed the price or quantity, and when. See [Purchase Orders](purchase-orders.html).
 
-During practice this list shows only TEST lines. Real parts are hidden on purpose.
-
-Until December 1, a receipt on a **real** part is blocked: its **Post Status** says **Blocked (Fishbowl is stock master)**, nothing is added to stock, and a flag is made. Practice only on TEST POs.
+This list shows the open PO lines (real ones and TEST practice lines).
 
 ::: warn
 **Always pick the bin.** If a receipt has no bin, nothing is added to stock. Its **Post Status** says **Not posted – needs bin**. See [Forgot the bin](#forgot-the-bin).
@@ -46,7 +85,7 @@ Until December 1, a receipt on a **real** part is blocked: its **Post Status** s
 
 ## Task: receive a PO line
 
-There are three ways to open the **Receive** form. All three open the same form. Way 1 is the easiest.
+This is the office way, on a computer. The floor uses RemBase Scan. Receive each delivery **once**: in Scan **or** here, never both. To practice, use **your own practice PO**. There are three ways to open the **Receive** form. All three open the same form. Way 1 is the easiest.
 
 **Way 1 – from the Receiving page**
 
@@ -117,7 +156,7 @@ The receipt appears under **Received so far** (and under **Receipt Lines** on th
 | **Cancelled (not posted)** | Cancelled before it was posted. No stock changed. |
 | **Reversed** | It was posted, then taken back out. |
 | **⚠ Expiry changed after posting: reverse and receive again** | Someone changed the date after posting. Reverse it and receive again. |
-| **Blocked (Fishbowl is stock master)** | A real part before December 1. Nothing posted. |
+| **Blocked (Fishbowl is stock master)** | Real receipts were switched off at that time. Nothing posted. Tell Adam. |
 | **Historical** | An old receipt copied from Fishbowl. |
 
 **Entry warning** on a receipt is a warning only. The receipt is still accepted. For example: the expiration date is soon, or the part has no **Units Per Case** (receive in **Units**, or ask Becca to set Units Per Case).
@@ -142,6 +181,10 @@ Already saved a receipt with no bin, or with a wrong bin? Its **Post Status** sa
 
 Anyone in the warehouse may press **Reverse or cancel this receipt**.
 
+::: warn
+Use it **before** the day's receipts are imported into Fishbowl (before 3 PM). After that, do **not** fix it in Fishbowl yourself. Tell Adam. He fixes both systems.
+:::
+
 - A receipt that is **not posted** yet is **cancelled**. No stock changes.
 - A receipt that is **posted** is **reversed**. The stock is taken back out.
 
@@ -159,7 +202,7 @@ If **Reverse Result** says:
 |---|---|
 | **REFUSED: type why in the Reverse Reason box first** | Write a reason, then press the button again. |
 | **REFUSED … Ask a manager** | The stock was already used or moved. Nothing changed. Tell Becca or Chad. |
-| **REFUSED … came from Fishbowl** | Until December 1, fix it in Fishbowl. |
+| **REFUSED … came from Fishbowl** | Do not fix it in Fishbowl yourself. Tell Adam. |
 | **REFUSED: this receipt was already cancelled** or **already reversed** | Nothing to do. |
 
 ## Wrong amounts on a PO
@@ -168,14 +211,14 @@ If **Reverse Result** says:
 
 **Something arrived that is not on the PO (Not Ordered)**
 
-- Before December 1, Becca first adds the line in **Fishbowl**, with the price from the vendor. Then it is received as normal.
+- The floor taps **Report an extra (tells Becca)**. Becca adds the line in **Fishbowl**, with the price from the vendor. Within an hour it shows in RemBase. Then it is received as normal.
 - In RemBase the line shows **A – Line Type: Not Ordered**.
 - Never receive it on the line of another product.
 
 **More arrived than we ordered (Over)**
 
-- Receive what arrived.
-- RemBase makes a flag for Becca about the extra units.
+- A little more: receive what arrived. RemBase makes a flag for Becca about the extra units.
+- Much more: RemBase Scan receives what the PO allows and the floor reports the rest. Becca raises the quantity on the PO in Fishbowl. Then the floor receives the rest.
 - If the extra units cost nothing, no approval is needed.
 
 **Less arrived than we ordered (Short)**
@@ -191,6 +234,6 @@ If **Reverse Result** says:
 - **Wrong bin.** Choose the bin where the stock really is.
 - **Receiving an item on the wrong line.** If it is not on the PO, ask Becca to add a Not Ordered line first.
 - **No bin, or a bin that is not found.** The receipt is **not** posted. Do not receive again. [Add the bin](#forgot-the-bin). Then it posts once.
-- **Receiving twice.** Look at **Received so far** before you receive.
+- **Receiving twice.** Never receive in Fishbowl too. Look at what was already received before you receive.
 - **Saving a receipt with no quantity.** It is not posted. Cancel it (see [Fix a wrong receipt](#fix-a-wrong-receipt)), then receive again with the right quantity.
 - **A wrong receipt.** Write a **Reverse Reason**, press **Reverse or cancel this receipt**, then receive again. See [Fix a wrong receipt](#fix-a-wrong-receipt).
