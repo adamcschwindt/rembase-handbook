@@ -89,7 +89,7 @@ These buttons are **real**. **Confirm placement** and **Confirm freight** cost m
 
 The page parts have the same numbers as the steps below.
 
-1. Open **FBA Shipment → Next shipment**. In **1. Lines and boxes**, check the products, units and boxes.
+1. Open **FBA Shipment → Next shipment**. In **1. Lines and boxes**, check each line: **Part**, **Qty**, **Boxes**, **Expiry** and **Pallet**. A line that must not go on this truck: tick **Hold (not this shipment)** and write why in **Hold note**.
 2. In **2. Pallets**, fill in each pallet: size, weight, "not stackable".
 3. Press **Create plan** (top of the page). Wait. Read **Result (after a button: wait 1-2 min)**.
 4. In **4. Pick a warehouse, then ... > Confirm placement**, check the Amazon warehouse choices and their fee. Then press **…** and **Confirm placement**.

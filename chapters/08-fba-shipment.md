@@ -56,14 +56,15 @@ Read it from top to bottom:
 - **B – Result (after a button: wait 1-2 min):** the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example "Getting carrier quotes from Amazon. This takes a few minutes." Wait until it changes.
 - **C – Mark Sent Result:** what **Mark as sent** did: **SENT …** or **NOT DONE …**.
 - **D – 6. Labels (box + pallet):** the box labels, pallet labels and Bill of Lading (BOL). The file names say which is which: **box-labels** (on every box), **pallet-labels** (on every pallet), **bill-of-lading** (the paper for the carrier).
-- **Ship Date**, **Freight Class:** shipping details.
+- **Ship Date:** the day the boxes are ready for carrier pickup (Amazon's ready date). Today or later.
+- **Freight Class:** shipping details.
 - **Freight Mode:** **LTL (pallets)** (a truck) or **Small parcel**. Read only.
 - **Approved Placement Price**, **Approved Carrier Total:** what Amazon and the carrier charge.
 - **Sent as (FBA IDs): type only if RemBase says no FBA shipment ID yet:** type the ID here only when **Mark Sent Result** says **NOT DONE: no FBA shipment ID yet**.
 
 Below, the parts of the page are numbered in the order you use them:
 
-- **1. Lines and boxes:** each product, how many units and how many boxes.
+- **1. Lines and boxes:** each line: **Part**, **Qty**, **Boxes**, **Expiry** and **Pallet**. To keep a line off this shipment, tick **Hold (not this shipment)** and write why in **Hold note**. When you press **Mark as sent**, a held line moves to the next shipment.
 - **2. Pallets:** the pallets: size, weight, and "not stackable".
 - **3. Create plan:** the button at the top.
 - **4. Pick a warehouse, then ... > Confirm placement:** the Amazon warehouse choices, with their fee.
