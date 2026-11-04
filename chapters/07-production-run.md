@@ -26,21 +26,17 @@ All production runs are done in **RemBase**, not in Fishbowl. See [Next week in 
 
 ## Task: find a run and check its parts
 
-1. Click **Production Run** in the menu.
-2. Click the run in the list (1). **Rush** runs come first, then the soonest due date.
-
-   ![Production Run page for a TEST run](img/pr-01-office.png)
-
-3. Check **Qty Planned** (2). This is how many to build.
+1. Click **Production Run** in the menu. The list shows real runs only.
+2. Click the run in the list. **Rush** runs come first, then the soonest due date.
+3. Check **Qty Planned**. This is how many to build.
 4. Check **Output Part**. This is the product you build.
-5. **Run Cartons** (lower on the page) will show the boxes after you enter them on the Floor page.
-6. Scroll down to **Run Components** (4).
-
-   ![Components the run will use, with lots](img/pr-02-components.png)
-
+5. Scroll down to **Run Components**. It is above **Run Cartons**.
    - **Component Part SKU:** each part you need.
    - **Qty To Consume:** how many of that part.
-   - **Chosen Lot** (5): which lot to take. RemBase picks the lot that expires first.
+   - **Suggested Lot Label:** the lot RemBase suggests: the one that expires first.
+   - **Chosen Lot:** the lot to take. RemBase fills in the suggested lot. To take another lot, pick it in **Chosen Lot**. Only lots of that part with stock show.
+6. **Run Cartons** shows the boxes after the floor enters them.
+7. **Finished lots (filled at Finish)** shows the lots RemBase makes when the run is finished.
 
 ::: warn
 If **Run Components** is empty, RemBase has no recipe for this product. Do not build. Tell Chad.
