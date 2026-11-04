@@ -79,7 +79,7 @@ See [Production Run](production-run.html) for more.
 
 ## C. The pallet shipment to Amazon
 
-The first real pallet shipment is on **Thursday, November 12**, with Adam there. **Chad or Sabith** do every step below. **Adam** imports the Fishbowl transfer file.
+The first real pallet shipment is on **Wednesday, November 11**, with Adam there. **Chad or Sabith** do every step below. **Adam** imports the Fishbowl transfer file.
 
 ::: warn
 These buttons are **real**. **Confirm placement** and **Confirm freight** cost money. Press each button **once**. Then wait until **Inbound Pending** is empty (1-2 minutes).
