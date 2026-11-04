@@ -45,6 +45,8 @@ Do **not** make this run in Fishbowl (no work order). When the warehouse presses
 
 A run with a recipe (a kit or a pack) has the same steps.
 
+**Finished stock that needs no prep** (**Warehouse Ready Qty**): make the run the same way, and tick **Pack only (ready stock)** on the run. RemBase uses only ready lots. The warehouse boxes it and presses **Finish Run**.
+
 ## B. Warehouse: build the run and count
 
 **Build the run (Chad, Sabith):**
@@ -64,6 +66,7 @@ A run with a recipe (a kit or a pack) has the same steps.
 
    | Finish Result says | What to do |
    |---|---|
+   | **the chosen lot still needs prep …** | That lot is not ready. Choose a ready lot in **Chosen Lot**, or ask Becca to clear it. Then press **Finish Run** again. |
    | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
    | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |

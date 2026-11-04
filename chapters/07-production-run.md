@@ -42,6 +42,14 @@ All production runs are done in **RemBase**, not in Fishbowl. See [Next week in 
 If **Run Components** is empty, RemBase has no recipe for this product. Do not build. Tell Chad.
 :::
 
+## Task: send finished stock without prep (Becca)
+
+For a product with **Warehouse Ready Qty** (finished, ready to ship):
+
+1. Make the run as usual (Run Planning, Commit).
+2. Open the run on **Production Run**. Tick **Pack only (ready stock)** (under **Rush**).
+3. RemBase uses only ready lots. Nothing is prepped. The warehouse boxes it and presses **Finish Run**.
+
 ## Task: change the due date or put a run first (Becca)
 
 1. Click **Production Run** in the menu.
@@ -104,6 +112,7 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 
    | Finish Result says | What to do |
    |---|---|
+   | **the chosen lot still needs prep …** | That lot is not ready. Choose a ready lot in **Chosen Lot**, or ask Becca to clear it. Then press **Finish Run** again. |
    | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
    | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
