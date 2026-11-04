@@ -12,9 +12,9 @@ A **production run** is one job where we build a product from its parts. Example
 **Who uses it:** Chad and Sabith on the floor. Becca plans the runs.
 
 ::: warn
-Before December 1, a **real** run is done in RemBase only when Becca ticks **Build in RemBase (real)** on it. Then do it **only** in RemBase, not in Fishbowl. See [Next week in RemBase](next-week.html). Every other real run: in **Fishbowl**. To practice, use **your own practice run** (TEST-PRACTICE-RUN-BECCA, -CHAD or -SABITH).
+All production runs are done in **RemBase**, not in Fishbowl. See [Next week in RemBase](next-week.html). To practice, use **your own practice run** (TEST-PRACTICE-RUN-BECCA, -CHAD or -SABITH).
 
-**Press Finish Run on a real run only when Build in RemBase (real) is ticked.** You **may** press it on your own practice run.
+**Press Finish Run once**, only when the run is built and the cartons are entered.
 :::
 
 ## Sub-pages
@@ -55,7 +55,6 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 
 Both run lists (**Production Run** and **Production Run - Floor**) show Rush runs first. On the Floor page you see **Rush**, but you cannot change it.
 
-**Build in RemBase (real)** is under **Rush**. Becca ticks it only on a run that is built in RemBase. Never tick a run that was made in Fishbowl. On the Floor page you see it, but you cannot change it.
 
 ## Task: enter what you built (Floor page)
 
@@ -112,12 +111,9 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
    | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
    | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
-   | **this run uses real parts …** | The run is not ticked **Build in RemBase (real)**. Stop. Ask Becca. |
-   | **… the builds mirror is OFF …** | Stop. Tell Adam. |
 
    The 110% limit is in Settings. Becca can change it.
 
-- **Real runs:** only when **Build in RemBase (real)** is ticked. Without the tick, RemBase refuses: Finish Result says **NOT DONE: this run uses real parts …** and nothing moves.
 - **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **Production Run** page, not on the Floor page:
   1. Click **Production Run** in the menu. Click the run.
   2. At the top, type why in **Run Reverse Reason (type it before Reverse Run)**.
@@ -127,7 +123,6 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 
 ## Common mistakes
 
-- **Pressing Finish Run on a real run without Build in RemBase (real).** RemBase refuses it. Ask Becca.
 - **Pressing Finish Run twice.** Press once and read **Finish Result**.
 - **Units do not match Qty Built.** Check Boxes × Units Per Box.
 - **Weight of the whole stack instead of one box.** Type the weight of one box.

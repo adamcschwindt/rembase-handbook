@@ -1,15 +1,15 @@
 ---
 title: Next week in RemBase
-subtitle: The first real run, the first real pallet shipment, and counts
+subtitle: Production runs, the pallet shipment, and counts are real in RemBase
 slug: next-week
 order: 0
 ---
 
 ## What is new next week
 
-From the week of **November 9**, three things are **real** in RemBase:
+Three things are now **real** in RemBase:
 
-- **A production run.** Becca sets it up. The warehouse builds it. The first one is on **Wednesday, November 11**.
+- **All production runs** (prep runs and runs with a recipe). Becca sets them up. The warehouse builds them. None are made in Fishbowl.
 - **An Amazon pallet shipment.** Chad or Sabith plan it, label it and send it in RemBase. Adam imports the transfer into Fishbowl.
 - **Bin counts with RemBase Scan.** This is real already. Each count goes to Fishbowl by itself.
 
@@ -24,7 +24,7 @@ Everything else stays the same until December 1: other real work goes in **Fishb
 A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 
 ::: warn
-**Prep runs are in RemBase from next week.** Do **not** make them in Fishbowl.
+**All runs are in RemBase from today**, prep runs too. Do **not** make them in Fishbowl.
 :::
 
 ![Run Planning list and its main columns](img/rp-01-list.png)
@@ -40,7 +40,6 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 7. Check **Chosen Lot** on that row. RemBase chose the lot that expires first. The warehouse can choose another lot on the Floor page. If **Chosen Lot** is empty, there was no stock when you pressed Commit. The run cannot be finished until a lot is chosen.
 8. **Date Needed (change if needed)** is 7 days from today. Change it if needed. Do not leave it empty.
 9. If the run is urgent, tick **Rush**. Rush runs are at the top of the Floor page.
-10. Tick **Build in RemBase (real)** (under **Rush**). Only a ticked run can be finished for real. Never tick a run that was made in Fishbowl.
 
 Do **not** make this run in Fishbowl (no work order). When the warehouse presses **Finish Run**, RemBase tells Fishbowl by itself.
 
@@ -53,7 +52,7 @@ A run with a recipe (a kit or a pack) has the same steps.
 ![Floor page with Qty Built and the Pick list](img/pr-03-floor.png)
 
 1. Click **Production Run - Floor** in the menu. **Rush** runs are at the top.
-2. Click the run. A real run shows **Build in RemBase (real)** ticked, under **Rush**. You cannot change it. A prep run shows **one** part in the **Pick list**: the product itself.
+2. Click the run. A prep run shows **one** part in the **Pick list**: the product itself.
 3. Read the **Pick list**: each part (**Component Part SKU**), how many to take (**Qty To Consume**), and which lot and bin (**Chosen Lot Label**). RemBase chose the lot that expires first. Take **that** lot from **that** bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. **The Pick list is empty?** Do **not** press **Finish Run**. Tell Becca.
 4. Build. Type the number you built in **Qty Built**. In **Run Performed By**, pick your name.
 5. In **Run Cartons**, add one row for each box size: **Boxes**, **Units Per Box**, size and **Weight Per Box (lb)**.
@@ -68,8 +67,6 @@ A run with a recipe (a kit or a pack) has the same steps.
    | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
    | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
-   | **this run uses real parts …** | The run is not ticked **Build in RemBase (real)**. Stop. Ask Becca. |
-   | **… the builds mirror is OFF …** | Stop. Tell Adam. |
 7. Do **not** enter this run in Fishbowl.
 
 See [Production Run](production-run.html) for more.

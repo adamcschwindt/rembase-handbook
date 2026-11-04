@@ -28,7 +28,7 @@ Pages for Chad and Sabith are coming.
 
 Use RemBase only to practice.
 
-**Exceptions:** count real bins with **RemBase Scan**. From November 9, some runs and the pallet shipment are real in RemBase. See [Next week in RemBase](next-week.html).
+**Exceptions:** count real bins with **RemBase Scan**. All production runs and the pallet shipment are real in RemBase. See [Next week in RemBase](next-week.html).
 :::
 
 - RemBase is copied from Fishbowl every night.

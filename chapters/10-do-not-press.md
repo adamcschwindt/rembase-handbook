@@ -23,12 +23,6 @@ It emails the PO to the vendor.
 
 They are at the bottom of the Purchase Orders list. They email or delete every staged PO at once.
 
-## Production buttons
-
-- **Finish Run on a real run** without **Build in RemBase (real)** – it is refused. (With the tick, the warehouse presses it. On your own practice run it is OK.)
-
-See [Production Run](production-run.html).
-
 ## CC Orders buttons (Chad or Adam only)
 
 - **Get labels** – buys real FedEx labels.
