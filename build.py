@@ -97,7 +97,7 @@ SEARCH = """<div class="search-wrap">
 
 
 def main():
-    chapters = sorted((read_chapter(p) for p in glob.glob(os.path.join(HERE, 'chapters', '*.md'))), key=lambda c: c['order'])
+    chapters = sorted((read_chapter(p) for p in glob.glob(os.path.join(HERE, 'chapters', '*.md'))), key=lambda c: (c['order'], c['slug'] != 'index'))
     for c in chapters:
         c['body'] = md_to_html(c['body_md'])
     index_items = []

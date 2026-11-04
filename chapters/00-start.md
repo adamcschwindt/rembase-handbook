@@ -28,7 +28,7 @@ Pages for Chad and Sabith are coming.
 
 Use RemBase only to practice.
 
-**One exception:** count real bins with **RemBase Scan**. See [How to scan](basics.html#how-to-scan).
+**Exceptions:** count real bins with **RemBase Scan**. From November 9, some runs and the pallet shipment are real in RemBase. See [Next week in RemBase](next-week.html).
 :::
 
 - RemBase is copied from Fishbowl every night.
@@ -93,7 +93,7 @@ Never practice on a real part, a real PO or a real shipment.
 
 ## The most important rules
 
-1. Real work goes in **Fishbowl** until December 1.
+1. Real work goes in **Fishbowl** until December 1, except [Next week in RemBase](next-week.html).
 2. Practice only with **TEST** items.
 3. Some buttons send money, emails or orders. Read **[Do not press](do-not-press.html)** before you start.
 4. Not sure? Stop and ask. See **[Who to ask](who-to-ask.html)**.
