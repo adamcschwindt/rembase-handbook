@@ -15,7 +15,7 @@ order: 11
 **The buttons on this page are REAL, not practice.** They talk to Amazon for a real shipment.
 
 - **Confirm placement** and **Confirm freight** cost money. Check the price first.
-- Press a button **once**. Then wait until **Inbound Pending** is empty again.
+- Press a button **once**. Then wait until **Inbound Pending** is empty again (1-2 minutes).
 - Not sure? Ask Adam before you press.
 :::
 
@@ -47,28 +47,33 @@ order: 11
 
 ## The Next shipment page
 
-![Next shipment page, ids, prices and labels hidden](img/fba-03-next.png)
+![Next shipment page with its main fields and buttons](img/fba-03-next.png)
 
 Read it from top to bottom:
 
-- **1 – Inbound Pending:** a button was pressed and RemBase is working on it. Wait.
-- **2 – Inbound Result:** the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example "Getting carrier quotes from Amazon. This takes a few minutes." Wait until it changes.
-- **3 – Label Files:** the box labels, pallet labels and Bill of Lading (BOL).
+- **A – Inbound Pending:** a button was pressed and RemBase is working on it. Wait.
+- **B – Result (after a button: wait 1-2 min):** the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example "Getting carrier quotes from Amazon. This takes a few minutes." Wait until it changes.
+- **C – 6. Labels (box + pallet):** the box labels, pallet labels and Bill of Lading (BOL).
 - **Ship Date**, **Freight Class:** shipping details.
-- **Approved Placement Price**, **Approved Carrier Total:** what Amazon and the carrier charge (hidden on this site).
-- **FBA Shipment Lines** (bottom of the page): each product, how many units and how many boxes.
+- **Freight Mode:** **LTL (pallets)** (a truck) or **Small parcel**. Read only.
+- **Approved Placement Price**, **Approved Carrier Total:** what Amazon and the carrier charge.
+- **Sent as (FBA IDs):** type here only if **Mark as sent** says there is no FBA shipment ID yet.
 
-While a plan is in progress you also see:
+Below, the parts of the page are numbered in the order you use them:
 
-- **Step 1** – a list of Amazon warehouse choices, with their fee.
-- **Shipment Pallets** – the pallets: size, weight, and "not stackable".
-- **Step 2** – a list of carrier choices, with their price.
+- **1. Lines and boxes:** each product, how many units and how many boxes.
+- **2. Pallets:** the pallets: size, weight, and "not stackable".
+- **3. Create plan:** the button at the top.
+- **4. Pick a warehouse, then ... > Confirm placement:** the Amazon warehouse choices, with their fee.
+- **5. Pick a carrier, then ... > Confirm freight:** the carrier choices, with their price.
+- **6. Labels (box + pallet):** the labels and the BOL.
+- **7. Mark as sent:** the button at the top.
 
 ## Task: print the box labels
 
 1. Open **FBA Shipment → Next shipment**.
-2. Read **Inbound Result**. It says when the labels are ready.
-3. Under **Label Files**, click the file you need. The files come in two steps:
+2. Read **Result (after a button: wait 1-2 min)**. It says when the labels are ready.
+3. Under **6. Labels (box + pallet)**, click the file you need. The files come in two steps:
    - After **Confirm placement**: the two **box label** files.
    - After **Confirm freight** (truck / LTL shipments only): the **pallet labels** and the **bill of lading**.
 
@@ -109,15 +114,15 @@ Some buttons are inside the **…** menu at the top of the page.
 ## What you should see
 
 - After a button press, **Inbound Pending** shows a message, then clears.
-- **Inbound Result** then says what happened and what to do next.
-- After **Confirm placement**, the two box label files appear under **Label Files**.
+- **Result (after a button: wait 1-2 min)** then says what happened and what to do next.
+- After **Confirm placement**, the two box label files appear under **6. Labels (box + pallet)**.
 - After **Confirm freight** (truck shipments), the pallet labels and the bill of lading appear too.
 
 ## Products with two Amazon SKUs
 
 - Some products have two Amazon SKUs: the original and a **-stickered** or **-barcode** version. RemBase treats both as the same product. The stock is counted on the original product.
 - Becca chooses the **one** SKU to ship under. In the **sku-map**, she ticks **Ship as** on that SKU.
-- If a product has two active SKUs and not exactly one is ticked, the shipment stops. **Inbound Result** says **NOT DONE** and asks Becca to tick **Ship as**. Nothing is sent to Amazon until this is fixed.
+- If a product has two active SKUs and not exactly one is ticked, the shipment stops. **Result** says **NOT DONE** and asks Becca to tick **Ship as**. Nothing is sent to Amazon until this is fixed.
 
 ## Common mistakes
 

@@ -28,7 +28,7 @@
 <p><strong>The buttons on this page are REAL, not practice.</strong> They talk to Amazon for a real shipment.</p>
 <ul>
 <li><strong>Confirm placement</strong> and <strong>Confirm freight</strong> cost money. Check the price first.</li>
-<li>Press a button <strong>once</strong>. Then wait until <strong>Inbound Pending</strong> is empty again.</li>
+<li>Press a button <strong>once</strong>. Then wait until <strong>Inbound Pending</strong> is empty again (1-2 minutes).</li>
 <li>Not sure? Ask Adam before you press.</li>
 </ul>
 </div>
@@ -77,28 +77,33 @@
 </ol>
 <h2 id="the-next-shipment-page">The Next shipment page</h2>
 <figure>
-<a class="zoom" href="img/fba-03-next.png"><img src="img/fba-03-next.png" loading="lazy" alt="Next shipment page, ids, prices and labels hidden" /></a><figcaption aria-hidden="true">Next shipment page, ids, prices and labels hidden</figcaption>
+<a class="zoom" href="img/fba-03-next.png"><img src="img/fba-03-next.png" loading="lazy" alt="Next shipment page with its main fields and buttons" /></a><figcaption aria-hidden="true">Next shipment page with its main fields and buttons</figcaption>
 </figure>
 <p>Read it from top to bottom:</p>
 <ul>
-<li><strong>1 – Inbound Pending:</strong> a button was pressed and RemBase is working on it. Wait.</li>
-<li><strong>2 – Inbound Result:</strong> the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example “Getting carrier quotes from Amazon. This takes a few minutes.” Wait until it changes.</li>
-<li><strong>3 – Label Files:</strong> the box labels, pallet labels and Bill of Lading (BOL).</li>
+<li><strong>A – Inbound Pending:</strong> a button was pressed and RemBase is working on it. Wait.</li>
+<li><strong>B – Result (after a button: wait 1-2 min):</strong> the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example “Getting carrier quotes from Amazon. This takes a few minutes.” Wait until it changes.</li>
+<li><strong>C – 6. Labels (box + pallet):</strong> the box labels, pallet labels and Bill of Lading (BOL).</li>
 <li><strong>Ship Date</strong>, <strong>Freight Class:</strong> shipping details.</li>
-<li><strong>Approved Placement Price</strong>, <strong>Approved Carrier Total:</strong> what Amazon and the carrier charge (hidden on this site).</li>
-<li><strong>FBA Shipment Lines</strong> (bottom of the page): each product, how many units and how many boxes.</li>
+<li><strong>Freight Mode:</strong> <strong>LTL (pallets)</strong> (a truck) or <strong>Small parcel</strong>. Read only.</li>
+<li><strong>Approved Placement Price</strong>, <strong>Approved Carrier Total:</strong> what Amazon and the carrier charge.</li>
+<li><strong>Sent as (FBA IDs):</strong> type here only if <strong>Mark as sent</strong> says there is no FBA shipment ID yet.</li>
 </ul>
-<p>While a plan is in progress you also see:</p>
+<p>Below, the parts of the page are numbered in the order you use them:</p>
 <ul>
-<li><strong>Step 1</strong> – a list of Amazon warehouse choices, with their fee.</li>
-<li><strong>Shipment Pallets</strong> – the pallets: size, weight, and “not stackable”.</li>
-<li><strong>Step 2</strong> – a list of carrier choices, with their price.</li>
+<li><strong>1. Lines and boxes:</strong> each product, how many units and how many boxes.</li>
+<li><strong>2. Pallets:</strong> the pallets: size, weight, and “not stackable”.</li>
+<li><strong>3. Create plan:</strong> the button at the top.</li>
+<li><strong>4. Pick a warehouse, then … &gt; Confirm placement:</strong> the Amazon warehouse choices, with their fee.</li>
+<li><strong>5. Pick a carrier, then … &gt; Confirm freight:</strong> the carrier choices, with their price.</li>
+<li><strong>6. Labels (box + pallet):</strong> the labels and the BOL.</li>
+<li><strong>7. Mark as sent:</strong> the button at the top.</li>
 </ul>
 <h2 id="task-print-the-box-labels">Task: print the box labels</h2>
 <ol type="1">
 <li>Open <strong>FBA Shipment → Next shipment</strong>.</li>
-<li>Read <strong>Inbound Result</strong>. It says when the labels are ready.</li>
-<li>Under <strong>Label Files</strong>, click the file you need. The files come in two steps:
+<li>Read <strong>Result (after a button: wait 1-2 min)</strong>. It says when the labels are ready.</li>
+<li>Under <strong>6. Labels (box + pallet)</strong>, click the file you need. The files come in two steps:
 <ul>
 <li>After <strong>Confirm placement</strong>: the two <strong>box label</strong> files.</li>
 <li>After <strong>Confirm freight</strong> (truck / LTL shipments only): the <strong>pallet labels</strong> and the <strong>bill of lading</strong>.</li>
@@ -170,15 +175,15 @@ The files:
 <h2 id="what-you-should-see">What you should see</h2>
 <ul>
 <li>After a button press, <strong>Inbound Pending</strong> shows a message, then clears.</li>
-<li><strong>Inbound Result</strong> then says what happened and what to do next.</li>
-<li>After <strong>Confirm placement</strong>, the two box label files appear under <strong>Label Files</strong>.</li>
+<li><strong>Result (after a button: wait 1-2 min)</strong> then says what happened and what to do next.</li>
+<li>After <strong>Confirm placement</strong>, the two box label files appear under <strong>6. Labels (box + pallet)</strong>.</li>
 <li>After <strong>Confirm freight</strong> (truck shipments), the pallet labels and the bill of lading appear too.</li>
 </ul>
 <h2 id="products-with-two-amazon-skus">Products with two Amazon SKUs</h2>
 <ul>
 <li>Some products have two Amazon SKUs: the original and a <strong>-stickered</strong> or <strong>-barcode</strong> version. RemBase treats both as the same product. The stock is counted on the original product.</li>
 <li>Becca chooses the <strong>one</strong> SKU to ship under. In the <strong>sku-map</strong>, she ticks <strong>Ship as</strong> on that SKU.</li>
-<li>If a product has two active SKUs and not exactly one is ticked, the shipment stops. <strong>Inbound Result</strong> says <strong>NOT DONE</strong> and asks Becca to tick <strong>Ship as</strong>. Nothing is sent to Amazon until this is fixed.</li>
+<li>If a product has two active SKUs and not exactly one is ticked, the shipment stops. <strong>Result</strong> says <strong>NOT DONE</strong> and asks Becca to tick <strong>Ship as</strong>. Nothing is sent to Amazon until this is fixed.</li>
 </ul>
 <h2 id="common-mistakes">Common mistakes</h2>
 <ul>
