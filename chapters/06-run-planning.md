@@ -30,11 +30,14 @@ The numbers update every hour. During the update some rows can show different ti
 
 ## Run Planning – Commit (Becca only)
 
-![Run Planning commit page with buttons marked do not press](img/rp-02-commit.png)
+![Run Planning commit page: staged list, Commit and Clear buttons, planned runs](img/rp-02-commit.png)
 
-- **Commit Run Planning** makes production runs from the ticked rows.
-- **Clear Run Planning** removes all the ticks.
-- **Planned runs** lists the runs it made.
+- **Staged for commit** lists the products you ticked. Check it first.
+- **Commit Run Planning** makes production runs from the ticked rows right away.
+- **Clear Run Planning** removes all the ticks. **Staged for commit** is then empty.
+- **Planned runs** lists the runs, with their **Run Stage**.
+
+The page says: **Commit makes the runs right away. Check 'Staged for commit' first. Clear empties the staged list.**
 
 Do not press these unless you are Becca.
 
