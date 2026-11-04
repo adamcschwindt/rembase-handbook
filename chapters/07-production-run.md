@@ -55,6 +55,8 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 
 Both run lists (**Production Run** and **Production Run - Floor**) show Rush runs first. On the Floor page you see **Rush**, but you cannot change it.
 
+**Build in RemBase (real)** is under **Rush**. Do not tick it yet. Adam tells you when. On the Floor page you see it, but you cannot change it.
+
 ## Task: enter what you built (Floor page)
 
 1. Click **Production Run - Floor** in the menu.

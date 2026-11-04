@@ -44,6 +44,7 @@ order: 11
    - **Qty Received By Amazon** (3): how many Amazon has counted.
    - **Qty Remaining:** how many Amazon has not counted yet.
    - **FBA Shipment Lines** (4): one line per product.
+   - **Export Transfer For Fishbowl**, **Fishbowl Transfer File**, **Fishbowl Transfer Note:** for the Fishbowl transfer after **Mark as sent**. Do not tick it yet. Adam tells you when.
 
 ## The Next shipment page
 
@@ -53,11 +54,12 @@ Read it from top to bottom:
 
 - **A – Inbound Pending:** a button was pressed and RemBase is working on it. Wait.
 - **B – Result (after a button: wait 1-2 min):** the last message from RemBase. It tells you the next step. While Amazon is working it says what is happening, for example "Getting carrier quotes from Amazon. This takes a few minutes." Wait until it changes.
-- **C – 6. Labels (box + pallet):** the box labels, pallet labels and Bill of Lading (BOL).
+- **C – Mark Sent Result:** what **Mark as sent** did: **SENT …** or **NOT DONE …**.
+- **D – 6. Labels (box + pallet):** the box labels, pallet labels and Bill of Lading (BOL). The file names say which is which: **box-labels** (on every box), **pallet-labels** (on every pallet), **bill-of-lading** (the paper for the carrier).
 - **Ship Date**, **Freight Class:** shipping details.
 - **Freight Mode:** **LTL (pallets)** (a truck) or **Small parcel**. Read only.
 - **Approved Placement Price**, **Approved Carrier Total:** what Amazon and the carrier charge.
-- **Sent as (FBA IDs):** type here only if **Mark as sent** says there is no FBA shipment ID yet.
+- **Sent as (FBA IDs): type only if RemBase says no FBA shipment ID yet:** type the ID here only when **Mark Sent Result** says **NOT DONE: no FBA shipment ID yet**.
 
 Below, the parts of the page are numbered in the order you use them:
 
