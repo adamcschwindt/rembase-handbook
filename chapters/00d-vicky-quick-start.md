@@ -7,7 +7,7 @@ order: 3
 
 ## Read this first
 
-- **Until December 1, real work stays in Fishbowl and QuickBooks.** In RemBase you only look for now.
+- **Receiving is real in RemBase now.** Here you check PO costs and close damaged receipts. Bills and payments stay in QuickBooks.
 - **RemBase saves by itself.** There is no Save button.
 - **Made a typing mistake?** Press **Cmd+Z** (**Ctrl+Z** on Windows) right away to undo it.
 - **Never press** **Email PO**. See [Do not press](do-not-press.html).

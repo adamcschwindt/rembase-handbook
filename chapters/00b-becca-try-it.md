@@ -7,7 +7,7 @@ order: 1
 
 ## Read this first
 
-- **Until December 1, real work stays in Fishbowl.** In RemBase you only look, or you practice on TEST items.
+- **Real in RemBase now:** production runs (you set them up), counts, receiving, stock moves and Amazon shipments. **Still in Fishbowl until December 1:** real POs. See [Next week in RemBase](next-week.html).
 - **Your practice items:** first PO **TEST-PRACTICE-BECCA** (finish it in Task 4), new PO **TEST-PRACTICE-BECCA-2** with your parts **TEST-BECCA-A** (#9111#) and **TEST-BECCA-B** (#9112#), bin **TEST-BIN** (#9001#).
 - **RemBase saves by itself.** There is no Save button. Press **Tab** or click outside the box.
 - **Never delete anything.** If something gets deleted by mistake, tell Adam. Nothing else is needed.
@@ -189,7 +189,7 @@ More help: [Receiving](receiving.html).
 6. If Task 4 made any new flag with **TEST** in the title, open it, read it and set it to **Resolved** too.
 7. **Do not** tick **Escalate To Asana**. It makes a real Asana task.
 8. Leave every real flag alone (no TEST in the title).
-   - Before December 1, real problems are fixed in Fishbowl.
+   - Real flags are real work. Do not fix them in Fishbowl yourself. Not sure? Ask Adam.
 
 **Done when:** no open flag for TEST-PRACTICE-BECCA is left.
 
@@ -227,7 +227,8 @@ More help: [Purchase Orders](purchase-orders.html).
 
 ## Not in these steps (and why)
 
-- **Ticks on PO Planning and Run Planning, and New Part:** these are shared with real planning. There is nothing safe to practice before December 1. You can look at them.
+- **Ticks on PO Planning, and New Part:** these are shared with real planning. There is nothing safe to practice. You can look at them.
+- **Run Planning:** this is real now. Commit makes real runs. See [Next week in RemBase](next-week.html).
 - **Listing alerts (Home → Listings):** Karly's task. See [Karly: quick start](karly-quick-start.html).
 - **Cycle count, production runs, Next shipment:** floor jobs (Chad and Sabith).
 - **Claims:** Karly's weekly task.

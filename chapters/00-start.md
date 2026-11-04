@@ -21,20 +21,22 @@ Short, click-by-click steps for your own work:
 
 Pages for Chad and Sabith are coming.
 
-## Until December 1: Fishbowl is real, RemBase is practice
+## What is real in RemBase now
 
 ::: warn
-**Do all real work in Fishbowl.**
+**Do this real work in RemBase, never also in Fishbowl:**
 
-Use RemBase only to practice.
+- counting bins, moving stock and receiving deliveries (**RemBase Scan**),
+- all production runs,
+- Amazon pallet shipments.
 
-**Exceptions:** count real bins, move stock and receive deliveries with **RemBase Scan**. All production runs and the pallet shipment are real in RemBase. See [Next week in RemBase](next-week.html).
+**Everything else stays in Fishbowl until December 1** (for example, making real POs). See [Next week in RemBase](next-week.html).
 :::
 
 - RemBase is copied from Fishbowl every night.
 - The nightly copy does **not** touch TEST items, so your TEST practice stays.
 - Practice on a real part is reset by the nightly copy. That is one more reason to practice only on TEST items.
-- If you are not sure where to do something, do it in Fishbowl. Then ask the person for that area (see [Who to ask](who-to-ask.html)).
+- Not sure where to do something? Ask Adam first. Doing the same work in both systems counts the stock twice. See [Who to ask](who-to-ask.html).
 
 ## Practice only with TEST items
 
@@ -93,7 +95,7 @@ Never practice on a real part, a real PO or a real shipment.
 
 ## The most important rules
 
-1. Real work goes in **Fishbowl** until December 1, except [Next week in RemBase](next-week.html).
+1. Counts, stock moves, receiving, production runs and Amazon shipments: in **RemBase** only. Other real work: **Fishbowl** until December 1.
 2. Practice only with **TEST** items.
 3. Some buttons send money, emails or orders. Read **[Do not press](do-not-press.html)** before you start.
 4. Not sure? Stop and ask. See **[Who to ask](who-to-ask.html)**.

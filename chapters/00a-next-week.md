@@ -7,14 +7,14 @@ order: 0
 
 ## What is new next week
 
-Three things are now **real** in RemBase:
+These are now **real** in RemBase:
 
 - **All production runs** (prep runs and runs with a recipe). Becca sets them up. The warehouse builds them. None are made in Fishbowl.
 - **An Amazon pallet shipment.** Chad or Sabith plan it, label it and send it in RemBase. Adam imports the transfer into Fishbowl.
-- **Bin counts with RemBase Scan.** This is real already. Each count goes to Fishbowl by itself.
+- **Bin counts, stock moves and receiving with RemBase Scan.** Counts and moves go to Fishbowl by themselves. Adam imports the day's receipts into Fishbowl.
 
 ::: warn
-**One system only.** A run or a shipment you do in RemBase, you do **not** also do in Fishbowl. Never do the same work twice.
+**One system only.** A run, a shipment, a count, a move or a receipt you do in RemBase, you do **not** also do in Fishbowl. Never do the same work twice.
 :::
 
 Everything else stays the same until December 1: other real work goes in **Fishbowl**.

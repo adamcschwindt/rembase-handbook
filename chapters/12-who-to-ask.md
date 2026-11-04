@@ -27,6 +27,6 @@ Look in the handbook first. Then ask the person for that area.
 
 ## Remember
 
-- Until December 1, real work goes in **Fishbowl**. Bin counts, stock moves and receiving: **RemBase Scan**. Runs and shipments: see [Next week in RemBase](next-week.html).
+- In **RemBase** now: counts, stock moves and receiving (**RemBase Scan**), production runs and Amazon shipments. Other real work: **Fishbowl** until December 1. See [Next week in RemBase](next-week.html).
 - Practice only with **TEST** items.
 - Not sure? **Stop and ask.** It is always OK to ask.

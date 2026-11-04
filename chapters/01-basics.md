@@ -142,5 +142,5 @@ Receive real deliveries on your phone. See [Receive a delivery with RemBase Scan
 ## Common mistakes
 
 - **Typing in the wrong record.** Check the title at the top before you type.
-- **Typing on a real part.** Before December 1, type only on TEST items.
+- **Practicing on a real part.** To practice, use only TEST items.
 - **Thinking a filter is gone.** A number next to **Filter** or **Sort** means one is on. Click it to remove it.
