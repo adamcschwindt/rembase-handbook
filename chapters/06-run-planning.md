@@ -20,7 +20,9 @@ Run Planning shows which products we should build and send to Amazon next.
 - **3 – Run Planning Add To Run:** tick to put this product in the next runs.
 - **4 – Max Available to Build:** how many we **could** build with the parts we have now.
 - **Days Of Cover FBA:** how many days the stock at Amazon will last. Blank, with 0 at Amazon, means the part is no longer in Amazon's report. See [Inventory](inventory.html).
-- **Warehouse On Hand Qty:** how many finished units are in our warehouse.
+- **Warehouse On Hand Qty:** all units of this product in our warehouse.
+- **Warehouse Ready Qty:** the units that can ship as they are.
+- **Warehouse Needs Prep Qty:** the units that still need prep (label, sticker) before they can ship. A prep run makes them ready.
 
 ::: note
 **Max Available to Build is not stock.** For a pack, it is how many packs the parts can make. For a single part that goes into packs, it is what is left after the packs take their share.

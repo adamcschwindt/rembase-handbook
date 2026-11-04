@@ -30,7 +30,11 @@
 <a class="zoom" href="img/inv-01-list.png"><img src="img/inv-01-list.png" loading="lazy" alt="Inventory list with stock columns" /></a><figcaption aria-hidden="true">Inventory list with stock columns</figcaption>
 </figure>
 <ul>
-<li><strong>A – Warehouse On Hand Qty:</strong> how many are in our warehouse.</li>
+<li><strong>A – Warehouse On Hand Qty:</strong> how many are in our warehouse.
+<ul>
+<li><strong>Warehouse Ready Qty:</strong> the part of it that can ship as it is.</li>
+<li><strong>Warehouse Needs Prep Qty:</strong> the part of it that still needs prep (label, sticker) before it can ship.</li>
+</ul></li>
 <li><strong>B – FBA On Hand Qty:</strong> how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.
 <ul>
 <li>Some parts have more than one Amazon SKU, for example a “-stickered” SKU and the original. RemBase adds them up. Each Amazon label (FNSKU) is counted once. <strong>FBA Inbound Qty</strong> is added up the same way.</li>
