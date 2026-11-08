@@ -109,7 +109,7 @@ You only change the status by hand if Becca asks you to. Click the **Status** bo
 
 RemBase makes the PDF by itself and makes it again after every change. Do not upload or change it by hand. If the file is missing after a few minutes, ask Adam.
 
-## PO Planning (look only)
+## PO Planning
 
 PO Planning shows what we should order.
 
@@ -125,9 +125,10 @@ PO Planning shows what we should order.
 
 ![PO Planning columns and the Commit button](img/pop-02-columns.png)
 
-- **2 – Planning Override Qty:** Becca types her own number here.
-- **3 – Start New PO For Vendor:** tick to start a new PO for this part's vendor.
-- **4 – Planning Add To PO:** tick to add this part to a PO.
+- **2 – Planning Override Qty:** Becca types how many to order. **Typing a quantity adds the part to the order by itself** (it ticks **Planning Add To PO**). Clear the number, or untick, to take it off.
+- **3 – Start New PO For Vendor:** tick only when you want a **new** PO for this vendor, not a line on an open PO.
+- **4 – Planning Add To PO:** ticked = this part is in the order.
+- **Vendor:** wrong vendor on a part? Open the line. Click the **x** on the wrong vendor, then pick the right one.
 - **5 – Commit / Clear:** goes to the Commit page. **Becca only.**
 
 ## PO Planning – Commit (Becca only)
@@ -152,4 +153,4 @@ These parts are left out of planning. To bring a part back, Becca unticks **Excl
 - **Pressing Email PO.** It emails the vendor. See [Do not press](do-not-press.html).
 - **Clicking Create "…" in the part list.** It makes a new part that planning leaves out. Ask Becca to add the part.
 - **Changing an Issued PO and not telling the vendor.** RemBase does not tell them.
-- **Ticking boxes in PO Planning to "try it".** The ticks are shared with Becca's real planning.
+- **Typing a quantity or ticking boxes in PO Planning to "try it".** They are shared with Becca's real planning. A typed quantity adds the part to the order.

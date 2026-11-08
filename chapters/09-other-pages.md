@@ -19,7 +19,9 @@ Do not approve anything unless you are Becca or Adam.
 
 **What it is for:** a flag is a problem the system found. Examples: a part with no vendor, a count difference, a short Amazon shipment.
 
-**Who uses it:** Becca. Others may be assigned a flag.
+**Who uses it:** Becca, and anyone a flag is assigned to.
+
+You get a flag only when a person must do something: recount a bin, import a file into Fishbowl, raise a PO, close short lines, or ask a vendor for a credit. Other problems go to the RemBase team, and they fix them.
 
 | Sub-page | What it shows |
 |---|---|
@@ -93,3 +95,17 @@ Open an order. **Get labels** is at the top. The other buttons are in the **...*
 - An **error** in Bot Result? Wait 10 minutes. Check Shippo. Tell Adam. Do **not** press **Retry labels**.
 - **Check needed** after **Void labels**? Stop. Tell Adam.
 - **Never** press **Void labels** on an order that has shipped.
+
+## eBay → Messages
+
+**What it is for:** eBay buyer messages, with a reply that RemBase drafts.
+
+**Who uses it:** anyone on the team. Sabith, Chad and Karly answer eBay buyers.
+
+1. Click **eBay** in the menu, then **Messages**. **Urgent** messages (red stripe) are at the top.
+2. Click a message. Read **Message** (what the buyer wrote).
+3. Read **Our draft (edit before Send)**. Change it if needed.
+4. Set **Status** if needed: **Needs person** (you must answer it yourself) or **Ignored**.
+
+**Send** is **OFF** for now: ticking it sends nothing yet. Adam tells you when it works.
+

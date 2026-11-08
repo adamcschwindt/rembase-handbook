@@ -92,6 +92,7 @@ Never practice on a real part, a real PO or a real shipment.
 | **Backorders** | PO lines we are still waiting for. |
 | **CC Orders** | Clear Conscience orders. |
 | **Claims** | File Amazon claims for lost or damaged units. See [Claims](claims.html). |
+| **eBay** | eBay buyer messages. See [Other pages](other-pages.html#ebay-messages). |
 
 ## The most important rules
 

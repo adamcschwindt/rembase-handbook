@@ -97,10 +97,10 @@ The page parts have the same numbers as the steps below.
 2. In **2. Pallets**, fill in each pallet: size, weight, "not stackable".
 3. Press **Create plan** (top of the page). Wait. Read **Result (after a button: wait 1-2 min)**.
 4. In **4. Pick a warehouse, then ... > Confirm placement**, check the Amazon warehouse choices and their fee. Then press **…** and **Confirm placement**.
-5. In **5. Pick a carrier, then ... > Confirm freight**, check the carrier prices. Then press **…** and **Confirm freight**.
+5. In **5. Pick a carrier, then ... > Confirm freight**, check the carrier prices and the **Pickup Date**. If **Pickup Note** warns that the pickup is late, tick **Pickup OK** on the carrier you pick (only if that date is fine). Then press **…** and **Confirm freight**.
 6. Print from **6. Labels (box + pallet)**:
-   - the file with **box-labels** in its name: one label on every box;
-   - the file with **pallet-labels**: four labels for each pallet, one on each side;
+   - the file with **box-labels** in its name: one label on every box (4x6 thermal printer);
+   - the file with **pallet-labels**: four labels for each pallet, one on each side (4x6 thermal printer);
    - the file with **bill-of-lading** (BOL): for the driver.
 7. When the truck has left: press **Mark as sent** (top of the page) **once**. Read **Mark Sent Result** (under the **Result** line):
    - **SENT …** – done. The next shipment is empty and ready.

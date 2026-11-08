@@ -68,7 +68,7 @@ Below, the parts of the page are numbered in the order you use them:
 - **2. Pallets:** the pallets: size, weight, and "not stackable".
 - **3. Create plan:** the button at the top.
 - **4. Pick a warehouse, then ... > Confirm placement:** the Amazon warehouse choices, with their fee.
-- **5. Pick a carrier, then ... > Confirm freight:** the carrier choices, with their price.
+- **5. Pick a carrier, then ... > Confirm freight:** the carrier choices, with their price, **Pickup Date** and **Pickup Note**. If the pickup is more than 1 business day after **Ship Date**, **Pickup Note** warns you. To accept that date, tick **Pickup OK** on the carrier you pick. **Confirm freight** is refused until you do. The list shows **Pickup OK**, **Pickup Note** and **Pickup Date** (scroll right to see **Pickup Note** and **Pickup Date**).
 - **6. Labels (box + pallet):** the labels and the BOL.
 - **7. Mark as sent:** the button at the top.
 
@@ -81,9 +81,9 @@ Below, the parts of the page are numbered in the order you use them:
    - After **Confirm freight** (truck / LTL shipments only): the **pallet labels** and the **bill of lading**.
 
    The files:
-   - **box labels letter 6-up** – six labels on one letter page.
-   - **box labels 4x6 thermal** – for the label printer.
-   - **pallet labels** – Amazon gives **four labels for each pallet**, one for each side.
+   - **box labels 4x6 thermal** – for the 4x6 label printer.
+   - **pallet labels** (4x6 thermal) – Amazon gives **four labels for each pallet**, one for each side.
+   - A file with **NOT-thermal** in its name is for plain paper. Use it only if there is no thermal file.
    - **bill of lading** – the paper for the truck driver.
 4. The file opens. Print it.
 5. Put one box label on every box. Do not cover other labels.
@@ -150,7 +150,7 @@ Some buttons are inside the **…** menu at the top of the page.
 
 - **Pressing a button twice because nothing seems to happen.** Wait for **Inbound Pending** to clear.
 - **Using old labels.** Always print from the shipment you are packing.
-- **Wrong label size.** Use 4x6 for the thermal printer and 6-up for normal paper.
+- **Wrong printer.** Box and pallet labels are 4x6: print them on the thermal label printer.
 - **Confirming without checking the price.** Confirm placement and Confirm freight cost money.
 - **Practicing on this page.** These buttons are real. There is no TEST shipment.
 - **Two Amazon SKUs with no Ship as tick.** The shipment stops until Becca ticks **Ship as** on one SKU.

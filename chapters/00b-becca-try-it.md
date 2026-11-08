@@ -63,7 +63,7 @@ More help: [Home](home.html).
 
 **Done when:** you have checked the parts you want to order.
 
-More help: [PO Planning](purchase-orders.html#po-planning-look-only).
+More help: [PO Planning](purchase-orders.html#po-planning).
 
 ## Task 3 – Every week and every month (look only)
 
