@@ -24,7 +24,10 @@ When boxes arrive from a vendor, you **receive** them. Receiving puts the stock 
    Some are broken? Also type how many are damaged. Damaged units go to the **DAMAGED** bin by themselves. Vicky gets a task to ask the vendor for a credit.
 5. Tap **Save receipt**. It says **Saved ✓ … RemBase is posting it.** Then: **Saved … RemBase copies it to Fishbowl.**
 6. The same item with another date: after you save, tap **Same item, another date**.
-7. When the delivery is done: tap **Done with this delivery (tell Becca)**. The phone shows what is still due. Tap **Yes, tell Becca**.
+7. Take a photo of the packing slip: tap **📷 Add packing slip photo** on the PO screen. One photo for each page. Wrong photo? Tap the small **×** on it and take it again.
+8. When the delivery is done: tap **Done with this PO**, or **Done with this delivery (tell Becca)**. The photos are sent now, with the receipt. There is no Send button. The phone shows what is still due. Tap **Yes, tell Becca**.
+
+**The packing slip photo is optional.** If it cannot be sent, the receipt is still saved. The phone shows **Packing slip not saved**. Tap **Tap to retry**. The photos stay on the phone until they are sent.
 
 **After you save:** the stock is in RemBase right away. Once a day, **Adam** imports the day's receipts into Fishbowl. Until then Fishbowl does not show it. Do **not** receive it in Fishbowl.
 
@@ -60,6 +63,8 @@ When boxes arrive from a vendor, you **receive** them. Receiving puts the stock 
 ## The Receiving page
 
 The **Receiving** page in RemBase is for the office: to check a PO line, receive at a computer, fix a receipt, or close a line short. **The floor receives with RemBase Scan.**
+
+**Packing slips:** open the PO. Under **PO Notes** the **Packing Slips** list shows the photos from the floor. To add one at a computer, click **Add record**. The **Add packing slip** form opens: add the photo or PDF (several pages are OK), write a **Note** if you want, and click **Save packing slip**.
 
 ![Receiving list grouped by PO, with the practice lines](img/rcv-01-list.png)
 

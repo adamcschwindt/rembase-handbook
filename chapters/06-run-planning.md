@@ -31,14 +31,14 @@ Run Planning shows which products we should build and send to Amazon next.
 
 The numbers update every hour. During the update some rows can show different times. Wait a few minutes and look again.
 
-## Run Planning – Commit (Becca only)
+## Commit the runs (Becca only)
 
-![Run Planning commit page: staged list, Commit and Clear buttons, planned runs](img/rp-02-commit.png)
+Run Planning is **one page**. The list is at the top. Below it are the buttons and **Planned runs**. There is no separate Commit page.
 
-- **Staged for commit** lists the products you ticked. Check it first.
-- **Commit Run Planning** makes production runs from the ticked rows right away.
+- **Staged for commit** (top right) lists the products you ticked. Check it first.
+- **Commit Run Planning** makes production runs from the ticked rows right away. Read the result line under the button.
 - **Clear Run Planning** removes all the ticks. **Staged for commit** is then empty.
-- **Planned runs** lists the open runs, with their **Run Stage**. TEST runs are not shown here.
+- **Planned runs** (below the buttons) lists the open runs, with their **Run Stage**. TEST runs are not shown here.
 
 The page says: **Commit makes the runs right away. Check 'Staged for commit' first. Clear empties the staged list.**
 

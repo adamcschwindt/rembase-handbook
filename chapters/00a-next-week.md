@@ -29,12 +29,12 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 
 ![Run Planning list and its main columns](img/rp-01-list.png)
 
-**First:** open **Run Planning – Commit** and press **Clear Run Planning** **once**. This removes old ticks, so Commit makes only today's runs.
+**First:** on **Run Planning**, scroll down and press **Clear Run Planning** **once**. This removes old ticks, so Commit makes only today's runs.
 
 1. Click **Run Planning** in the menu. Find the product. Check **Recommended Send Qty**.
 2. To use your own number, type it in **Run Planning Override Qty**.
 3. Tick **Run Planning Add To Run**.
-4. Open **Run Planning – Commit**. Press **Commit Run Planning** **once**. **Planned runs** shows the new run.
+4. Check **Staged for commit** (top right of the same page). Scroll down and press **Commit Run Planning** **once**. **Planned runs** (below) shows the new run.
 5. Click **Production Run** in the menu. Click the new run.
 6. Check **Run Components**. A prep run has **one** row: the product itself. (A run with a recipe shows its parts.) If **Run Components** is empty, stop and tell Adam.
 7. Check **Chosen Lot** on that row. RemBase chose the lot that expires first. The warehouse can choose another lot on the Floor page. If **Chosen Lot** is empty, there was no stock when you pressed Commit. The run cannot be finished until a lot is chosen.
@@ -50,8 +50,6 @@ A run with a recipe (a kit or a pack) has the same steps.
 ## B. Warehouse: build the run and count
 
 **Build the run (Chad, Sabith):**
-
-![Floor page with Qty Built and the Pick list](img/pr-03-floor.png)
 
 1. Click **Production Run - Floor** in the menu. **Rush** runs are at the top.
 2. Click the run. A prep run shows **one** part in the **Pick list**: the product itself.

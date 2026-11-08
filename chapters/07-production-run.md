@@ -46,7 +46,7 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 
 For a product with **Warehouse Ready Qty** (finished, ready to ship):
 
-1. Make the run as usual (Run Planning, Commit).
+1. Make the run as usual (on Run Planning, tick the product, then press **Commit Run Planning**).
 2. Open the run on **Production Run**. Tick **Pack only (ready stock)** (under **Rush**).
 3. RemBase uses only ready lots. Nothing is prepped. The warehouse boxes it and presses **Finish Run**.
 
@@ -65,8 +65,6 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 1. Click **Production Run - Floor** in the menu.
 2. Click your run in the list.
    The product card (**Output Part**) shows **Box To Use** (which box, or **No box**) and **Packing Notes** (what else to pack, for example labels). Tap the card to open the product.
-
-   ![Floor page with Qty Built and the Pick list](img/pr-03-floor.png)
 
 3. Read the **Pick list** (above **Run Cartons**). For each part it shows:
    - **Component Part SKU:** the part.
@@ -89,8 +87,6 @@ Both run lists (**Production Run** and **Production Run - Floor**) show Rush run
 9. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
 
 ## What you should see
-
-![Floor page after typing the built quantity and cartons](img/pr-04-filled.png)
 
 - **Qty Built** shows your number.
 - **Run Stage** changes to **In Progress**.
