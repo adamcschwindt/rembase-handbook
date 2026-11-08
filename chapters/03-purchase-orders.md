@@ -19,10 +19,9 @@ Before December 1, make real POs in **Fishbowl**. In RemBase, practice only on *
 
 | Sub-page | What it is for |
 |---|---|
-| **Purchase Orders** | All POs. Open one to see its lines. |
+| **Purchase Orders** | All POs. Open one to see its lines. Tick **Show POs · variance only: type 1** to see only POs with a problem (**Has Open Variance**). |
 | **PO Planning** | What we should order next. |
 | **PO Planning – Commit** | Turns the planning ticks into POs. Becca only. |
-| **PO Variance Report** | PO lines that came in short, over or damaged. |
 | **Excluded from planning** | Parts that planning ignores, like TEST parts. |
 
 ## Task: find and open a PO

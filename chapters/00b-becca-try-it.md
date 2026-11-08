@@ -14,8 +14,6 @@ order: 1
 - **Made a typing mistake?** Press **Cmd+Z** (**Ctrl+Z** on Windows) right away to undo it.
 - **While you practice, never press these buttons:**
   - **Email PO**
-  - **Email Staged POs**
-  - **Delete Staged POs**
   - **Create "…"** in a part list
   - **Escalate To Asana**
   - Anything on the **Ads** page

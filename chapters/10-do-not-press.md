@@ -17,12 +17,6 @@ These buttons email vendors, move real stock or delete records. If you think one
 
 It emails the PO to the vendor.
 
-## Email Staged POs and Delete Staged POs
-
-![Email and delete staged POs buttons marked do not press](img/dnp-staged-pos.png)
-
-They are at the bottom of the Purchase Orders list. They email or delete every staged PO at once.
-
 ## CC Orders buttons (Chad or Adam only)
 
 - **Get labels** – buys real FedEx labels.

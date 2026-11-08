@@ -27,17 +27,14 @@ order: 3
 
 More help: [Purchase Orders](purchase-orders.html).
 
-## Task 2 – Before you pay a vendor bill: check the PO Variance Report (look only)
+## Task 2 – Before you pay a vendor bill: check what arrived (look only)
 
 **Goal:** see if what arrived matches what we ordered.
 
-1. In the RemBase menu, click **Purchase Orders**, then **PO Variance Report**.
-2. Click **Search** and type the PO number.
-3. Read **Discrepancy Flag** on each line:
-   - **Short** = less arrived than we ordered.
-   - **Over** = more arrived than we ordered.
-   - **Damage** = some arrived damaged.
-4. Read **Discrepancy Notes**. It says what is wrong.
+1. In the RemBase menu, click **Purchase Orders**.
+2. To see only POs with a problem, type **1** in **Show POs · variance only: type 1**. The column **Has Open Variance** shows the problem POs. Clear the box to see all POs again.
+3. Click the PO on the bill.
+4. Check each line: how many we ordered, how many arrived, and how many were damaged.
 5. Compare with the vendor's bill.
 
 Real deliveries are received in RemBase now (since November 4), so real lines show here.
