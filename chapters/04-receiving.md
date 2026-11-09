@@ -89,6 +89,19 @@ This list shows the open PO lines (real ones and TEST practice lines).
 **Always pick the bin.** If a receipt has no bin, nothing is added to stock. Its **Post Status** says **Not posted – needs bin**. See [Forgot the bin](#forgot-the-bin).
 :::
 
+## Task: receive several lines on the PO page (office)
+
+You can receive many lines of one PO at once, at a computer. The floor still uses RemBase Scan.
+
+1. Click **Purchase Orders** in the menu. Click the PO.
+2. On each line that arrived, fill in **Receive Now** (units that arrived). Broken units: fill in **Damaged Now**.
+3. Pick the **Receive Bin**. A part with an expiration date: fill in **Receive Exp**.
+4. More than we ordered? Tick **Confirm Over** only if your count is right.
+5. Under the lines, in **Desk receiving**, tick **Receive these lines** **once**.
+6. Read **Receive Result**. It lists the lines that were sent. A line that was refused is listed with the reason. Its numbers stay in the boxes: fix them, then tick **Receive these lines** again.
+
+The same checks as RemBase Scan apply. Damaged units go to the damaged bin. Receive each delivery **once**: here **or** in Scan, never both, and never in Fishbowl.
+
 ## Task: receive a PO line
 
 This is the office way, on a computer. The floor uses RemBase Scan. Receive each delivery **once**: in Scan **or** here, never both. To practice, use **your own practice PO**. There are three ways to open the **Receive** form. All three open the same form. Way 1 is the easiest.
