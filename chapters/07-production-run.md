@@ -21,16 +21,16 @@ All production runs are done in **RemBase**, not in Fishbowl. See [Next week in 
 
 | Sub-page | What it is for |
 |---|---|
-| **Production Run** | The office view: plan, components and lots. |
-| **Production Run - Floor** | The floor view: what you built, cartons and pallet. |
+| **DESK: Production planning** (in **Production Run (Desk)**) | The office view (Becca): plan, lot lines, Reverse Run. |
+| **FLOOR: Runs to do** (in **Production Run (Floor)**) | The floor view (Chad, Sabith): pick list, boxes, Finish Run. |
 
 ## Task: find a run and check its parts
 
-1. Click **Production Run** in the menu. The list shows real runs only.
+1. Click **Production Run (Desk)** in the menu. The list shows real runs only.
 2. Click the run in the list. **Rush** runs come first, then the soonest due date.
 3. Check **Qty Planned**. This is how many to build.
 4. Check **Output Part**. This is the product you build.
-5. Scroll down to **Run Components**. It is above **Run Cartons**.
+5. Scroll down to **Lot lines (pick list)** (read only) and **Run Components**. The floor ticks **Picked** on each line.
    - **Component Part SKU:** each part you need.
    - **Qty To Consume:** how many of that part.
    - **Suggested Lot Label:** the lot RemBase suggests: the one that expires first.
@@ -52,39 +52,26 @@ For a product with **Warehouse Ready Qty** (finished, ready to ship):
 
 ## Task: change the due date or put a run first (Becca)
 
-1. Click **Production Run** in the menu.
+1. Click **Production Run (Desk)** in the menu, then **DESK: Production planning**.
 2. Click the run in the list.
 3. To change the due date: change **Date Needed (change if needed)** near the top. The **Due Date** lower down follows by itself.
 4. To put the run first: tick **Rush**.
 
-Both run lists (**Production Run** and **Production Run - Floor**) show Rush runs first. On the Floor page you see **Rush**, but you cannot change it.
+Both run lists (**DESK: Production planning** and **FLOOR: Runs to do**) show Rush runs first, with a red flag. On the floor page you see **Rush**, but you cannot change it.
 
 
-## Task: enter what you built (Floor page)
+## Task: build and finish a run (Floor page)
 
-1. Click **Production Run - Floor** in the menu.
-2. Click your run in the list.
-   The product card (**Output Part**) shows **Box To Use** (which box, or **No box**) and **Packing Notes** (what else to pack, for example labels). Tap the card to open the product.
-
-3. Read the **Pick list** (above **Run Cartons**). For each part it shows:
-   - **Component Part SKU:** the part.
-   - **Qty To Consume:** how many to take.
-   - **Chosen Lot:** the lot to take. RemBase chose the lot that expires first.
-   - **Chosen Lot Label:** the expiration date, the lot, how many are left, and the bin.
-
-   Take that lot from that bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. You cannot change anything else in the pick list.
-
-   **The Pick list is empty?** RemBase has no recipe for this product. Do **not** press **Finish Run**. Tell Becca.
-4. Build. Type the number you built in **Qty Built** (6).
-5. In **Run Performed By** (under **Qty Built**), pick your name.
-6. In **Run Cartons** (below the **Pick list**), click the **+** to add a carton row.
-7. Fill in the row. Press **Tab** to go to the next box:
-   - **Boxes:** how many boxes of this size.
-   - **Units Per Box:** how many units in each box.
-   - **Length**, **Width**, **Height:** box size in inches.
-   - **Weight Per Box (lb):** weight of one full box in pounds.
-8. If you have boxes of different sizes, add one row per size.
-9. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
+1. Click **Production Run (Floor)** in the menu, then **FLOOR: Runs to do**. The list opens on **To do**: **Rush** runs first (red flag), then the soonest date. **Done** shows finished runs.
+2. Click the run. The product card (**Output Part**) shows **Box To Use** and **Packing Notes**. Tap the card to open the product. **Pack only** on the title means ready stock: no prep.
+3. Read the **Pick list**. It has **one line per lot**: **Part SKU**, **Lot**, **Lot Exp** (expiration date), **Bin** and **Line Qty**. Take each line from its bin. Then tick **Picked**.
+   - Need another lot? Change the **Lot** or **Line Qty** on the line, or add a line. The lot must be for this product, and the lines must add up to the run quantity. A changed or added line shows **OVERRIDE**.
+   - **The Pick list is empty?** RemBase has no recipe for this product. Do **not** press **Finish Run**. Tell Becca.
+4. In **Run Cartons**, add one row for each kind of box. Fill in **Boxes**, **Units Per Box**, size and **Weight Per Box (lb)**. Choose the **Pick Line** the box came from. Each pick line reads: run, **Exp** date, bin, quantity (for example, **R1000 · Exp 2030-01-31 · A-01 · 24**). **One expiration date per box**: keep each lot in its own boxes. If the lot has no date, type **Printed Expiration Date**.
+5. **Qty built (from boxes)** adds up your boxes. Leave **Qty Built** empty to use it. Type **Qty Built** only if it is different.
+6. In **Run Performed By**, pick your name.
+7. If you built fewer than planned, choose a **Short-Close Reason** and write a **Short-Close Note**.
+8. Press **Finish Run** **once**. Confirm. Read **Finish Result**.
 
 ## What you should see
 
@@ -109,15 +96,21 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 
    | Finish Result says | What to do |
    |---|---|
-   | **the chosen lot still needs prep …** | That lot is not ready. Choose a ready lot in **Chosen Lot**, or ask Becca to clear it. Then press **Finish Run** again. |
-   | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
+   | **tick Picked on every pick line of … Not picked: …** | Tick **Picked** on each line you took. Or pick a **Short-Close Reason**. Then press **Finish Run** again. |
+   | **the picked lines of … add up to X but N is needed** | You picked too little. Pick the rest, or ask the office. |
+   | **… add up to X but only N is needed** | You picked too much. Untick the extra line, or pick a **Short-Close Reason**. |
+   | **pick line … uses a lot that is not a lot of …** | Change the **Lot** on that line to a lot of this product. |
+   | **pick line … uses a lot that still needs prep** | That lot is not ready. Change the **Lot** on that line. |
+   | **pick line … needs A but the lot only has B left** | Fix the line. Tell Becca to press **Refresh FEFO** on the run. Then press **Finish Run** again. |
+   | **carton row … is linked to a pick line that belongs to another run** | In that carton row, pick the line of **this** run. |
+   | **Boxes say N, Qty built says M** | Fix one. Leave **Qty Built** empty to use the boxes. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
    | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
 
    The 110% limit is in Settings. Becca can change it.
 
 - **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **Production Run** page, not on the Floor page:
-  1. Click **Production Run** in the menu. Click the run.
+  1. Click **Production Run (Desk)** in the menu. Click the run.
   2. At the top, type why in **Run Reverse Reason (type it before Reverse Run)**.
   3. Press **Reverse Run** **once**. Read **Finish Result**.
 
@@ -128,4 +121,4 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 - **Pressing Finish Run twice.** Press once and read **Finish Result**.
 - **Units do not match Qty Built.** Check Boxes × Units Per Box.
 - **Weight of the whole stack instead of one box.** Type the weight of one box.
-- **Taking a different lot without changing Chosen Lot.** Change **Chosen Lot** first, or take the lot RemBase picked.
+- **Taking a different lot without changing the line.** Change the **Lot** on the pick line first, or take the lot RemBase picked.

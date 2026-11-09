@@ -46,9 +46,9 @@
 <li>To use your own number, type it in <strong>Run Planning Override Qty</strong>.</li>
 <li>Tick <strong>Run Planning Add To Run</strong>.</li>
 <li>Check <strong>Staged for commit</strong> (top right of the same page). Scroll down and press <strong>Commit Run Planning</strong> <strong>once</strong>. <strong>Planned runs</strong> (below) shows the new run.</li>
-<li>Click <strong>Production Run</strong> in the menu. Click the new run.</li>
+<li>Click <strong>Production Run (Desk)</strong> in the menu, then <strong>DESK: Production planning</strong>. Click the new run.</li>
 <li>Check <strong>Run Components</strong>. A prep run has <strong>one</strong> row: the product itself. (A run with a recipe shows its parts.) If <strong>Run Components</strong> is empty, stop and tell Adam.</li>
-<li>Check <strong>Chosen Lot</strong> on that row. RemBase chose the lot that expires first. The warehouse can choose another lot on the Floor page. If <strong>Chosen Lot</strong> is empty, there was no stock when you pressed Commit. The run cannot be finished until a lot is chosen.</li>
+<li>Check <strong>Lot lines (pick list)</strong>. RemBase chose the lots that expire first. The warehouse can change a lot on the floor page. No lines means no stock when you pressed Commit.</li>
 <li><strong>Date Needed (change if needed)</strong> is 7 days from today. Change it if needed. Do not leave it empty.</li>
 <li>If the run is urgent, tick <strong>Rush</strong>. Rush runs are at the top of the Floor page.</li>
 </ol>
@@ -58,11 +58,10 @@
 <h2 id="b.-warehouse-build-the-run-and-count">B. Warehouse: build the run and count</h2>
 <p><strong>Build the run (Chad, Sabith):</strong></p>
 <ol type="1">
-<li><p>Click <strong>Production Run - Floor</strong> in the menu. <strong>Rush</strong> runs are at the top.</p></li>
-<li><p>Click the run. A prep run shows <strong>one</strong> part in the <strong>Pick list</strong>: the product itself. The product card (<strong>Output Part</strong>) shows <strong>Box To Use</strong> (which box, or <strong>No box</strong>) and <strong>Packing Notes</strong> (what else to pack, for example labels). Tap the card to open the product.</p></li>
-<li><p>Read the <strong>Pick list</strong>: each part (<strong>Component Part SKU</strong>), how many to take (<strong>Qty To Consume</strong>), and which lot and bin (<strong>Chosen Lot Label</strong>). RemBase chose the lot that expires first. Take <strong>that</strong> lot from <strong>that</strong> bin. To take a different lot: tap the <strong>Chosen Lot</strong> box and pick the lot. Only lots of that part with stock show. <strong>The Pick list is empty?</strong> Do <strong>not</strong> press <strong>Finish Run</strong>. Tell Becca.</p></li>
-<li><p>Build. Type the number you built in <strong>Qty Built</strong>. In <strong>Run Performed By</strong>, pick your name.</p></li>
-<li><p>In <strong>Run Cartons</strong>, add one row for each box size: <strong>Boxes</strong>, <strong>Units Per Box</strong>, size and <strong>Weight Per Box (lb)</strong>.</p></li>
+<li><p>Click <strong>Production Run (Floor)</strong> in the menu, then <strong>FLOOR: Runs to do</strong>. <strong>Rush</strong> runs are at the top (red flag).</p></li>
+<li><p>Click the run. The product card shows <strong>Box To Use</strong> and <strong>Packing Notes</strong>. Tap it to open the product.</p></li>
+<li><p>Read the <strong>Pick list</strong>: one line per lot (<strong>Part SKU</strong>, <strong>Lot</strong>, <strong>Lot Exp</strong>, <strong>Bin</strong>, <strong>Line Qty</strong>). Take each line from its bin and tick <strong>Picked</strong>. Need another lot? Change the <strong>Lot</strong> or <strong>Line Qty</strong>, or add a line. <strong>The Pick list is empty?</strong> Do <strong>not</strong> press <strong>Finish Run</strong>. Tell Becca.</p></li>
+<li><p>In <strong>Run Cartons</strong>, add one row for each box size: <strong>Boxes</strong>, <strong>Units Per Box</strong>, size, <strong>Weight Per Box (lb)</strong> and the <strong>Pick Line</strong>. One expiration date per box. <strong>Qty built (from boxes)</strong> adds them up: leave <strong>Qty Built</strong> empty. In <strong>Run Performed By</strong>, pick your name.</p></li>
 <li><p>Press <strong>Finish Run</strong> <strong>once</strong>. Read <strong>Finish Result</strong>.</p>
 <ul>
 <li><strong>DONE …</strong> – the run is finished. A prep run says <strong>DONE: Moved …</strong>: the items moved to the pallet.</li>
@@ -82,12 +81,36 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>the chosen lot still needs prep …</strong></td>
-<td>That lot is not ready. Choose a ready lot in <strong>Chosen Lot</strong>, or ask Becca to clear it. Then press <strong>Finish Run</strong> again.</td>
+<td><strong>tick Picked on every pick line of … Not picked: …</strong></td>
+<td>Tick <strong>Picked</strong> on each line you took. Or pick a <strong>Short-Close Reason</strong>. Then press <strong>Finish Run</strong> again.</td>
 </tr>
 <tr class="even">
-<td><strong>choose the lot for: …</strong></td>
-<td>That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in <strong>Chosen Lot</strong> in the <strong>Pick list</strong>, or ask Becca. Then press <strong>Finish Run</strong> again.</td>
+<td><strong>the picked lines of … add up to X but N is needed</strong></td>
+<td>You picked too little. Pick the rest, or ask the office.</td>
+</tr>
+<tr class="odd">
+<td><strong>… add up to X but only N is needed</strong></td>
+<td>You picked too much. Untick the extra line, or pick a <strong>Short-Close Reason</strong>.</td>
+</tr>
+<tr class="even">
+<td><strong>pick line … uses a lot that is not a lot of …</strong></td>
+<td>Change the <strong>Lot</strong> on that line to a lot of this product.</td>
+</tr>
+<tr class="odd">
+<td><strong>pick line … uses a lot that still needs prep</strong></td>
+<td>That lot is not ready. Change the <strong>Lot</strong> on that line.</td>
+</tr>
+<tr class="even">
+<td><strong>pick line … needs A but the lot only has B left</strong></td>
+<td>Fix the line. Tell Becca to press <strong>Refresh FEFO</strong> on the run. Then press <strong>Finish Run</strong> again.</td>
+</tr>
+<tr class="odd">
+<td><strong>carton row … is linked to a pick line that belongs to another run</strong></td>
+<td>In that carton row, pick the line of <strong>this</strong> run.</td>
+</tr>
+<tr class="even">
+<td><strong>Boxes say N, Qty built says M</strong></td>
+<td>Fix one. Leave <strong>Qty Built</strong> empty to use the boxes.</td>
 </tr>
 <tr class="odd">
 <td><strong>… Check the number. If it is right, ask the office to raise Qty Planned first.</strong></td>

@@ -35,9 +35,9 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 2. To use your own number, type it in **Run Planning Override Qty**.
 3. Tick **Run Planning Add To Run**.
 4. Check **Staged for commit** (top right of the same page). Scroll down and press **Commit Run Planning** **once**. **Planned runs** (below) shows the new run.
-5. Click **Production Run** in the menu. Click the new run.
+5. Click **Production Run (Desk)** in the menu, then **DESK: Production planning**. Click the new run.
 6. Check **Run Components**. A prep run has **one** row: the product itself. (A run with a recipe shows its parts.) If **Run Components** is empty, stop and tell Adam.
-7. Check **Chosen Lot** on that row. RemBase chose the lot that expires first. The warehouse can choose another lot on the Floor page. If **Chosen Lot** is empty, there was no stock when you pressed Commit. The run cannot be finished until a lot is chosen.
+7. Check **Lot lines (pick list)**. RemBase chose the lots that expire first. The warehouse can change a lot on the floor page. No lines means no stock when you pressed Commit.
 8. **Date Needed (change if needed)** is 7 days from today. Change it if needed. Do not leave it empty.
 9. If the run is urgent, tick **Rush**. Rush runs are at the top of the Floor page.
 
@@ -51,13 +51,11 @@ A run with a recipe (a kit or a pack) has the same steps.
 
 **Build the run (Chad, Sabith):**
 
-1. Click **Production Run - Floor** in the menu. **Rush** runs are at the top.
-2. Click the run. A prep run shows **one** part in the **Pick list**: the product itself.
-   The product card (**Output Part**) shows **Box To Use** (which box, or **No box**) and **Packing Notes** (what else to pack, for example labels). Tap the card to open the product.
-3. Read the **Pick list**: each part (**Component Part SKU**), how many to take (**Qty To Consume**), and which lot and bin (**Chosen Lot Label**). RemBase chose the lot that expires first. Take **that** lot from **that** bin. To take a different lot: tap the **Chosen Lot** box and pick the lot. Only lots of that part with stock show. **The Pick list is empty?** Do **not** press **Finish Run**. Tell Becca.
-4. Build. Type the number you built in **Qty Built**. In **Run Performed By**, pick your name.
-5. In **Run Cartons**, add one row for each box size: **Boxes**, **Units Per Box**, size and **Weight Per Box (lb)**.
-6. Press **Finish Run** **once**. Read **Finish Result**.
+1. Click **Production Run (Floor)** in the menu, then **FLOOR: Runs to do**. **Rush** runs are at the top (red flag).
+2. Click the run. The product card shows **Box To Use** and **Packing Notes**. Tap it to open the product.
+3. Read the **Pick list**: one line per lot (**Part SKU**, **Lot**, **Lot Exp**, **Bin**, **Line Qty**). Take each line from its bin and tick **Picked**. Need another lot? Change the **Lot** or **Line Qty**, or add a line. **The Pick list is empty?** Do **not** press **Finish Run**. Tell Becca.
+4. In **Run Cartons**, add one row for each box size: **Boxes**, **Units Per Box**, size, **Weight Per Box (lb)** and the **Pick Line**. One expiration date per box. **Qty built (from boxes)** adds them up: leave **Qty Built** empty. In **Run Performed By**, pick your name.
+5. Press **Finish Run** **once**. Read **Finish Result**.
    - **DONE …** – the run is finished. A prep run says **DONE: Moved …**: the items moved to the pallet.
    - **NOT DONE: …** – nothing changed. Fix what it says. Press **Finish Run** again.
 
@@ -65,8 +63,14 @@ A run with a recipe (a kit or a pack) has the same steps.
 
    | Finish Result says | What to do |
    |---|---|
-   | **the chosen lot still needs prep …** | That lot is not ready. Choose a ready lot in **Chosen Lot**, or ask Becca to clear it. Then press **Finish Run** again. |
-   | **choose the lot for: …** | That part has no lot (for example, none was in stock when the run was made). Choose a lot for it in **Chosen Lot** in the **Pick list**, or ask Becca. Then press **Finish Run** again. |
+   | **tick Picked on every pick line of … Not picked: …** | Tick **Picked** on each line you took. Or pick a **Short-Close Reason**. Then press **Finish Run** again. |
+   | **the picked lines of … add up to X but N is needed** | You picked too little. Pick the rest, or ask the office. |
+   | **… add up to X but only N is needed** | You picked too much. Untick the extra line, or pick a **Short-Close Reason**. |
+   | **pick line … uses a lot that is not a lot of …** | Change the **Lot** on that line to a lot of this product. |
+   | **pick line … uses a lot that still needs prep** | That lot is not ready. Change the **Lot** on that line. |
+   | **pick line … needs A but the lot only has B left** | Fix the line. Tell Becca to press **Refresh FEFO** on the run. Then press **Finish Run** again. |
+   | **carton row … is linked to a pick line that belongs to another run** | In that carton row, pick the line of **this** run. |
+   | **Boxes say N, Qty built says M** | Fix one. Leave **Qty Built** empty to use the boxes. |
    | **… Check the number. If it is right, ask the office to raise Qty Planned first.** | **Qty Built** is more than 110% of **Qty Planned**. Count again. If it is right, ask Becca to raise **Qty Planned**. |
    | **this run has no Date Needed …** | Ask Becca to fill in **Date Needed (change if needed)**. Then press **Finish Run** again. |
 7. Do **not** enter this run in Fishbowl.
