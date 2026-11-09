@@ -32,6 +32,7 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 1. Click **Run Planning** in the menu. Products are grouped by **Planning Vendor**. Find the product. Check **Recommended Send Qty**. The next two columns are **Run Planning Override Qty** and **Run Planning Add To Run**.
 2. To use your own number, type it in **Run Planning Override Qty**.
 3. Tick **Run Planning Add To Run**.
+   When you tick **Run Planning Add To Run** and **Run Planning Override Qty** is empty, RemBase fills it with **Recommended Send Qty**. Change the number if you want a different one. A number you typed is never changed.
 4. Press **Commit staged runs** (top of the page). On **Run Planning – Commit**, check **Staged for commit** (top right). Scroll down and press **Commit Run Planning** **once**. **Planned runs** (below) shows the new run.
 5. Click **Production Run (Desk)** in the menu, then **DESK: Production planning**. Click the new run.
 6. Check **Run Components**. A prep run has **one** row: the product itself. (A run with a recipe shows its parts.) If **Run Components** is empty, stop and tell Adam.
