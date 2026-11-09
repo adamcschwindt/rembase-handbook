@@ -120,6 +120,7 @@ PO Planning shows what we should order.
   - It is adjusted for the season (more before the holidays).
   - For a part that goes into packs, the packs' sales count too (**Demand from packs (90d)**).
   - Stock moving between Amazon warehouses counts as stock at Amazon.
+- **Holiday Order Qty** and **Holiday Note** (next to **Recommended Order Qty**, read only): for a product with a holiday peak, a bigger number to think about, and the reason in words. The cell is empty for most products. Becca decides. To use it, type it in **Planning Override Qty**.
 - **Clear Conscience** lens and liquid show **0**. Consigned stock that we can buy any time covers them.
 
 ![PO Planning columns and the Commit button](img/pop-02-columns.png)
