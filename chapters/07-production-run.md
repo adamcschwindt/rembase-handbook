@@ -80,6 +80,15 @@ Both run lists (**DESK: Production planning** and **FLOOR: Runs to do**) show Ru
 - **Units** in Run Cartons = Boxes × Units Per Box. It should match Qty Built.
 - **Missing** is empty when the carton row is complete.
 
+## Task: fix the boxes on a finished run (Floor page)
+
+A wrong box row on a **Done** run? You can fix it.
+
+1. Click **Production Run (Floor)** in the menu, then **FLOOR: Runs to do**. Click **Done**. Click the run.
+2. In **Run Cartons**, fix the **Boxes**, **Units Per Box**, size or **Weight Per Box (lb)**.
+3. The **total units must stay the same**. You cannot add or remove units here.
+4. Need more units? Ask Becca for a new run.
+
 ## Task: finish the run
 
 When the run is built and the cartons are entered, **Finish Run** takes the parts out of stock and adds the finished product. On a real run it also adds the units to the next Amazon shipment.

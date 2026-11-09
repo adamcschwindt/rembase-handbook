@@ -213,7 +213,10 @@ Use it **before** the day's receipts are imported into Fishbowl (before 3 PM). A
 4. Read **Reverse Result**. **OK** means it worked.
 5. Receive the line again with the right numbers. A new receipt is made (…-R2).
 
-Wrong expiration date? Before the receipt is posted, just fix the date on the receipt. After it is posted, reverse it and receive again.
+Wrong expiration date? Before the receipt is posted, just fix the date on the receipt. After it is posted:
+
+- **You received it in RemBase Scan today, before 3 PM:** press **Reverse or cancel this receipt**, then receive the line again with the right date.
+- **Any other time:** do **not** fix it yourself. Tell Adam. He fixes it in Fishbowl.
 
 If **Reverse Result** says:
 
