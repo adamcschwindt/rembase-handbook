@@ -64,6 +64,10 @@ If a report says **Late** or **Stale**, tell Adam.
 - If a counter is not 0, look at **Late or stale now (which report, and where)**, just under the counters. It shows which report, its status, why, when it was due, and its links. Tell Adam.
 - RemBase checks the reports every hour from 12:35 to 6:35 PM ET (also at 7:40 AM, 11:40 AM and 10:10 PM). A new daily file shows within the hour.
 
+### A report looks old or wrong
+
+Press **Flag this (report looks old or wrong)** (top right of **Reports**). A short form opens: write a **Title** and a **Note**. Submit it. Adam sees it on the **Flags** page. **Source** and **Status** are filled in for you.
+
 ### Older files
 
 1. Scroll down to **Older files (history)**.

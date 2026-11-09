@@ -46,7 +46,7 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 
 For a product with **Warehouse Ready Qty** (finished, ready to ship):
 
-1. Make the run as usual (on Run Planning, tick the product, then press **Commit Run Planning**).
+1. Make the run as usual (on Run Planning, tick the product, then press **Commit staged runs** and answer **Yes**).
 2. Open the run on **Production Run**. Tick **Pack only (ready stock)** (under **Rush**).
 3. RemBase uses only ready lots. Nothing is prepped. The warehouse boxes it and presses **Finish Run**.
 

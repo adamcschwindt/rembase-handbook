@@ -38,23 +38,16 @@ The numbers update every hour. During the update some rows can show different ti
 
 ## Commit the runs (Becca only)
 
-Commit has its own page, **Run Planning – Commit**.
+Commit is on the **Run Planning** page itself.
 
-1. On **Run Planning**, tick **Run Planning Add To Run** on each product (type **Run Planning Override Qty** first if you want your own number).
-2. Press **Commit staged runs** (top of the page). This only opens the **Run Planning – Commit** page. It does not make any run.
+1. Tick **Run Planning Add To Run** on each product (type **Run Planning Override Qty** first if you want your own number).
+2. Check that **only** the products you want are ticked. The ticks are shared.
+3. Press **Commit staged runs** (top of the page). RemBase asks **Are you sure?** Press **Yes** **once**.
+4. Read the result line. **DONE: … run(s) made** lists the new runs. The ticks and numbers are cleared.
 
-![Run Planning – Commit page: the parts list](img/rp-01-list.png)
+There is no separate Commit page in the menu now.
 
-On **Run Planning – Commit**:
-
-- **Staged for commit** (top right) lists the products you ticked. Check it first.
-- **Commit Run Planning** makes production runs from the ticked rows right away. Read the result line under the button.
-- **Clear Run Planning** removes all the ticks. **Staged for commit** is then empty.
-- **Planned runs** (below the buttons) lists the open runs, with their **Run Stage**. TEST runs are not shown here.
-
-The page says: **Commit makes the runs right away. Check 'Staged for commit' first. Clear empties the staged list.**
-
-Do not press these unless you are Becca.
+Do not press **Commit staged runs** unless you are Becca.
 
 ## Common mistakes
 

@@ -27,16 +27,16 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 **All runs are in RemBase from today**, prep runs too. Do **not** make them in Fishbowl.
 :::
 
-**First:** open **Run Planning – Commit** (menu: **Run Planning**, then **Commit staged runs**). Scroll down and press **Clear Run Planning** **once**. This removes old ticks, so Commit makes only today's runs. Then go back to **Run Planning**.
+**First:** open **Run Planning** and check that **only** the products you want are ticked in **Run Planning Add To Run**. Old ticks would be committed too.
 
 1. Click **Run Planning** in the menu. Products are grouped by **Planning Vendor**. Find the product. Check **Recommended Send Qty**. The next two columns are **Run Planning Override Qty** and **Run Planning Add To Run**.
 2. To use your own number, type it in **Run Planning Override Qty**.
 3. Tick **Run Planning Add To Run**.
    When you tick **Run Planning Add To Run** and **Run Planning Override Qty** is empty, RemBase fills it with **Recommended Send Qty**. Change the number if you want a different one. A number you typed is never changed.
-4. Press **Commit staged runs** (top of the page). On **Run Planning – Commit**, check **Staged for commit** (top right). Scroll down and press **Commit Run Planning** **once**. **Planned runs** (below) shows the new run.
+4. Press **Commit staged runs** (top of the page). RemBase asks **Are you sure?** Press **Yes** **once**. Read the result line: **DONE: … run(s) made**.
 5. Click **Production Run (Desk)** in the menu, then **DESK: Production planning**. Click the new run.
 6. Check **Run Components**. A prep run has **one** row: the product itself. (A run with a recipe shows its parts.) If **Run Components** is empty, stop and tell Adam.
-7. Check **Lot lines (pick list)**. RemBase chose the lots that expire first. The warehouse can change a lot on the floor page. No lines means no stock when you pressed Commit.
+7. Check **Lot lines (pick list)**. RemBase chose the lots that expire first. The warehouse can change a lot on the floor page. No lines means no stock when you pressed Commit staged runs.
 8. **Date Needed (change if needed)** is 7 days from today. Change it if needed. Do not leave it empty.
 9. If the run is urgent, tick **Rush**. Rush runs are at the top of the Floor page.
 
