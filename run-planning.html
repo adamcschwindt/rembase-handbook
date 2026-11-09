@@ -25,15 +25,14 @@
 <p>Run Planning shows which products we should build and send to Amazon next.</p>
 <p><strong>Who uses it:</strong> Becca and Adam decide. Chad can read it to see what is coming.</p>
 <h2 id="the-list">The list</h2>
-<figure>
-<a class="zoom" href="img/rp-01-list.png"><img src="img/rp-01-list.png" loading="lazy" alt="Run Planning list and its main columns" /></a><figcaption aria-hidden="true">Run Planning list and its main columns</figcaption>
-</figure>
-<p>The first columns are <strong>SKU</strong>, <strong>Product Name</strong>, <strong>Recommended Send Qty</strong>, <strong>Run Planning Override Qty</strong> and <strong>Run Planning Add To Run</strong>. They sit side by side, so you do not need to scroll right to use them.</p>
+<p><strong>Run Planning</strong> is the first page in the menu. The list is <strong>grouped by Planning Vendor</strong>: each vendor has its own block with a count. Find your products inside the block.</p>
+<p>Each row shows how many we sold, what is at Amazon, and <strong>Recommended Send Qty</strong>. The column <strong>Recommended Send Why</strong> explains the number in one line.</p>
+<p>The three columns you use are <strong>Recommended Send Qty</strong>, <strong>Run Planning Override Qty</strong> and <strong>Run Planning Add To Run</strong>. They sit side by side.</p>
 <ul>
 <li><strong>1 – Recommended Send Qty:</strong> how many the system suggests we build and send. It plans enough stock at Amazon for <strong>45 days</strong>, plus the days Amazon needs to receive a shipment (about <strong>12 days</strong> now; RemBase updates this every day). The list is sorted by this number.</li>
 <li><strong>2 – Run Planning Override Qty:</strong> Becca types her own number here to replace the suggestion.</li>
 <li><strong>3 – Run Planning Add To Run:</strong> tick to put this product in the next runs.</li>
-<li><strong>Max Available to Build:</strong> (scroll right, not in the picture) how many we <strong>could</strong> build with the parts we have now.</li>
+<li><strong>Max Available to Build:</strong> (scroll right) how many we <strong>could</strong> build with the parts we have now.</li>
 <li><strong>Days Of Cover FBA:</strong> how many days the stock at Amazon will last. Blank, with 0 at Amazon, means the part is no longer in Amazon’s report. See <a href="inventory.html">Inventory</a>.</li>
 <li><strong>Warehouse On Hand Qty:</strong> all units of this product in our warehouse.</li>
 <li><strong>Warehouse Ready Qty:</strong> finished units. They can ship now.</li>
@@ -44,7 +43,15 @@
 </div>
 <p>The numbers update every hour. During the update some rows can show different times. Wait a few minutes and look again.</p>
 <h2 id="commit-the-runs-becca-only">Commit the runs (Becca only)</h2>
-<p>Run Planning is <strong>one page</strong>. The list is at the top. Below it are the buttons and <strong>Planned runs</strong>. There is no separate Commit page.</p>
+<p>Commit has its own page, <strong>Run Planning – Commit</strong>.</p>
+<ol type="1">
+<li>On <strong>Run Planning</strong>, tick <strong>Run Planning Add To Run</strong> on each product (type <strong>Run Planning Override Qty</strong> first if you want your own number).</li>
+<li>Press <strong>Commit staged runs</strong> (top of the page). This only opens the <strong>Run Planning – Commit</strong> page. It does not make any run.</li>
+</ol>
+<figure>
+<a class="zoom" href="img/rp-01-list.png"><img src="img/rp-01-list.png" loading="lazy" alt="Run Planning – Commit page: the parts list" /></a><figcaption aria-hidden="true">Run Planning – Commit page: the parts list</figcaption>
+</figure>
+<p>On <strong>Run Planning – Commit</strong>:</p>
 <ul>
 <li><strong>Staged for commit</strong> (top right) lists the products you ticked. Check it first.</li>
 <li><strong>Commit Run Planning</strong> makes production runs from the ticked rows right away. Read the result line under the button.</li>

@@ -27,14 +27,12 @@ A **prep run** gets an item ready for Amazon (label, sticker). It has no recipe.
 **All runs are in RemBase from today**, prep runs too. Do **not** make them in Fishbowl.
 :::
 
-![Run Planning list and its main columns](img/rp-01-list.png)
+**First:** open **Run Planning – Commit** (menu: **Run Planning**, then **Commit staged runs**). Scroll down and press **Clear Run Planning** **once**. This removes old ticks, so Commit makes only today's runs. Then go back to **Run Planning**.
 
-**First:** on **Run Planning**, scroll down and press **Clear Run Planning** **once**. This removes old ticks, so Commit makes only today's runs.
-
-1. Click **Run Planning** in the menu. Find the product. Check **Recommended Send Qty**. The next two columns are **Run Planning Override Qty** and **Run Planning Add To Run**.
+1. Click **Run Planning** in the menu. Products are grouped by **Planning Vendor**. Find the product. Check **Recommended Send Qty**. The next two columns are **Run Planning Override Qty** and **Run Planning Add To Run**.
 2. To use your own number, type it in **Run Planning Override Qty**.
 3. Tick **Run Planning Add To Run**.
-4. Check **Staged for commit** (top right of the same page). Scroll down and press **Commit Run Planning** **once**. **Planned runs** (below) shows the new run.
+4. Press **Commit staged runs** (top of the page). On **Run Planning – Commit**, check **Staged for commit** (top right). Scroll down and press **Commit Run Planning** **once**. **Planned runs** (below) shows the new run.
 5. Click **Production Run (Desk)** in the menu, then **DESK: Production planning**. Click the new run.
 6. Check **Run Components**. A prep run has **one** row: the product itself. (A run with a recipe shows its parts.) If **Run Components** is empty, stop and tell Adam.
 7. Check **Lot lines (pick list)**. RemBase chose the lots that expire first. The warehouse can change a lot on the floor page. No lines means no stock when you pressed Commit.

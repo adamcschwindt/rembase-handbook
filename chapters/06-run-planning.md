@@ -13,14 +13,16 @@ Run Planning shows which products we should build and send to Amazon next.
 
 ## The list
 
-![Run Planning list and its main columns](img/rp-01-list.png)
+**Run Planning** is the first page in the menu. The list is **grouped by Planning Vendor**: each vendor has its own block with a count. Find your products inside the block.
 
-The first columns are **SKU**, **Product Name**, **Recommended Send Qty**, **Run Planning Override Qty** and **Run Planning Add To Run**. They sit side by side, so you do not need to scroll right to use them.
+Each row shows how many we sold, what is at Amazon, and **Recommended Send Qty**. The column **Recommended Send Why** explains the number in one line.
+
+The three columns you use are **Recommended Send Qty**, **Run Planning Override Qty** and **Run Planning Add To Run**. They sit side by side.
 
 - **1 – Recommended Send Qty:** how many the system suggests we build and send. It plans enough stock at Amazon for **45 days**, plus the days Amazon needs to receive a shipment (about **12 days** now; RemBase updates this every day). The list is sorted by this number.
 - **2 – Run Planning Override Qty:** Becca types her own number here to replace the suggestion.
 - **3 – Run Planning Add To Run:** tick to put this product in the next runs.
-- **Max Available to Build:** (scroll right, not in the picture) how many we **could** build with the parts we have now.
+- **Max Available to Build:** (scroll right) how many we **could** build with the parts we have now.
 - **Days Of Cover FBA:** how many days the stock at Amazon will last. Blank, with 0 at Amazon, means the part is no longer in Amazon's report. See [Inventory](inventory.html).
 - **Warehouse On Hand Qty:** all units of this product in our warehouse.
 - **Warehouse Ready Qty:** finished units. They can ship now.
@@ -35,7 +37,14 @@ The numbers update every hour. During the update some rows can show different ti
 
 ## Commit the runs (Becca only)
 
-Run Planning is **one page**. The list is at the top. Below it are the buttons and **Planned runs**. There is no separate Commit page.
+Commit has its own page, **Run Planning – Commit**.
+
+1. On **Run Planning**, tick **Run Planning Add To Run** on each product (type **Run Planning Override Qty** first if you want your own number).
+2. Press **Commit staged runs** (top of the page). This only opens the **Run Planning – Commit** page. It does not make any run.
+
+![Run Planning – Commit page: the parts list](img/rp-01-list.png)
+
+On **Run Planning – Commit**:
 
 - **Staged for commit** (top right) lists the products you ticked. Check it first.
 - **Commit Run Planning** makes production runs from the ticked rows right away. Read the result line under the button.
