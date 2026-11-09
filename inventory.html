@@ -35,7 +35,7 @@
 <li><strong>Warehouse Ready Qty:</strong> the part of it that can ship as it is.</li>
 <li><strong>Warehouse Needs Prep Qty:</strong> the part of it that still needs prep (label, sticker) before it can ship.</li>
 </ul></li>
-<li><strong>B – FBA On Hand Qty:</strong> how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.
+<li><strong>B – FBA On Hand Qty:</strong> how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon. <strong>FBA On Hand Qty</strong> and <strong>FBA Inbound Qty</strong> come live from Amazon about every <strong>15 minutes</strong>.
 <ul>
 <li>Some parts have more than one Amazon SKU, for example a “-stickered” SKU and the original. RemBase adds them up. Each Amazon label (FNSKU) is counted once. <strong>FBA Inbound Qty</strong> is added up the same way.</li>
 <li>Every night RemBase checks Amazon’s report. If a part is missing from <strong>two</strong> daily reports in a row, RemBase sets <strong>FBA On Hand Qty</strong> and <strong>FBA Inbound Qty</strong> to 0 and leaves <strong>Days Of Cover FBA</strong> blank.</li>
@@ -162,7 +162,7 @@
 <li><strong>Amazon ASIN</strong> is the ASIN of the part’s <strong>active</strong> Amazon listing. If a part has two active Amazon SKUs, the <strong>Ship as</strong> SKU’s ASIN comes first. Blank means RemBase has no active ASIN for the part yet. You can still search by ASIN.</li>
 <li><strong>Max Available to Build</strong> is <strong>not</strong> stock. For a pack, it is how many packs the parts can make. For a single part that goes into packs, it is what is left after the packs take their share. See <a href="run-planning.html">Run Planning</a>.</li>
 <li><strong>Recipe</strong> (on a pack or kit): the parts in one unit, with <strong>Qty Per Unit</strong> for each part.</li>
-<li><strong>Used in packs</strong> (on a single part): the packs that use this part, and how many per pack.</li>
+<li><strong>Used in these packs</strong> (on a single part): the packs that use this part, and how many per pack.</li>
 <li><strong>Box Part</strong> is the box this product ships in. <strong>Boxes Per Unit</strong> is how many boxes one unit uses (0.5 = one box for two units).</li>
 <li><strong>Standard Labor Minutes Per Unit</strong> and <strong>Standard Prep Cost Per Unit</strong>: the minutes of work and the cost of supplies (tape, bags, labels) to make one unit.</li>
 <li>These recipe fields are read only. To change a recipe, use <strong>Change recipe</strong> (Becca and Adam only). See <a href="#task-change-a-recipe-becca-and-adam-only">Change a recipe</a>.</li>

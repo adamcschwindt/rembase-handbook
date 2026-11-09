@@ -19,7 +19,7 @@ Each row shows how many we sold, what is at Amazon, and **Recommended Send Qty**
 
 The three columns you use are **Recommended Send Qty**, **Run Planning Override Qty** and **Run Planning Add To Run**. They sit side by side.
 
-- **1 – Recommended Send Qty:** how many the system suggests we build and send. It plans enough stock at Amazon for **45 days**, plus the days Amazon needs to receive a shipment (about **12 days** now; RemBase updates this every day). The list is sorted by this number.
+- **1 – Recommended Send Qty:** how many the system suggests we build and send. It plans enough stock at Amazon for **45 days**, plus the days Amazon needs to receive a shipment (about **12 days** now; RemBase updates this every day). It also takes away what open runs will already make. The line in **Recommended Send Why** shows this as **open runs**. The list is sorted by this number.
 - **2 – Run Planning Override Qty:** Becca types her own number here to replace the suggestion.
 - **3 – Run Planning Add To Run:** tick to put this product in the next runs.
   When you tick **Run Planning Add To Run** and **Run Planning Override Qty** is empty, RemBase fills it with **Recommended Send Qty**. Change the number if you want a different one. A number you typed is never changed.

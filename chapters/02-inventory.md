@@ -20,7 +20,7 @@ Inventory shows every part. You can see how many we have in the warehouse and at
 - **A – Warehouse On Hand Qty:** how many are in our warehouse.
   - **Warehouse Ready Qty:** the part of it that can ship as it is.
   - **Warehouse Needs Prep Qty:** the part of it that still needs prep (label, sticker) before it can ship.
-- **B – FBA On Hand Qty:** how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon.
+- **B – FBA On Hand Qty:** how many are at Amazon. Stock moving between Amazon warehouses counts as stock at Amazon. **FBA On Hand Qty** and **FBA Inbound Qty** come live from Amazon about every **15 minutes**.
   - Some parts have more than one Amazon SKU, for example a "-stickered" SKU and the original. RemBase adds them up. Each Amazon label (FNSKU) is counted once. **FBA Inbound Qty** is added up the same way.
   - Every night RemBase checks Amazon's report. If a part is missing from **two** daily reports in a row, RemBase sets **FBA On Hand Qty** and **FBA Inbound Qty** to 0 and leaves **Days Of Cover FBA** blank.
   - If a night's report looks wrong (for example, too many parts are missing), RemBase sets nothing to 0. It makes a flag: **FBA mirror: Parts not zeroed (guard)**. The flag says what to do. Only Adam can reset it.
@@ -121,7 +121,7 @@ To **remove** a part from a recipe, ask Adam.
 - **Amazon ASIN** is the ASIN of the part's **active** Amazon listing. If a part has two active Amazon SKUs, the **Ship as** SKU's ASIN comes first. Blank means RemBase has no active ASIN for the part yet. You can still search by ASIN.
 - **Max Available to Build** is **not** stock. For a pack, it is how many packs the parts can make. For a single part that goes into packs, it is what is left after the packs take their share. See [Run Planning](run-planning.html).
 - **Recipe** (on a pack or kit): the parts in one unit, with **Qty Per Unit** for each part.
-- **Used in packs** (on a single part): the packs that use this part, and how many per pack.
+- **Used in these packs** (on a single part): the packs that use this part, and how many per pack.
 - **Box Part** is the box this product ships in. **Boxes Per Unit** is how many boxes one unit uses (0.5 = one box for two units).
 - **Standard Labor Minutes Per Unit** and **Standard Prep Cost Per Unit**: the minutes of work and the cost of supplies (tape, bags, labels) to make one unit.
 - These recipe fields are read only. To change a recipe, use **Change recipe** (Becca and Adam only). See [Change a recipe](#task-change-a-recipe-becca-and-adam-only).
