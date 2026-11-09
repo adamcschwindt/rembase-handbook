@@ -81,7 +81,7 @@ See [Production Run](production-run.html) for more.
 
 **Count bins:** use **RemBase Scan**, the same as now. Each count goes to Fishbowl by itself. A **red box** after a count means it waits for Becca or Adam: tap **OK**. See [How to scan](basics.html#how-to-scan).
 
-**Receive deliveries:** with **RemBase Scan** only. Never also in Fishbowl. See [Receive a delivery with RemBase Scan](receiving.html#receive-a-delivery-with-rembase-scan).
+**Receive deliveries:** on the floor with **RemBase Scan**. See [Receive a delivery with RemBase Scan](receiving.html#receive-a-delivery-with-rembase-scan). At a computer (office): the PO page, **Desk receiving**. See [Receive several lines on the PO page](receiving.html#task-receive-several-lines-on-the-po-page-office). Receive each delivery **once**, never also in Fishbowl.
 
 ## C. The pallet shipment to Amazon
 
