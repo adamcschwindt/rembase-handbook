@@ -21,12 +21,12 @@ All production runs are done in **RemBase**, not in Fishbowl. See [Next week in 
 
 | Sub-page | What it is for |
 |---|---|
-| **DESK: Production planning** (in **Production Run (Desk)**) | The office view (Becca): plan, lot lines, Reverse Run. |
-| **FLOOR: Runs to do** (in **Production Run (Floor)**) | The floor view (Chad, Sabith): pick list, boxes, Finish Run. |
+| **Office: dates, rush, reverse** (in **2. Runs - office**) | The office view (Becca): plan, lot lines, Reverse Run. |
+| **Floor: pick, pack, finish** (in **3. Runs - warehouse floor**) | The floor view (Chad, Sabith): pick list, boxes, Finish Run. |
 
 ## Task: find a run and check its parts
 
-1. Click **Production Run (Desk)** in the menu. The list shows real runs only.
+1. Click **2. Runs - office** in the menu. The list shows real runs only.
 2. Click the run in the list. **Rush** runs come first, then the soonest due date.
 3. Check **Qty Planned**. This is how many to build.
 4. Check **Output Part**. This is the product you build.
@@ -46,23 +46,23 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 
 For a product with **Warehouse Ready Qty** (finished, ready to ship):
 
-1. Make the run as usual (on Run Planning, tick the product, then press **Commit staged runs** and answer **Yes**).
+1. Make the run as usual (on **1. Plan runs**, tick the product, then press **Commit staged runs** and answer **Yes**).
 2. Open the run on **Production Run**. Tick **Pack only (ready stock)** (under **Rush**).
 3. RemBase uses only ready lots. Nothing is prepped. The warehouse boxes it and presses **Finish Run**.
 
 ## Task: change the due date or put a run first (Becca)
 
-1. Click **Production Run (Desk)** in the menu, then **DESK: Production planning**.
+1. Click **2. Runs - office** in the menu, then **Office: dates, rush, reverse**.
 2. Click the run in the list.
 3. To change the due date: change **Date Needed (change if needed)** near the top. The **Due Date** lower down follows by itself.
 4. To put the run first: tick **Rush**.
 
-Both run lists (**DESK: Production planning** and **FLOOR: Runs to do**) show Rush runs first, with a red flag. On the floor page you see **Rush**, but you cannot change it.
+Both run lists (**Office: dates, rush, reverse** and **Floor: pick, pack, finish**) show Rush runs first, with a red flag. On the floor page you see **Rush**, but you cannot change it.
 
 
 ## Task: build and finish a run (Floor page)
 
-1. Click **Production Run (Floor)** in the menu, then **FLOOR: Runs to do**. The list opens on **To do**: **Rush** runs first (red flag), then the soonest date. **Done** shows finished runs.
+1. Click **3. Runs - warehouse floor** in the menu, then **Floor: pick, pack, finish**. The list opens on **To do**: **Rush** runs first (red flag), then the soonest date. **Done** shows finished runs.
 2. Click the run. The product card (**Output Part**) shows **Box To Use** and **Packing Notes**. Tap the card to open the product. **Pack only** on the title means ready stock: no prep.
 3. Read the **Pick list**. It has **one line per lot**: **Part SKU**, **Lot**, **Lot Exp** (expiration date), **Bin** and **Line Qty**. Take each line from its bin. Then tick **Picked**.
    - Need another lot? Change the **Lot** or **Line Qty** on the line, or add a line. The lot must be for this product, and the lines must add up to the run quantity. A changed or added line shows **OVERRIDE**.
@@ -84,7 +84,7 @@ Both run lists (**DESK: Production planning** and **FLOOR: Runs to do**) show Ru
 
 A wrong box row on a **Done** run? You can fix it.
 
-1. Click **Production Run (Floor)** in the menu, then **FLOOR: Runs to do**. Click **Done**. Click the run.
+1. Click **3. Runs - warehouse floor** in the menu, then **Floor: pick, pack, finish**. Click **Done**. Click the run.
 2. In **Run Cartons**, fix the **Boxes**, **Units Per Box**, size or **Weight Per Box (lb)**.
 3. The **total units must stay the same**. You cannot add or remove units here.
 4. Need more units? Ask Becca for a new run.
@@ -119,7 +119,7 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
    The 110% limit is in Settings. Becca can change it.
 
 - **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **Production Run** page, not on the Floor page:
-  1. Click **Production Run (Desk)** in the menu. Click the run.
+  1. Click **2. Runs - office** in the menu. Click the run.
   2. At the top, type why in **Run Reverse Reason (type it before Reverse Run)**.
   3. Press **Reverse Run** **once**. Read **Finish Result**.
 

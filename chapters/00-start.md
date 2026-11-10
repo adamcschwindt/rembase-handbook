@@ -83,8 +83,8 @@ Never practice on a real part, a real PO or a real shipment.
 | **Cycle Count** | Count the stock in a bin. |
 | **Purchase Orders** | Make and track orders to vendors. |
 | **Receiving** | See what is arriving from vendors. |
-| **Run Planning** | Decide what to build next. |
-| **Production Run** | Build kits and packs. Enter what you built. |
+| **1. Plan runs** | Decide what to build next. |
+| **2. Runs - office** and **3. Runs - warehouse floor** | Build kits and packs. Enter what you built. |
 | **FBA Shipment** | Send stock to Amazon. Print box labels. |
 | **Approvals** | Big stock changes that need a "yes" first. |
 | **Flags** | Problems the system found. |
