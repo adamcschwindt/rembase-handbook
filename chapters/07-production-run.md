@@ -47,7 +47,7 @@ If **Run Components** is empty, RemBase has no recipe for this product. Do not b
 For a product with **Warehouse Ready Qty** (finished, ready to ship):
 
 1. Make the run as usual (on **1. Plan runs**, tick the product, then press **Commit staged runs** and answer **Yes**).
-2. Open the run on **Production Run**. Tick **Pack only (ready stock)** (under **Rush**).
+2. Open the run on **2. Runs - office**. Tick **Pack only (ready stock)** (under **Rush**).
 3. RemBase uses only ready lots. Nothing is prepped. The warehouse boxes it and presses **Finish Run**.
 
 ## Task: change the due date or put a run first (Becca)
@@ -118,7 +118,7 @@ When the run is built and the cartons are entered, **Finish Run** takes the part
 
    The 110% limit is in Settings. Becca can change it.
 
-- **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **Production Run** page, not on the Floor page:
+- **Reverse Run** undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the **2. Runs - office** page, not on the Floor page:
   1. Click **2. Runs - office** in the menu. Click the run.
   2. At the top, type why in **Run Reverse Reason (type it before Reverse Run)**.
   3. Press **Reverse Run** **once**. Read **Finish Result**.

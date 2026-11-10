@@ -42,18 +42,18 @@
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>DESK: Production planning</strong> (in <strong>Production Run (Desk)</strong>)</td>
+<td><strong>Office: dates, rush, reverse</strong> (in <strong>2. Runs - office</strong>)</td>
 <td>The office view (Becca): plan, lot lines, Reverse Run.</td>
 </tr>
 <tr class="even">
-<td><strong>FLOOR: Runs to do</strong> (in <strong>Production Run (Floor)</strong>)</td>
+<td><strong>Floor: pick, pack, finish</strong> (in <strong>3. Runs - warehouse floor</strong>)</td>
 <td>The floor view (Chad, Sabith): pick list, boxes, Finish Run.</td>
 </tr>
 </tbody>
 </table></div>
 <h2 id="task-find-a-run-and-check-its-parts">Task: find a run and check its parts</h2>
 <ol type="1">
-<li>Click <strong>Production Run (Desk)</strong> in the menu. The list shows real runs only.</li>
+<li>Click <strong>2. Runs - office</strong> in the menu. The list shows real runs only.</li>
 <li>Click the run in the list. <strong>Rush</strong> runs come first, then the soonest due date.</li>
 <li>Check <strong>Qty Planned</strong>. This is how many to build.</li>
 <li>Check <strong>Output Part</strong>. This is the product you build.</li>
@@ -73,21 +73,21 @@
 <h2 id="task-send-finished-stock-without-prep-becca">Task: send finished stock without prep (Becca)</h2>
 <p>For a product with <strong>Warehouse Ready Qty</strong> (finished, ready to ship):</p>
 <ol type="1">
-<li>Make the run as usual (on Run Planning, tick the product, then press <strong>Commit staged runs</strong> and answer <strong>Yes</strong>).</li>
-<li>Open the run on <strong>Production Run</strong>. Tick <strong>Pack only (ready stock)</strong> (under <strong>Rush</strong>).</li>
+<li>Make the run as usual (on <strong>1. Plan runs</strong>, tick the product, then press <strong>Commit staged runs</strong> and answer <strong>Yes</strong>).</li>
+<li>Open the run on <strong>2. Runs - office</strong>. Tick <strong>Pack only (ready stock)</strong> (under <strong>Rush</strong>).</li>
 <li>RemBase uses only ready lots. Nothing is prepped. The warehouse boxes it and presses <strong>Finish Run</strong>.</li>
 </ol>
 <h2 id="task-change-the-due-date-or-put-a-run-first-becca">Task: change the due date or put a run first (Becca)</h2>
 <ol type="1">
-<li>Click <strong>Production Run (Desk)</strong> in the menu, then <strong>DESK: Production planning</strong>.</li>
+<li>Click <strong>2. Runs - office</strong> in the menu, then <strong>Office: dates, rush, reverse</strong>.</li>
 <li>Click the run in the list.</li>
 <li>To change the due date: change <strong>Date Needed (change if needed)</strong> near the top. The <strong>Due Date</strong> lower down follows by itself.</li>
 <li>To put the run first: tick <strong>Rush</strong>.</li>
 </ol>
-<p>Both run lists (<strong>DESK: Production planning</strong> and <strong>FLOOR: Runs to do</strong>) show Rush runs first, with a red flag. On the floor page you see <strong>Rush</strong>, but you cannot change it.</p>
+<p>Both run lists (<strong>Office: dates, rush, reverse</strong> and <strong>Floor: pick, pack, finish</strong>) show Rush runs first, with a red flag. On the floor page you see <strong>Rush</strong>, but you cannot change it.</p>
 <h2 id="task-build-and-finish-a-run-floor-page">Task: build and finish a run (Floor page)</h2>
 <ol type="1">
-<li>Click <strong>Production Run (Floor)</strong> in the menu, then <strong>FLOOR: Runs to do</strong>. The list opens on <strong>To do</strong>: <strong>Rush</strong> runs first (red flag), then the soonest date. <strong>Done</strong> shows finished runs.</li>
+<li>Click <strong>3. Runs - warehouse floor</strong> in the menu, then <strong>Floor: pick, pack, finish</strong>. The list opens on <strong>To do</strong>: <strong>Rush</strong> runs first (red flag), then the soonest date. <strong>Done</strong> shows finished runs.</li>
 <li>Click the run. The product card (<strong>Output Part</strong>) shows <strong>Box To Use</strong> and <strong>Packing Notes</strong>. Tap the card to open the product. <strong>Pack only</strong> on the title means ready stock: no prep.</li>
 <li>Read the <strong>Pick list</strong>. It has <strong>one line per lot</strong>: <strong>Part SKU</strong>, <strong>Lot</strong>, <strong>Lot Exp</strong> (expiration date), <strong>Bin</strong> and <strong>Line Qty</strong>. Take each line from its bin. Then tick <strong>Picked</strong>.
 <ul>
@@ -110,7 +110,7 @@
 <h2 id="task-fix-the-boxes-on-a-finished-run-floor-page">Task: fix the boxes on a finished run (Floor page)</h2>
 <p>A wrong box row on a <strong>Done</strong> run? You can fix it.</p>
 <ol type="1">
-<li>Click <strong>Production Run (Floor)</strong> in the menu, then <strong>FLOOR: Runs to do</strong>. Click <strong>Done</strong>. Click the run.</li>
+<li>Click <strong>3. Runs - warehouse floor</strong> in the menu, then <strong>Floor: pick, pack, finish</strong>. Click <strong>Done</strong>. Click the run.</li>
 <li>In <strong>Run Cartons</strong>, fix the <strong>Boxes</strong>, <strong>Units Per Box</strong>, size or <strong>Weight Per Box (lb)</strong>.</li>
 <li>The <strong>total units must stay the same</strong>. You cannot add or remove units here.</li>
 <li>Need more units? Ask Becca for a new run.</li>
@@ -184,9 +184,9 @@
 <p>The 110% limit is in Settings. Becca can change it.</p></li>
 </ol>
 <ul>
-<li><strong>Reverse Run</strong> undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the <strong>Production Run</strong> page, not on the Floor page:
+<li><strong>Reverse Run</strong> undoes a finished run. Anyone in the warehouse may reverse a run. The button is on the <strong>2. Runs - office</strong> page, not on the Floor page:
 <ol type="1">
-<li>Click <strong>Production Run (Desk)</strong> in the menu. Click the run.</li>
+<li>Click <strong>2. Runs - office</strong> in the menu. Click the run.</li>
 <li>At the top, type why in <strong>Run Reverse Reason (type it before Reverse Run)</strong>.</li>
 <li>Press <strong>Reverse Run</strong> <strong>once</strong>. Read <strong>Finish Result</strong>.</li>
 </ol>

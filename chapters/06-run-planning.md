@@ -7,7 +7,7 @@ order: 9
 
 ## What this page is for
 
-Run Planning shows which products we should build and send to Amazon next.
+**1. Plan runs** (this page) shows which products we should build and send to Amazon next.
 
 **Who uses it:** Becca and Adam decide. Chad can read it to see what is coming.
 

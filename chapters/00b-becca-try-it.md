@@ -226,7 +226,7 @@ More help: [Purchase Orders](purchase-orders.html).
 ## Not in these steps (and why)
 
 - **Ticks on PO Planning, and New Part:** these are shared with real planning. There is nothing safe to practice. You can look at them.
-- **Run Planning:** this is real now. Commit makes real runs. See [Next week in RemBase](next-week.html).
+- **1. Plan runs:** this is real now. Commit makes real runs. See [Next week in RemBase](next-week.html).
 - **Listing alerts (Home → Listings):** Karly's task. See [Karly: quick start](karly-quick-start.html).
 - **Cycle count, production runs, Next shipment:** floor jobs (Chad and Sabith).
 - **Claims:** Karly's weekly task.

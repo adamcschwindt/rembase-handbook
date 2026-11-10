@@ -28,7 +28,7 @@ See [CC Orders](other-pages.html#cc-orders).
 ## Planning buttons (Becca only)
 
 - **Commit PO Planning** and **Clear PO Planning Selections**
-- **Commit staged runs** (Run Planning)
+- **Commit staged runs** (1. Plan runs)
 
 ## Anything else
 

@@ -37,17 +37,17 @@
 <div class="warn">
 <p><strong>All runs are in RemBase from today</strong>, prep runs too. Do <strong>not</strong> make them in Fishbowl.</p>
 </div>
-<p><strong>First:</strong> open <strong>Run Planning</strong> and check that <strong>only</strong> the products you want are ticked in <strong>Run Planning Add To Run</strong>. Old ticks would be committed too.</p>
+<p><strong>First:</strong> open <strong>1. Plan runs</strong> and check that <strong>only</strong> the products you want are ticked in <strong>Add To Run</strong>. Old ticks would be committed too.</p>
 <ol type="1">
-<li>Click <strong>Run Planning</strong> in the menu. Products are grouped by <strong>Planning Vendor</strong>. Find the product. Check <strong>Recommended Send Qty</strong>. The next two columns are <strong>Run Planning Override Qty</strong> and <strong>Run Planning Add To Run</strong>.</li>
-<li>To use your own number, type it in <strong>Run Planning Override Qty</strong>.</li>
-<li>Tick <strong>Run Planning Add To Run</strong>. When you tick <strong>Run Planning Add To Run</strong> and <strong>Run Planning Override Qty</strong> is empty, RemBase fills it with <strong>Recommended Send Qty</strong>. Change the number if you want a different one. A number you typed is never changed.</li>
+<li>Click <strong>1. Plan runs</strong> in the menu. Find the product (<strong>PS</strong>, <strong>Danesi</strong> and <strong>Clear Conscience</strong> groups are first). Check <strong>Recommended Send</strong>. If <strong>Stock Alert</strong> says <strong>NEED MORE</strong>, tell Adam. The next columns are <strong>Override</strong> and <strong>Add To Run</strong>.</li>
+<li>To use your own number, type it in <strong>Override</strong>.</li>
+<li>Tick <strong>Add To Run</strong>. When you tick <strong>Add To Run</strong> and <strong>Override</strong> is empty, RemBase fills it with <strong>Recommended Send</strong>. Change the number if you want a different one. A number you typed is never changed.</li>
 <li>Press <strong>Commit staged runs</strong> (top of the page). RemBase asks <strong>Are you sure?</strong> Press <strong>Yes</strong> <strong>once</strong>. Read the result line: <strong>DONE: … run(s) made</strong>.</li>
-<li>Click <strong>Production Run (Desk)</strong> in the menu, then <strong>DESK: Production planning</strong>. Click the new run.</li>
+<li>Click <strong>2. Runs - office</strong> in the menu, then <strong>Office: dates, rush, reverse</strong>. Click the new run.</li>
 <li>Check <strong>Run Components</strong>. A prep run has <strong>one</strong> row: the product itself. (A run with a recipe shows its parts.) If <strong>Run Components</strong> is empty, stop and tell Adam.</li>
 <li>Check <strong>Lot lines (pick list)</strong>. RemBase chose the lots that expire first. The warehouse can change a lot on the floor page. No lines means no stock when you pressed Commit staged runs.</li>
 <li><strong>Date Needed (change if needed)</strong> is 7 days from today. Change it if needed. Do not leave it empty.</li>
-<li>If the run is urgent, tick <strong>Rush</strong>. Rush runs are at the top of the Floor page.</li>
+<li>If the run is urgent, tick <strong>Rush</strong> (on <strong>1. Plan runs</strong> or on the run). Rush runs are at the top of the Floor page.</li>
 </ol>
 <p>Do <strong>not</strong> make this run in Fishbowl (no work order). When the warehouse presses <strong>Finish Run</strong>, RemBase tells Fishbowl by itself.</p>
 <p>A run with a recipe (a kit or a pack) has the same steps.</p>
@@ -55,7 +55,7 @@
 <h2 id="b.-warehouse-build-the-run-and-count">B. Warehouse: build the run and count</h2>
 <p><strong>Build the run (Chad, Sabith):</strong></p>
 <ol type="1">
-<li><p>Click <strong>Production Run (Floor)</strong> in the menu, then <strong>FLOOR: Runs to do</strong>. <strong>Rush</strong> runs are at the top (red flag).</p></li>
+<li><p>Click <strong>3. Runs - warehouse floor</strong> in the menu, then <strong>Floor: pick, pack, finish</strong>. <strong>Rush</strong> runs are at the top (red flag).</p></li>
 <li><p>Click the run. The product card shows <strong>Box To Use</strong> and <strong>Packing Notes</strong>. Tap it to open the product.</p></li>
 <li><p>Read the <strong>Pick list</strong>: one line per lot (<strong>Part SKU</strong>, <strong>Lot</strong>, <strong>Lot Exp</strong>, <strong>Bin</strong>, <strong>Line Qty</strong>). Take each line from its bin and tick <strong>Picked</strong>. Need another lot? Change the <strong>Lot</strong> or <strong>Line Qty</strong>, or add a line. <strong>The Pick list is empty?</strong> Do <strong>not</strong> press <strong>Finish Run</strong>. Tell Becca.</p></li>
 <li><p>In <strong>Run Cartons</strong>, add one row for each box size: <strong>Boxes</strong>, <strong>Units Per Box</strong>, size, <strong>Weight Per Box (lb)</strong> and the <strong>Pick Line</strong>. One expiration date per box. <strong>Qty built (from boxes)</strong> adds them up: leave <strong>Qty Built</strong> empty. In <strong>Run Performed By</strong>, pick your name.</p></li>
